@@ -1,0 +1,12 @@
+services:
+  aquiads-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: aquiads-landing-prototype
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - HOST=0.0.0.0
