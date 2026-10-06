@@ -1,0 +1,1260 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aqui ads | Uma plataforma Globo - Anuncie na TV, OOH e Digital</title>
+  
+  <!-- Base URL for relative assets -->
+  <base href="https://aquiads.com.br/" />
+
+  <!-- Google Fonts: Rethink Sans & Figtree -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet" />
+
+  <!-- Unicons Icons -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              orange: '#FF4F00',
+              hover: '#E64500',
+              dark: '#282E38',
+              neutral: '#F9F9F9',
+              muted: '#64748B',
+              border: '#E2E8F0'
+            }
+          },
+          fontFamily: {
+            sans: ['"Rethink Sans"', 'Figtree', 'system-ui', 'sans-serif'],
+            rethink: ['"Rethink Sans"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Rethink Sans', Figtree, sans-serif;
+      color: #282E38;
+      background-color: #FFFFFF;
+      -webkit-font-smoothing: antialiased;
+    }
+    
+    /* Smooth CSS Grid transition for accordion items */
+    .accordion-content {
+      display: grid;
+      grid-template-rows: 0fr;
+      transition: grid-template-rows 300ms cubic-bezier(0.4, 0, 0.2, 1), opacity 300ms cubic-bezier(0.4, 0, 0.2, 1);
+      opacity: 0;
+    }
+    .accordion-content.open {
+      grid-template-rows: 1fr;
+      opacity: 1;
+    }
+    .accordion-inner {
+      overflow: hidden;
+    }
+
+    /* Scrollbar hide utility */
+    .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+    }
+    .scrollbar-hide {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    /* Custom hover zoom for hero cards */
+    .hero-card-img {
+      transition: transform 0.5s ease-out;
+    }
+    .group:hover .hero-card-img {
+      transform: scale(1.08);
+    }
+  </style>
+</head>
+<body class="selection:bg-[#FF4F00] selection:text-white">
+
+  <!-- ========================================================================= -->
+  <!-- FLOATING QUICK JUMP TO FAQ BUTTON                                         -->
+  <!-- ========================================================================= -->
+  <div class="fixed bottom-6 right-6 z-50">
+    <a 
+      href="#faq" 
+      class="flex items-center gap-2 rounded-full bg-[#FF4F00] px-5 py-3 text-sm font-bold text-white shadow-xl shadow-orange-500/30 transition-all hover:bg-[#E64500] hover:scale-105 active:scale-95"
+      title="Ir diretamente para a seção de FAQ redesenhada"
+    >
+      <span class="flex h-2 w-2 rounded-full bg-white animate-ping"></span>
+      <span>Ver Nova FAQ</span>
+      <i class="uil uil-arrow-down text-lg"></i>
+    </a>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- 1. HEADER OFICIAL AQUI ADS                                                -->
+  <!-- ========================================================================= -->
+  <header class="sticky top-0 z-40 flex w-full flex-col justify-between border-b border-slate-100 bg-white/95 backdrop-blur-md shadow-xs transition-all">
+    <div class="mx-auto flex h-[72px] w-full max-w-[1333px] items-center justify-between px-4 sm:px-8">
+      
+      <!-- Brand Logo & Globo Identifier -->
+      <div class="flex items-center gap-6">
+        <a href="https://aquiads.com.br/" class="flex items-center gap-3">
+          <img src="/_astro/logo-aqui-ads.f9282b14.svg" alt="Aqui Ads" class="h-8 w-auto object-contain" />
+        </a>
+      </div>
+
+      <!-- Center Media Format Selector -->
+      <div class="hidden lg:flex items-center gap-8">
+        <a href="#hero-search" class="group flex items-center gap-2 text-slate-500 hover:text-[#282E38] transition-colors py-1">
+          <img src="/images/header/ooh.svg" alt="OOH" class="h-5 w-5 object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
+          <span class="text-sm font-semibold">OOH</span>
+        </a>
+        <a href="#hero-search" class="group flex items-center gap-2 text-slate-500 hover:text-[#282E38] transition-colors py-1">
+          <img src="/images/header/digital.svg" alt="Digital" class="h-5 w-5 object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
+          <span class="text-sm font-semibold">Digital</span>
+        </a>
+        <a href="#hero-search" class="group flex items-center gap-2 text-slate-500 hover:text-[#282E38] transition-colors py-1">
+          <img src="/images/header/tv.svg" alt="TV" class="h-5 w-5 object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
+          <span class="text-sm font-semibold">TV</span>
+        </a>
+        <a href="#hero-search" class="group flex items-center gap-2 text-slate-500 hover:text-[#282E38] transition-colors py-1">
+          <img src="/images/header/radio.svg" alt="Rádio" class="h-5 w-5 object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
+          <span class="text-sm font-semibold">Rádio</span>
+        </a>
+      </div>
+
+      <!-- Right Navigation & Actions -->
+      <nav class="flex items-center gap-4">
+        <a 
+          href="https://aquiads.com.br/assistente-de-anuncios" 
+          class="hidden sm:flex items-center gap-2 rounded-lg px-3 py-1.5 text-xs font-semibold text-[#282E38] hover:bg-slate-100 transition-colors"
+        >
+          <span>Assistente de anúncios</span>
+          <svg width="14" height="16" viewBox="0 0 16 18" fill="none" class="text-purple-600">
+            <path d="M7.53 3.84c.1 0 .15-.06.18-.15C7.97 2.38 7.95 2.34 9.4 2.08c.1-.02.16-.07.16-.16 0-.1-.06-.15-.16-.17C7.96 1.48 8 1.44 7.71.14c-.03-.09-.08-.14-.18-.14-.1 0-.15.05-.17.14-.3 1.3-.25 1.33-1.7 1.61-.09.02-.16.07-.16.17s.07.15.16.16c1.45.28 1.43.3 1.7 1.61.02.09.07.15.17.15ZM3.5 9.26c.16 0 .27-.09.28-.23.3-2.11.38-2.11 2.68-2.53.15-.02.26-.12.26-.27 0-.14-.11-.24-.26-.27-2.3-.3-2.38-.37-2.68-2.52-.01-.14-.12-.24-.28-.24-.15 0-.26.1-.28.25-.27 2.12-.39 2.11-2.67 2.51-.15.04-.26.13-.26.27 0 .16.11.25.3.27 2.26.35 2.36.4 2.64 2.51.01.16.12.25.27.25ZM9.15 18c.22 0 .38-.15.42-.36.59-4.33 1.23-4.98 5.75-5.46.24-.02.39-.19.39-.4 0-.2-.16-.36-.39-.39-4.52-.47-5.16-1.13-5.75-5.45-.04-.22-.2-.36-.42-.36-.22 0-.38.14-.41.36-.59 4.32-1.24 4.98-5.75 5.45-.24.03-.4.19-.4.4 0 .2.16.37.4.39 4.5.56 5.13 1.14 5.76 5.46.03.21.19.36.41.36Z" fill="#695CFF"/>
+          </svg>
+        </a>
+
+        <a 
+          href="https://aquiads.com.br/login" 
+          class="flex items-center justify-center rounded-lg border border-[#282E38] px-4 py-2 text-xs font-bold text-[#282E38] hover:bg-[#282E38] hover:text-white transition-all min-h-[36px]"
+        >
+          Entrar
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    
+    <!-- ======================================================================= -->
+    <!-- 2. HERO SECTION COM BUSCA E 4 CARDS VERTICAIS ILUSTRADOS                -->
+    <!-- ======================================================================= -->
+    <section class="relative w-full overflow-hidden bg-gradient-to-b from-orange-50/40 via-white to-white pt-8 pb-16 lg:pt-14 lg:pb-20">
+      <div class="mx-auto max-w-[1333px] px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 items-start gap-12 lg:grid-cols-12 lg:gap-14">
+          
+          <!-- Coluna Esquerda: Texto + Input de Endereço + WhatsApp Especialista -->
+          <div class="lg:col-span-5 flex flex-col text-left pt-2">
+            
+            <!-- Headline Principal Oficial -->
+            <h1 class="text-[34px] sm:text-[44px] lg:text-[48px] font-bold leading-[108%] tracking-tight text-[#1B1B1B]">
+              Anuncie na <span class="text-[#FF4F00]">Globo</span> e em <span class="text-[#FF4F00]">OOH</span> pelo Aqui ads
+            </h1>
+
+            <p class="mt-4 text-[16px] sm:text-[18px] leading-[150%] text-[#465161]">
+              Da TV de casa às telas da rua, passando pelos maiores sites do Brasil.
+            </p>
+
+            <!-- Box de Busca de Endereço -->
+            <div class="mt-8 w-full max-w-[420px]">
+              <form 
+                onsubmit="event.preventDefault(); document.getElementById('ambientes').scrollIntoView({behavior: 'smooth'});"
+                class="flex h-[52px] w-full items-center justify-between rounded-xl border border-slate-300 bg-white p-1.5 shadow-sm focus-within:border-[#FF4F00] focus-within:ring-2 focus-within:ring-orange-500/20 transition-all"
+              >
+                <div class="flex flex-1 items-center gap-2.5 px-3">
+                  <i class="uil uil-map-marker text-xl text-[#FF4F00]"></i>
+                  <input 
+                    type="text" 
+                    id="address-input" 
+                    placeholder="insira um endereço, bairro ou cidade" 
+                    class="w-full text-sm text-[#282E38] placeholder-slate-400 focus:outline-none bg-transparent"
+                  />
+                </div>
+                <button 
+                  type="submit" 
+                  class="flex h-[40px] w-[40px] shrink-0 items-center justify-center rounded-lg bg-[#FF4F00] text-white hover:bg-[#E64500] transition-colors"
+                  aria-label="Buscar"
+                >
+                  <i class="uil uil-search text-lg"></i>
+                </button>
+              </form>
+
+              <!-- Divisor "ou" -->
+              <div class="my-4 flex items-center gap-3">
+                <div class="h-[1px] flex-1 bg-slate-200"></div>
+                <span class="text-xs text-slate-400 font-medium">ou</span>
+                <div class="h-[1px] flex-1 bg-slate-200"></div>
+              </div>
+
+              <!-- Botão Falar com Especialista WhatsApp -->
+              <a 
+                href="https://wa.me/551150395212" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="flex h-[42px] w-full items-center justify-center gap-2 rounded-lg border border-[#282E38] bg-white text-xs font-bold text-[#282E38] hover:bg-slate-50 transition-colors shadow-xs"
+              >
+                <i class="uil uil-whatsapp text-lg text-[#25D366]"></i>
+                <span>falar com especialista</span>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Coluna Direita: 4 Cards Verticais Ilustrados (Carrossel Horizontal) -->
+          <div class="lg:col-span-7 w-full overflow-x-auto pb-4 pt-1 scrollbar-hide">
+            <div class="flex items-center gap-5 min-w-max lg:min-w-0 lg:grid lg:grid-cols-4">
+              
+              <!-- Card 1: Portais Globo -->
+              <div class="group relative h-[420px] w-[230px] sm:w-[250px] lg:w-auto shrink-0 overflow-hidden rounded-2xl bg-slate-900 shadow-xl transition-all duration-300 hover:-translate-y-1">
+                <img 
+                  src="https://aquiads.com.br/images/home/08-2026/digital.webp" 
+                  alt="Portais Globo" 
+                  class="hero-card-img absolute inset-0 h-full w-full object-cover opacity-80" 
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+                
+                <div class="absolute inset-x-0 bottom-0 p-5 flex flex-col justify-end text-left">
+                  <h3 class="text-lg font-bold text-white">Portais Globo</h3>
+                  <p class="mt-1 text-xs text-slate-200 line-clamp-2">Anuncie nos portais da Globo e alcance milhões de pessoas todos os dias.</p>
+                  
+                  <!-- Logos -->
+                  <div class="mt-3 flex items-center gap-2">
+                    <img src="https://aquiads.com.br/images/logos/globo/logo-g1.svg" alt="g1" class="h-6 w-6 rounded-full bg-white/20 p-0.5 object-contain" />
+                    <img src="https://aquiads.com.br/images/logos/globo/ge-logo.svg" alt="ge" class="h-6 w-6 rounded-full bg-white/20 p-0.5 object-contain" />
+                    <img src="https://aquiads.com.br/images/logos/globo/logo-gshow.svg" alt="gshow" class="h-6 w-6 rounded-full bg-white/20 p-0.5 object-contain" />
+                  </div>
+
+                  <a href="#hero-search" class="mt-4 flex h-[32px] w-full items-center justify-center rounded-lg border border-white/60 bg-white/20 text-xs font-bold text-white backdrop-blur-xs group-hover:bg-[#FF4F00] group-hover:border-[#FF4F00] transition-all">
+                    Clique e conheça
+                  </a>
+                </div>
+              </div>
+
+              <!-- Card 2: Alcance nas ruas -->
+              <div class="group relative h-[420px] w-[230px] sm:w-[250px] lg:w-auto shrink-0 overflow-hidden rounded-2xl bg-slate-900 shadow-xl transition-all duration-300 hover:-translate-y-1">
+                <img 
+                  src="https://aquiads.com.br/images/home/08-2026/ooh.webp" 
+                  alt="Alcance nas ruas" 
+                  class="hero-card-img absolute inset-0 h-full w-full object-cover opacity-80" 
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+                
+                <div class="absolute inset-x-0 bottom-0 p-5 flex flex-col justify-end text-left">
+                  <h3 class="text-lg font-bold text-white">Alcance nas ruas</h3>
+                  <p class="mt-1 text-xs text-slate-200 line-clamp-2">Sua empresa no elevador e nos painéis urbanos de maior fluxo da cidade.</p>
+                  
+                  <!-- Logos -->
+                  <div class="mt-3 flex items-center gap-2">
+                    <img src="https://aquiads.com.br/images/logos/ooh/mubs.svg" alt="mubs" class="h-6 w-6 rounded-full bg-white/20 p-0.5 object-contain" />
+                    <img src="https://aquiads.com.br/images/logos/ooh/aeroporto.svg" alt="aeroporto" class="h-6 w-6 rounded-full bg-white/20 p-0.5 object-contain" />
+                    <img src="https://aquiads.com.br/images/logos/ooh/academia.svg" alt="academia" class="h-6 w-6 rounded-full bg-white/20 p-0.5 object-contain" />
+                  </div>
+
+                  <a href="#hero-search" class="mt-4 flex h-[32px] w-full items-center justify-center rounded-lg border border-white/60 bg-white/20 text-xs font-bold text-white backdrop-blur-xs group-hover:bg-[#FF4F00] group-hover:border-[#FF4F00] transition-all">
+                    Tenho interesse
+                  </a>
+                </div>
+              </div>
+
+              <!-- Card 3: Direto na telona -->
+              <div class="group relative h-[420px] w-[230px] sm:w-[250px] lg:w-auto shrink-0 overflow-hidden rounded-2xl bg-slate-900 shadow-xl transition-all duration-300 hover:-translate-y-1">
+                <img 
+                  src="https://aquiads.com.br/images/home/08-2026/tv.webp" 
+                  alt="Direto na telona" 
+                  class="hero-card-img absolute inset-0 h-full w-full object-cover opacity-80" 
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+                
+                <div class="absolute inset-x-0 bottom-0 p-5 flex flex-col justify-end text-left">
+                  <h3 class="text-lg font-bold text-white">Direto na telona</h3>
+                  <p class="mt-1 text-xs text-slate-200 line-clamp-2">Coloque sua marca na grade da Globo e converse com o Brasil inteiro.</p>
+                  
+                  <!-- Logos -->
+                  <div class="mt-3 flex items-center gap-2">
+                    <img src="https://aquiads.com.br/images/logos/globo/tv-globo.svg" alt="tv globo" class="h-6 w-6 rounded-full bg-white/20 p-0.5 object-contain" />
+                    <img src="https://aquiads.com.br/images/logos/globo/jn.svg" alt="jn" class="h-6 w-6 rounded-full bg-white/20 p-0.5 object-contain" />
+                    <img src="https://aquiads.com.br/images/logos/globo/fantastico.svg" alt="fantastico" class="h-6 w-6 rounded-full bg-white/20 p-0.5 object-contain" />
+                  </div>
+
+                  <a href="#hero-search" class="mt-4 flex h-[32px] w-full items-center justify-center rounded-lg border border-white/60 bg-white/20 text-xs font-bold text-white backdrop-blur-xs group-hover:bg-[#FF4F00] group-hover:border-[#FF4F00] transition-all">
+                    Saiba mais
+                  </a>
+                </div>
+              </div>
+
+              <!-- Card 4: Rádios Globo -->
+              <div class="group relative h-[420px] w-[230px] sm:w-[250px] lg:w-auto shrink-0 overflow-hidden rounded-2xl bg-slate-900 shadow-xl transition-all duration-300 hover:-translate-y-1">
+                <img 
+                  src="https://aquiads.com.br/images/home/08-2026/radio.webp" 
+                  alt="Rádios Globo" 
+                  class="hero-card-img absolute inset-0 h-full w-full object-cover opacity-80" 
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+                
+                <div class="absolute inset-x-0 bottom-0 p-5 flex flex-col justify-end text-left">
+                  <h3 class="text-lg font-bold text-white">Rádios Globo</h3>
+                  <p class="mt-1 text-xs text-slate-200 line-clamp-2">Sua marca na programação da CBN, Rádio Globo e BH FM.</p>
+                  
+                  <!-- Logos -->
+                  <div class="mt-3 flex items-center gap-2">
+                    <img src="https://aquiads.com.br/images/logos/globo/bh-fm.svg" alt="bh fm" class="h-6 w-6 rounded-full bg-white/20 p-0.5 object-contain" />
+                    <img src="https://aquiads.com.br/images/logos/globo/radio-globo.svg" alt="radio globo" class="h-6 w-6 rounded-full bg-white/20 p-0.5 object-contain" />
+                    <img src="https://aquiads.com.br/images/logos/globo/cbn.svg" alt="cbn" class="h-6 w-6 rounded-full bg-white/20 p-0.5 object-contain" />
+                  </div>
+
+                  <a href="#hero-search" class="mt-4 flex h-[32px] w-full items-center justify-center rounded-lg border border-white/60 bg-white/20 text-xs font-bold text-white backdrop-blur-xs group-hover:bg-[#FF4F00] group-hover:border-[#FF4F00] transition-all">
+                    Quero contratar
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================= -->
+    <!-- 3. SEÇÃO AMBIENTES: "Esteja onde a atenção do seu público já está."     -->
+    <!-- ======================================================================= -->
+    <section id="ambientes" class="w-full bg-white py-16 sm:py-20 border-t border-slate-100">
+      <div class="mx-auto max-w-[1333px] px-4 sm:px-6 lg:px-8 text-center">
+        
+        <h2 class="text-[28px] sm:text-[36px] lg:text-[44px] font-bold leading-tight text-[#282E38]">
+          Esteja <span class="text-[#FF4F00]">onde a atenção</span> do seu público <span class="text-[#FF4F00]">já está.</span>
+        </h2>
+        <p class="mx-auto mt-3 max-w-2xl text-[16px] sm:text-[18px] text-[#465161]">
+          Da sua região aos principais conteúdos do país, escolha onde sua marca deve aparecer.
+        </p>
+
+        <!-- Grid de 4 Ambientes -->
+        <div class="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4 text-left">
+          
+          <!-- Ambiente 1: OOH -->
+          <div class="flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:border-[#FF4F00] transition-all">
+            <div>
+              <span class="inline-block rounded-md bg-[#FFE4D8] px-2.5 py-1 text-xs font-bold text-[#FF4F00]">OOH</span>
+              <h3 class="mt-3 text-lg font-bold text-[#282E38]">Mídia fora de casa</h3>
+              <p class="text-xs font-semibold text-[#FF4F00]">Sua marca na rotina do público.</p>
+              <p class="mt-2 text-xs leading-relaxed text-[#64748B]">
+                Conecte-se à rotina do cliente em shoppings, elevadores, academias e pontos de ônibus. São mais de 86 mil telas pelo país para você anunciar.
+              </p>
+            </div>
+            <div class="mt-6 border-t border-slate-100 pt-3">
+              <span class="text-[11px] font-medium text-slate-500">Pontos de mídia a partir de R$65,32/semana.</span>
+            </div>
+          </div>
+
+          <!-- Ambiente 2: TV e Streaming -->
+          <div class="flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:border-blue-500 transition-all">
+            <div>
+              <span class="inline-block rounded-md bg-[#D8E8FF] px-2.5 py-1 text-xs font-bold text-[#0066FF]">TV e Streaming</span>
+              <h3 class="mt-3 text-lg font-bold text-[#282E38]">TV Globo e Globoplay</h3>
+              <p class="text-xs font-semibold text-[#0066FF]">Um Brasil de audiência para sua marca</p>
+              <p class="mt-2 text-xs leading-relaxed text-[#64748B]">
+                Apareça nos comerciais de TV e no streaming e impacte milhões de brasileiros. É do plim ao play.
+              </p>
+            </div>
+            <div class="mt-6 border-t border-slate-100 pt-3">
+              <span class="text-[11px] font-medium text-slate-500">Distribuição automática e segura para sua marca.</span>
+            </div>
+          </div>
+
+          <!-- Ambiente 3: Digital -->
+          <div class="flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:border-blue-500 transition-all">
+            <div>
+              <span class="inline-block rounded-md bg-[#D8E8FF] px-2.5 py-1 text-xs font-bold text-[#0066FF]">Digital</span>
+              <h3 class="mt-3 text-lg font-bold text-[#282E38]">Portais e revistas digitais</h3>
+              <p class="text-xs font-semibold text-[#0066FF]">Credibilidade das grandes marcas</p>
+              <p class="mt-2 text-xs leading-relaxed text-[#64748B]">
+                Anuncie em poucos cliques nos grandes portais e revistas digitais do país com audiência qualificada (g1, ge, gshow, Valor).
+              </p>
+            </div>
+            <div class="mt-6 border-t border-slate-100 pt-3">
+              <span class="text-[11px] font-medium text-slate-500">Mais de 21 marcas exclusivas mensuráveis.</span>
+            </div>
+          </div>
+
+          <!-- Ambiente 4: Rádio -->
+          <div class="flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:border-blue-500 transition-all">
+            <div>
+              <span class="inline-block rounded-md bg-[#D8E8FF] px-2.5 py-1 text-xs font-bold text-[#0066FF]">Rádio</span>
+              <h3 class="mt-3 text-lg font-bold text-[#282E38]">Rádios Globo</h3>
+              <p class="text-xs font-semibold text-[#0066FF]">A voz da sua marca no ar.</p>
+              <p class="mt-2 text-xs leading-relaxed text-[#64748B]">
+                Fale com 1,2 milhão de ouvintes diariamente na CBN, Rádio Globo e BH FM em formato de 30 segundos.
+              </p>
+            </div>
+            <div class="mt-6 border-t border-slate-100 pt-3">
+              <span class="text-[11px] font-medium text-slate-500">Sem anúncio pronto? Gravação inclusa.</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================= -->
+    <!-- 4. SEÇÃO SIMULADOR / ELEVADOR: "O poder dos maiores canais de mídia..." -->
+    <!-- ======================================================================= -->
+    <section class="w-full bg-[#F7F8F9] py-16 sm:py-20">
+      <div class="mx-auto max-w-[1333px] px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col items-center gap-10 lg:flex-row lg:items-center lg:gap-14">
+          
+          <!-- Imagem Oficial do Elevador à Esquerda -->
+          <div class="relative w-full max-w-[500px] lg:w-1/2 overflow-hidden rounded-3xl shadow-lg">
+            <img 
+              src="https://aquiads.com.br/images/home/09-2026/elevador.webp" 
+              alt="Exemplo de anúncio em tela de elevador" 
+              class="h-[440px] w-full object-cover object-top" 
+            />
+          </div>
+
+          <!-- Conteúdo e Passos à Direita -->
+          <div class="w-full lg:w-1/2 flex flex-col text-left">
+            <h2 class="text-[26px] sm:text-[34px] font-bold leading-tight text-[#282E38]">
+              O poder dos maiores canais de mídia do país na mão do seu negócio.
+            </h2>
+            <p class="mt-3 text-[15px] sm:text-[17px] text-[#465161]">
+              Escolha onde sua marca vai aparecer, anuncie com facilidade e acompanhe resultados de forma simples.
+            </p>
+
+            <!-- Lista de Passos -->
+            <div class="mt-8 flex flex-col gap-4">
+              <div class="border-l-4 border-[#FF4F00] bg-white p-4 rounded-r-xl shadow-xs">
+                <h4 class="text-base font-bold text-[#282E38]">1. Escolha entre OOH ou Produtos Globo</h4>
+                <p class="mt-1 text-xs text-[#64748B]">Selecione os pacotes ideais para o seu objetivo entre TV Globo, mídias digitais, telas nas ruas e elevadores da cidade.</p>
+              </div>
+
+              <div class="border-l-4 border-slate-300 bg-white/60 p-4 rounded-r-xl">
+                <h4 class="text-base font-semibold text-slate-700">2. Defina onde sua marca vai aparecer</h4>
+              </div>
+
+              <div class="border-l-4 border-slate-300 bg-white/60 p-4 rounded-r-xl">
+                <h4 class="text-base font-semibold text-slate-700">3. Crie a arte do anúncio em poucos passos</h4>
+              </div>
+
+              <div class="border-l-4 border-slate-300 bg-white/60 p-4 rounded-r-xl">
+                <h4 class="text-base font-semibold text-slate-700">4. Acompanhe seus resultados em tempo real</h4>
+              </div>
+            </div>
+
+            <!-- Botões de Ação -->
+            <div class="mt-8 flex flex-wrap items-center gap-4">
+              <a 
+                href="https://wa.me/551150395212" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="rounded-lg border-2 border-[#FF4F00] bg-white px-6 py-3 text-sm font-bold text-[#FF4F00] hover:bg-orange-50 transition-all"
+              >
+                falar com especialista
+              </a>
+              <a 
+                href="#hero-search" 
+                class="rounded-lg bg-[#FF4F00] px-6 py-3 text-sm font-bold text-white shadow-md hover:bg-[#E64500] transition-all"
+              >
+                quero anunciar
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================= -->
+    <!-- 5. BANNER LARANJA WHATSAPP: "Precisa de ajuda?"                         -->
+    <!-- ======================================================================= -->
+    <section class="w-full px-4 sm:px-6 lg:px-8 py-10">
+      <div 
+        class="mx-auto max-w-[1333px] rounded-2xl p-8 sm:p-10 text-center shadow-lg"
+        style="background: linear-gradient(194deg, #FF9400 0%, #FF4B00 29.81%, #FF4B00 64.9%, #FF212A 100%);"
+      >
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">
+          Precisa de ajuda?
+        </h2>
+        <p class="mx-auto mt-2 max-w-xl text-base sm:text-lg text-white/95">
+          Fale com nossos especialistas. Atendimento disponível por WhatsApp.
+        </p>
+
+        <div class="mt-6 flex justify-center">
+          <a 
+            href="https://wa.me/551150395212" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="inline-flex items-center gap-2 rounded-lg bg-[#3D3D3D] px-6 py-3 text-sm font-bold text-white shadow-md hover:bg-black transition-all"
+          >
+            <i class="uil uil-whatsapp text-lg text-[#25D366]"></i>
+            <span>falar com especialista</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================= -->
+    <!-- 6. SEÇÃO DEPOIMENTOS: "Quem anuncia recomenda!"                         -->
+    <!-- ======================================================================= -->
+    <section class="w-full bg-[#F7F8F9] py-16 sm:py-20">
+      <div class="mx-auto max-w-[1333px] px-4 sm:px-6 lg:px-8 text-left">
+        
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#282E38]">
+          Quem anuncia recomenda!
+        </h2>
+        <p class="mt-2 text-base sm:text-lg text-[#64748B]">
+          Nada melhor do que a opinião de quem usa e aprova
+        </p>
+
+        <!-- Carrossel de Depoimentos Reais -->
+        <div class="mt-10 overflow-x-auto pb-4 scrollbar-hide">
+          <div class="flex gap-6 min-w-max">
+            
+            <!-- Depoimento 1: Athena Candy Shop -->
+            <div class="flex h-[320px] w-[300px] flex-col justify-between rounded-2xl bg-white p-6 shadow-sm border border-slate-100">
+              <img src="https://aquiads.com.br/images/logos/home/logo-tpotg.webp" alt="Athena Candy Shop" class="h-8 w-auto object-contain object-left" />
+              <p class="text-sm leading-relaxed text-[#282E38] italic">
+                "A experiência está sendo positiva! Onde a campanha foi veiculada, notamos crescimento de 23% no faturamento."
+              </p>
+              <div>
+                <p class="font-bold text-sm text-[#282E38]">Guilherme</p>
+                <p class="text-xs text-[#64748B]">Athena Candy Shop</p>
+              </div>
+            </div>
+
+            <!-- Depoimento 2: Casari Imóveis -->
+            <div class="flex h-[320px] w-[300px] flex-col justify-between rounded-2xl bg-white p-6 shadow-sm border border-slate-100">
+              <img src="https://aquiads.com.br/images/logos/home/logo-casari.webp" alt="Casari Imóveis" class="h-8 w-auto object-contain object-left" />
+              <p class="text-sm leading-relaxed text-[#282E38] italic">
+                "Foi incrível pra visibilidade da marca e bastante satisfatório com retorno real de novos leads qualificados."
+              </p>
+              <div>
+                <p class="font-bold text-sm text-[#282E38]">Camile</p>
+                <p class="text-xs text-[#64748B]">Casari Imóveis</p>
+              </div>
+            </div>
+
+            <!-- Depoimento 3: Trade La Guapa -->
+            <div class="flex h-[320px] w-[300px] flex-col justify-between rounded-2xl bg-white p-6 shadow-sm border border-slate-100">
+              <img src="https://aquiads.com.br/images/logos/home/logo-laguapa.webp" alt="Trade La Guapa" class="h-8 w-auto object-contain object-left" />
+              <p class="text-sm leading-relaxed text-[#282E38] italic">
+                "O impacto é muito grande! Optamos por anunciar nos elevadores onde circulam milhares de pessoas diariamente."
+              </p>
+              <div>
+                <p class="font-bold text-sm text-[#282E38]">Raul</p>
+                <p class="text-xs text-[#64748B]">Trade La Guapa</p>
+              </div>
+            </div>
+
+            <!-- Depoimento 4: Restaurante Trio -->
+            <div class="flex h-[320px] w-[300px] flex-col justify-between rounded-2xl bg-white p-6 shadow-sm border border-slate-100">
+              <img src="https://aquiads.com.br/images/logos/home/logo-trio.webp" alt="Restaurante Trio" class="h-8 w-auto object-contain object-left" />
+              <p class="text-sm leading-relaxed text-[#282E38] italic">
+                "Muitos clientes comentam que não conheciam nosso espaço antes de verem os anúncios nos elevadores corporativos."
+              </p>
+              <div>
+                <p class="font-bold text-sm text-[#282E38]">Beatriz</p>
+                <p class="text-xs text-[#64748B]">Restaurante Trio</p>
+              </div>
+            </div>
+
+            <!-- Depoimento 5: Galícia Educação -->
+            <div class="flex h-[320px] w-[300px] flex-col justify-between rounded-2xl bg-white p-6 shadow-sm border border-slate-100">
+              <img src="https://aquiads.com.br/images/logos/home/logo-galicia.webp" alt="Galícia Educação" class="h-8 w-auto object-contain object-left" />
+              <p class="text-sm leading-relaxed text-[#282E38] italic">
+                "Foi um caso de sucesso pelo posicionamento. Trouxe um impacto de marca extremamente positivo na nossa região."
+              </p>
+              <div>
+                <p class="font-bold text-sm text-[#282E38]">Otello</p>
+                <p class="text-xs text-[#64748B]">Galícia Educação</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="mt-8 flex justify-center">
+          <a 
+            href="#hero-search" 
+            class="rounded-lg bg-[#FF4F00] px-8 py-3 text-sm font-bold text-white shadow-md hover:bg-[#E64500] transition-all"
+          >
+            simular minha campanha
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================= -->
+    <!-- 7. SEÇÃO COMBOS PROMOCIONAIS: Banner Escuro #282E38                     -->
+    <!-- ======================================================================= -->
+    <section class="w-full px-4 sm:px-6 lg:px-8 py-12">
+      <div class="mx-auto max-w-[1333px] overflow-hidden rounded-3xl bg-[#282E38] shadow-xl">
+        <div class="grid grid-cols-1 items-center gap-8 p-8 sm:p-12 lg:grid-cols-12">
+          
+          <div class="lg:col-span-8 flex flex-col sm:flex-row items-center gap-8 text-left">
+            <img 
+              src="https://aquiads.com.br/_astro/ilustra-combos.5c9cb372.png" 
+              alt="Combos Promocionais" 
+              class="h-36 w-auto object-contain"
+            />
+            <div>
+              <h2 class="text-2xl sm:text-3xl font-bold text-white">Combos Promocionais</h2>
+              <p class="mt-2 text-sm sm:text-base text-slate-300">
+                Aposte em combos e multiplique sua presença em várias telas de uma vez só com descontos exclusivos.
+              </p>
+            </div>
+          </div>
+
+          <div class="lg:col-span-4 flex flex-col items-center lg:items-end justify-center border-t border-slate-700 pt-6 lg:border-t-0 lg:border-l lg:pl-8 lg:pt-0">
+            <h3 class="text-xl font-bold text-white">Aproveite descontos de até 30%</h3>
+            <a 
+              href="#hero-search" 
+              class="mt-4 rounded-lg bg-[#FF4F00] px-6 py-2.5 text-sm font-bold text-white hover:bg-[#E64500] transition-colors"
+            >
+              ver combos
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================= -->
+    <!-- 8. SEÇÃO COBERTURA BRASIL: "Sua marca vista em todo o Brasil..."         -->
+    <!-- ======================================================================= -->
+    <section class="w-full bg-white py-16 sm:py-20 border-t border-slate-100">
+      <div class="mx-auto max-w-[1333px] px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 items-center gap-12 lg:grid-cols-12">
+          
+          <!-- Lado Esquerdo: Estatísticas e Textos -->
+          <div class="lg:col-span-6 text-left">
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight text-[#282E38]">
+              Sua marca vista em todo o Brasil <span class="text-[#FF4F00]">e online também</span>
+            </h2>
+            <p class="mt-4 text-base sm:text-lg text-[#465161]">
+              TV, telas na rua, elevadores e mídia digital trabalhando juntos para conectar sua marca à rotina do público.
+            </p>
+
+            <div class="mt-8 flex flex-col gap-2">
+              <span class="text-2xl sm:text-3xl font-bold text-[#282E38]">+123 mil telas</span>
+              <span class="text-xl sm:text-2xl font-bold text-[#FF4F00]">100% do território nacional</span>
+            </div>
+
+            <div class="mt-8 flex gap-8">
+              <div>
+                <span class="text-lg font-bold text-[#282E38]">Globoplay</span>
+                <p class="text-xs text-[#64748B]">Streaming e entretenimento premium</p>
+              </div>
+              <div>
+                <span class="text-lg font-bold text-[#282E38]">Portais Globo</span>
+                <p class="text-xs text-[#64748B]">Maior ecossistema digital do país</p>
+              </div>
+            </div>
+
+            <div class="mt-8">
+              <a 
+                href="#hero-search" 
+                class="rounded-lg bg-[#FF4F00] px-7 py-3 text-sm font-bold text-white shadow-md hover:bg-[#E64500] transition-all"
+              >
+                quero anunciar
+              </a>
+            </div>
+          </div>
+
+          <!-- Lado Direito: Ilustração do Mapa do Brasil -->
+          <div class="lg:col-span-6 flex justify-center">
+            <div class="relative w-full max-w-[460px] rounded-3xl bg-slate-50 p-6 shadow-sm border border-slate-200">
+              <img 
+                src="https://aquiads.com.br/_astro/ilustracao-mapa1.0d43ce16.webp" 
+                alt="Mapa do Brasil - Aqui Ads" 
+                class="h-auto w-full object-contain"
+              />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================= -->
+    <!-- 9. SEÇÃO BLOG: "Tudo o que você precisa saber"                          -->
+    <!-- ======================================================================= -->
+    <section class="w-full bg-[#F7F8F9] py-16 sm:py-20 border-t border-slate-200/60">
+      <div class="mx-auto max-w-[1333px] px-4 sm:px-6 lg:px-8 text-left">
+        
+        <h2 class="text-3xl sm:text-4xl font-bold text-[#282E38]">
+          Tudo o que você precisa saber
+        </h2>
+        <p class="mt-2 text-base text-[#64748B]">
+          Artigos, tendências e estratégias de mídia para alavancar seu negócio.
+        </p>
+
+        <div class="mt-10 grid grid-cols-1 gap-8 md:grid-cols-3">
+          
+          <!-- Post 1 -->
+          <article class="flex flex-col overflow-hidden rounded-2xl bg-white shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
+            <img 
+              src="https://aquiads.com.br/blog/wp-content/uploads/2026/02/Mais-conveniencia-e-menos-burocracia.jpg" 
+              alt="Mais conveniência e menos burocracia" 
+              class="h-48 w-full object-cover" 
+            />
+            <div class="p-6 flex flex-1 flex-col justify-between">
+              <h3 class="text-lg font-bold text-[#282E38] leading-snug">
+                Mais conveniência e menos burocracia: como o Aqui Ads transforma a compra de mídia
+              </h3>
+              <div class="mt-4 flex items-center justify-between text-xs text-slate-400 border-t border-slate-100 pt-3">
+                <span>10/02/2026</span>
+                <span>6 min de leitura</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Post 2 -->
+          <article class="flex flex-col overflow-hidden rounded-2xl bg-white shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
+            <img 
+              src="https://aquiads.com.br/blog/wp-content/uploads/2026/02/Como-criar-campanhas-que-funcionam-online-e-offline.jpg" 
+              alt="Como criar campanhas online e offline" 
+              class="h-48 w-full object-cover" 
+            />
+            <div class="p-6 flex flex-1 flex-col justify-between">
+              <h3 class="text-lg font-bold text-[#282E38] leading-snug">
+                Como criar campanhas que funcionam perfeitamente online e offline?
+              </h3>
+              <div class="mt-4 flex items-center justify-between text-xs text-slate-400 border-t border-slate-100 pt-3">
+                <span>12/02/2026</span>
+                <span>11 min de leitura</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Post 3 -->
+          <article class="flex flex-col overflow-hidden rounded-2xl bg-white shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
+            <img 
+              src="https://aquiads.com.br/blog/wp-content/uploads/2026/02/Como-mensurar-o-ROI-para-seu-estabelecimento-utilizando-OOH.jpg" 
+              alt="Como mensurar o ROI" 
+              class="h-48 w-full object-cover" 
+            />
+            <div class="p-6 flex flex-1 flex-col justify-between">
+              <h3 class="text-lg font-bold text-[#282E38] leading-snug">
+                Como mensurar o ROI para seu estabelecimento utilizando mídia exterior (OOH)?
+              </h3>
+              <div class="mt-4 flex items-center justify-between text-xs text-slate-400 border-t border-slate-100 pt-3">
+                <span>18/02/2026</span>
+                <span>8 min de leitura</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================= -->
+    <!-- 10. NOVA SEÇÃO DE FAQ REDESENHADA (SUBSTITUIÇÃO EXCLUSIVA DO ANTIGO FAQ) -->
+    <!-- ======================================================================= -->
+    <section id="faq" class="w-full bg-white py-16 sm:py-24 border-t border-slate-100 scroll-mt-20" aria-labelledby="faq-main-heading">
+      <div class="mx-auto max-w-[1333px] px-4 sm:px-6 lg:px-8">
+        
+        <!-- Header com Doodles Vetoriais de Contorno e Tipografia Oficial -->
+        <div class="relative mb-14 text-center">
+          
+          <!-- Doodle Superior Esquerdo: Brilho / Estrela Laranja -->
+          <div class="absolute -top-6 left-2 sm:left-12 lg:left-24 text-[#FF4F00] opacity-80 pointer-events-none select-none">
+            <svg width="44" height="44" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M24 4V44M4 24H44M10 10L38 38M10 38L38 10"/>
+            </svg>
+          </div>
+
+          <!-- Doodle Superior Direito: Espiral / Loop Laranja -->
+          <div class="absolute -top-4 right-2 sm:right-12 lg:right-24 text-[#FF4F00] opacity-80 pointer-events-none select-none">
+            <svg width="46" height="46" viewBox="0 0 50 50" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M25 8 C36 8 42 16 42 25 C42 34 34 42 25 42 C16 42 10 34 10 25 C10 18 16 14 22 14 C28 14 32 18 32 23 C32 28 28 31 24 31 C20 31 18 28 18 25"/>
+            </svg>
+          </div>
+
+          <!-- Badge de Destaque -->
+          <div class="inline-flex items-center gap-2 rounded-full bg-[#FFF5F0] px-4 py-1.5 text-xs sm:text-sm font-bold text-[#FF4F00] mb-3">
+            <span>Perguntas Frequentes</span>
+          </div>
+
+          <!-- Título Oficial -->
+          <h2 id="faq-main-heading" class="text-3xl font-bold tracking-tight text-[#282E38] sm:text-4xl lg:text-5xl font-['Rethink_Sans']">
+            Ficou com alguma <span class="text-[#FF4F00]">dúvida?</span>
+          </h2>
+
+          <!-- Subtítulo -->
+          <p class="mx-auto mt-4 max-w-2xl text-base sm:text-lg text-[#64748B] font-['Rethink_Sans']">
+            Tire suas dúvidas sobre como anunciar no Aqui ads, prazos, formatos e métricas de impacto.
+          </p>
+        </div>
+
+        <!-- Layout em 2 Colunas: Sidebar de Categorias à Esquerda + Acordeões à Direita -->
+        <div class="grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-12">
+          
+          <!-- ============================================================== -->
+          <!-- HEURÍSTICA #1 & #6: NAVEGAÇÃO LATERAL STICKY DE CATEGORIAS     -->
+          <!-- ============================================================== -->
+          <div class="lg:col-span-4">
+            <div class="sticky top-28 flex flex-col gap-3">
+              <div class="mb-2 px-1">
+                <span class="text-xs font-bold uppercase tracking-wider text-[#64748B]">Categorias de Ajuda</span>
+              </div>
+
+              <!-- Categoria 1: Geral & Plataforma (Ativa por padrão) -->
+              <button 
+                type="button" 
+                id="cat-btn-geral"
+                onclick="switchCategory('geral')"
+                class="faq-cat-btn flex items-center justify-between rounded-xl border-l-4 border-[#FF4F00] bg-[#FFF5F0] p-4 text-left transition-all duration-200 cursor-pointer shadow-xs"
+              >
+                <div class="flex items-center gap-3">
+                  <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-[#FF4F00] text-white">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                  </div>
+                  <div>
+                    <span class="cat-label block text-sm sm:text-base font-bold text-[#FF4F00]">Geral & Plataforma</span>
+                    <span class="text-xs text-[#64748B]">Como funciona e primeiros passos</span>
+                  </div>
+                </div>
+                <span class="cat-badge rounded-full bg-[#FF4F00] px-2 py-0.5 text-xs font-bold text-white">3</span>
+              </button>
+
+              <!-- Categoria 2: Canais & Onde Anunciar -->
+              <button 
+                type="button" 
+                id="cat-btn-canais"
+                onclick="switchCategory('canais')"
+                class="faq-cat-btn flex items-center justify-between rounded-xl border-l-4 border-transparent bg-[#F9F9F9] p-4 text-left transition-all duration-200 hover:bg-slate-100 cursor-pointer"
+              >
+                <div class="flex items-center gap-3">
+                  <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-slate-200 text-slate-700">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect width="20" height="15" x="2" y="3" rx="2"/><path d="m2 18 20 0"/></svg>
+                  </div>
+                  <div>
+                    <span class="cat-label block text-sm sm:text-base font-medium text-[#282E38]">Canais & Onde Anunciar</span>
+                    <span class="text-xs text-[#64748B]">OOH, TV Globo, Portais e Rádio</span>
+                  </div>
+                </div>
+                <span class="cat-badge rounded-full bg-slate-200 px-2 py-0.5 text-xs font-semibold text-slate-600">4</span>
+              </button>
+
+              <!-- Categoria 3: Agências & Parceiros -->
+              <button 
+                type="button" 
+                id="cat-btn-agencias"
+                onclick="switchCategory('agencias')"
+                class="faq-cat-btn flex items-center justify-between rounded-xl border-l-4 border-transparent bg-[#F9F9F9] p-4 text-left transition-all duration-200 hover:bg-slate-100 cursor-pointer"
+              >
+                <div class="flex items-center gap-3">
+                  <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-slate-200 text-slate-700">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                  </div>
+                  <div>
+                    <span class="cat-label block text-sm sm:text-base font-medium text-[#282E38]">Agências & Parceiros</span>
+                    <span class="text-xs text-[#64748B]">Vantagens comerciais e suporte</span>
+                  </div>
+                </div>
+                <span class="cat-badge rounded-full bg-slate-200 px-2 py-0.5 text-xs font-semibold text-slate-600">1</span>
+              </button>
+
+              <!-- Card Lateral de Atendimento WhatsApp -->
+              <div class="mt-4 rounded-xl border border-slate-200 bg-[#F7F8F9] p-5 text-left">
+                <div class="flex items-center gap-2 mb-2 text-[#282E38] font-bold text-sm">
+                  <svg width="18" height="18" fill="none" stroke="#FF4F00" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                  <span>Atendimento Consultivo</span>
+                </div>
+                <p class="text-xs text-[#64748B] mb-3 leading-relaxed">
+                  Precisa de uma proposta sob medida para sua marca ou agência? Fale agora no WhatsApp.
+                </p>
+                <a 
+                  href="https://wa.me/551150395212" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  class="flex items-center justify-center gap-2 rounded-lg bg-[#282E38] px-4 py-2 text-xs font-bold text-white transition-all hover:bg-black w-full shadow-xs"
+                >
+                  <i class="uil uil-whatsapp text-sm text-[#25D366]"></i>
+                  <span>falar no WhatsApp</span>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- ============================================================== -->
+          <!-- ACORDEÕES INTERATIVOS (COLUNA DIREITA)                         -->
+          <!-- ============================================================== -->
+          <div class="lg:col-span-8">
+            
+            <!-- Cabeçalho da Categoria Selecionada -->
+            <div class="mb-5 flex items-center justify-between border-b border-slate-200 pb-3">
+              <div>
+                <h3 id="current-cat-title" class="text-lg font-bold text-[#282E38]">Geral & Plataforma</h3>
+                <p id="current-cat-desc" class="text-xs text-[#64748B]">Tudo o que você precisa saber sobre como funciona a plataforma Aqui ads.</p>
+              </div>
+              <span id="current-cat-badge" class="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-semibold text-slate-600">
+                3 perguntas
+              </span>
+            </div>
+
+            <!-- Lista de Acordeões Renderizados via JS -->
+            <div id="faq-accordions-container" class="flex flex-col gap-3.5">
+              <!-- Inserido dinamicamente -->
+            </div>
+
+            <!-- ============================================================ -->
+            <!-- HEURÍSTICA #6: CARD PERSISTENTE DE SUPORTE ("Ainda tem dúvidas?") -->
+            <!-- ============================================================ -->
+            <div class="mt-8 rounded-2xl border border-slate-200 bg-[#F7F8F9] p-6 sm:p-7 text-left shadow-xs">
+              <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+                <div class="flex items-start gap-3.5">
+                  <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-[#FFF5F0] text-[#FF4F00]">
+                    <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                  </div>
+                  <div>
+                    <h4 class="text-[17px] font-bold text-[#282E38]">
+                      Ainda tem dúvidas?
+                    </h4>
+                    <p class="mt-1 text-sm leading-relaxed text-[#64748B]">
+                      Fale com nossos especialistas em tempo real e receba uma recomendação sob medida para sua campanha.
+                    </p>
+                  </div>
+                </div>
+
+                <a 
+                  href="https://wa.me/551150395212" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  class="inline-flex shrink-0 items-center justify-center gap-2 rounded-xl bg-[#FF4F00] px-5 py-3 text-sm font-bold text-white shadow-md shadow-orange-500/20 hover:bg-[#E64500] hover:shadow-lg transition-all min-h-[44px]"
+                >
+                  <i class="uil uil-whatsapp text-lg text-white"></i>
+                  <span>Falar no WhatsApp</span>
+                  <i class="uil uil-arrow-up-right text-base"></i>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- 11. FOOTER OFICIAL GRUPO GLOBO                                            -->
+  <!-- ========================================================================= -->
+  <footer class="mt-auto h-auto bg-[#1B1B1B] text-white pt-14 pb-12">
+    <div class="mx-auto max-w-[1333px] px-4 sm:px-8">
+      
+      <!-- Linha Superior: Logo Globo e Formas de Pagamento -->
+      <div class="flex flex-col gap-8 border-b border-white/10 pb-12 lg:flex-row lg:items-center lg:justify-between">
+        <div>
+          <p class="text-xs font-semibold text-slate-400 mb-2">uma plataforma</p>
+          <img src="/_astro/logo-globo.e92547af.svg" alt="Logotipo da Globo" class="h-7 w-auto object-contain" />
+        </div>
+
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-slate-400 block mb-3">Formas de pagamento</span>
+          <div class="flex flex-wrap items-center gap-3">
+            <img src="/images/logos/payment-methods/visa.svg" alt="Visa" class="h-5 w-auto object-contain" />
+            <img src="/images/logos/payment-methods/mastercard.svg" alt="Mastercard" class="h-5 w-auto object-contain" />
+            <img src="/images/logos/payment-methods/elo.svg" alt="Elo" class="h-5 w-auto object-contain" />
+            <img src="/images/logos/payment-methods/amex.svg" alt="AMEX" class="h-5 w-auto object-contain" />
+            <img src="/images/logos/payment-methods/diners.svg" alt="Diners" class="h-5 w-auto object-contain" />
+            <img src="/images/logos/payment-methods/pix.svg" alt="PIX" class="h-5 w-auto object-contain" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Colunas de Links Institucionais -->
+      <div class="grid grid-cols-2 gap-8 py-10 sm:grid-cols-4 lg:grid-cols-5 border-b border-white/10 text-xs text-slate-400">
+        <div>
+          <h4 class="text-sm font-bold text-white mb-3">Explorar</h4>
+          <ul class="space-y-2">
+            <li><a href="#hero-search" class="hover:text-white transition-colors">Onde anunciar</a></li>
+            <li><a href="#hero-search" class="hover:text-white transition-colors">Combos promocionais</a></li>
+            <li><a href="https://aqui.globo/blog/" target="_blank" class="hover:text-white transition-colors">Blog Aqui Ads</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-sm font-bold text-white mb-3">Ajuda</h4>
+          <ul class="space-y-2">
+            <li><a href="#faq" class="hover:text-white transition-colors">Perguntas Frequentes</a></li>
+            <li><a href="https://wa.me/551150395212" target="_blank" class="hover:text-white transition-colors">Contato</a></li>
+            <li><a href="https://storage.googleapis.com/elt-smb-prod/assets/docs/2026/01/termos-e-condicoes-aquiads-janeiro-26.pdf" target="_blank" class="hover:text-white transition-colors">Termos e Condições</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-sm font-bold text-white mb-3">OOH</h4>
+          <ul class="space-y-2">
+            <li><span>Elevadores Residenciais</span></li>
+            <li><span>Elevadores Comerciais</span></li>
+            <li><span>Mídia em Aeroportos</span></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-sm font-bold text-white mb-3">Produtos Globo</h4>
+          <ul class="space-y-2">
+            <li><span>TV Globo</span></li>
+            <li><span>Globoplay</span></li>
+            <li><span>g1, ge e gshow</span></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-sm font-bold text-white mb-3">Suporte</h4>
+          <ul class="space-y-2">
+            <li><span>WhatsApp: (11) 5039-5212</span></li>
+            <li><span>Atendimento seg a sex</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Copyright e Legal -->
+      <div class="pt-8 text-xs text-slate-500 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <div>© Copyright 2026 GLOBO COMUNICACAO E PARTICIPACOES S/A | CNPJ: 27.865.757/0096-65</div>
+        <div class="flex gap-4">
+          <a href="https://aquiads.com.br/politica-de-privacidade" class="hover:text-white">Política de Privacidade</a>
+          <a href="https://storage.googleapis.com/elt-smb-prod/assets/docs/2026/01/termos-e-condicoes-aquiads-janeiro-26.pdf" class="hover:text-white">Termos e Condições</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ========================================================================= -->
+  <!-- JAVASCRIPT: DADOS E INTERATIVIDADE COMPLETA DA FAQ REDESENHADA            -->
+  <!-- ========================================================================= -->
+  <script>
+    // Estrutura de dados das 3 categorias e 8 perguntas completas
+    const faqData = {
+      geral: {
+        title: "Geral & Plataforma",
+        desc: "Tudo o que você precisa saber sobre como funciona a plataforma Aqui ads.",
+        badge: "3 perguntas",
+        items: [
+          {
+            id: 1,
+            q: "O que é o Aqui ads?",
+            a: "O Aqui ads é a plataforma oficial e 100% digital da Globo para contratação simplificada de mídia. Com ela, empresas de todos os portes e agências podem planejar, simular e veicular anúncios em TV Globo, Globoplay, portais digitais (como g1 e GE), rádios e milhares de telas de mídia exterior (OOH) espalhadas por todo o Brasil, com total autonomia e relatórios auditados.",
+            highlight: "Plataforma self-service com alcance Globo e inteligência de dados.",
+            open: true
+          },
+          {
+            id: 2,
+            q: "Como faço para anunciar?",
+            a: "Anunciar é muito simples e leva menos de 5 minutos: 1) Crie sua conta gratuita na plataforma; 2) Escolha onde deseja aparecer (OOH, TV, Digital ou Rádio); 3) Defina sua região, raio de alcance e orçamento; 4) Faça upload do seu criativo (arte ou vídeo) ou solicite nosso suporte de produção; 5) Conclua o pagamento via Pix, Cartão ou Boleto. Sua campanha entra no ar após rápida moderação técnica.",
+            highlight: "Fluxo 100% digital, sem burocracia e com início rápido.",
+            open: false
+          },
+          {
+            id: 3,
+            q: "Como eu acompanho os resultados da minha campanha?",
+            a: "Você tem acesso a um painel analítico em tempo real dentro do Aqui ads. Nele, você acompanha métricas detalhadas de impressões entregues, veiculações comprovadas por geolocalização e fotos das telas em OOH, além de relatórios auditados de audiência na TV e métricas de cliques e engajamento no digital.",
+            highlight: "Métricas transparentes e comprovante fotográfico de veiculação.",
+            open: false
+          }
+        ]
+      },
+      canais: {
+        title: "Canais & Onde Anunciar",
+        desc: "Formatos disponíveis: OOH, TV Globo, Streaming, Portais e Rádio.",
+        badge: "4 perguntas",
+        items: [
+          {
+            id: 4,
+            q: "Onde posso anunciar?",
+            a: "Você pode anunciar em um ecossistema multicanal completo: mais de 86 mil telas de OOH (elevadores residenciais e comerciais, shoppings, academias, estações de metrô e abrigos de ônibus), intervalos comerciais da TV Globo e Globoplay, grandes portais jornalísticos e verticais de conteúdo (g1, ge, gshow, Valor Econômico, TechTudo, Casa e Jardim), além das principais rádios do país (CBN, Rádio Globo e BH FM).",
+            highlight: "Mais de 86 mil telas e os veículos com maior credibilidade do Brasil.",
+            open: true
+          },
+          {
+            id: 5,
+            q: "Qual a diferença de anunciar em Globo ou em OOH (Mídia Exterior)?",
+            a: "A TV Globo e o Globoplay entregam alcance massivo, alto impacto audiovisual e máxima credibilidade editorial, ideais para construção instantânea de autoridade e lembrança de marca. Já a Mídia Exterior (OOH) acompanha a rotina diária do consumidor nos trajetos de moradia, trabalho e compras, garantindo alta frequência de repetição e proximidade geográfica com o ponto de venda. A combinação dos dois (multicanal) amplifica comprovadamente o ROI em até 3x.",
+            highlight: "Globo para impacto e autoridade; OOH para frequência na rotina.",
+            open: false
+          },
+          {
+            id: 6,
+            q: "Posso anunciar minha marca fora da minha cidade ou em uma rua específica, perto de mim?",
+            a: "Sim! O Aqui ads possui inteligência de hipersegmentação geográfica. Você pode selecionar um raio de poucos metros ou quarteirões ao redor do seu estabelecimento comercial, escolher edifícios residenciais ou comerciais específicos, bairros estratégicos, ou expandir para múltiplos municípios e estados de todo o território nacional.",
+            highlight: "Hipersegmentação por rua, bairro, edifício ou abrangência nacional.",
+            open: false
+          },
+          {
+            id: 7,
+            q: "O que é Mídia Programática?",
+            a: "Mídia Programática é a tecnologia que automatiza a compra e a exibição de anúncios publicitários com base em dados inteligentes de perfil e contexto. Em vez de comprar espaços genéricos, o sistema veicula o anúncio ideal para o perfil de público selecionado no momento em que ele está navegando nos portais Globo ou visualizando uma tela conectada, maximizando a eficiência de cada real investido.",
+            highlight: "Compra inteligente baseada em dados reais de comportamento e contexto.",
+            open: false
+          }
+        ]
+      },
+      agencias: {
+        title: "Agências & Parceiros",
+        desc: "Condições e vantagens exclusivas para agências de publicidade e parceiros.",
+        badge: "1 pergunta",
+        items: [
+          {
+            id: 8,
+            q: "Sou agência ou consultor, posso anunciar para meus clientes no Aqui ads?",
+            a: "Com certeza! O Aqui ads conta com recursos dedicados para agências e profissionais de mídia, incluindo gestão multicontas (gerencie múltiplos clientes sob o mesmo login), faturamento corporativo centralizado, suporte consultivo prioritário e comissionamento padrão de agência. Você ganha agilidade operacional para entregar resultados imediatos aos seus clientes.",
+            highlight: "Painel multi-clientes, suporte prioritário e condições exclusivas.",
+            open: true
+          }
+        ]
+      }
+    };
+
+    let activeCategory = 'geral';
+
+    // Função para renderizar os acordeões da categoria ativa
+    function renderAccordions() {
+      const cat = faqData[activeCategory];
+      if (!cat) return;
+
+      document.getElementById('current-cat-title').textContent = cat.title;
+      document.getElementById('current-cat-desc').textContent = cat.desc;
+      document.getElementById('current-cat-badge').textContent = cat.badge;
+
+      const container = document.getElementById('faq-accordions-container');
+      container.innerHTML = cat.items.map(item => {
+        const isOpen = item.open;
+        return `
+          <div 
+            id="item-card-${item.id}" 
+            class="accordion-card overflow-hidden transition-all duration-300 rounded-2xl ${
+              isOpen 
+                ? 'border-2 border-[#FF4F00] bg-white shadow-[0_4px_24px_rgba(255,79,0,0.08)]' 
+                : 'border border-slate-200/90 bg-[#F9F9F9] hover:border-slate-300 hover:bg-[#F5F5F7]'
+            }"
+          >
+            <button 
+              type="button" 
+              id="faq-trigger-${item.id}"
+              aria-expanded="${isOpen ? 'true' : 'false'}" 
+              aria-controls="faq-answer-${item.id}"
+              onclick="toggleFaq(${item.id})"
+              class="group flex w-full items-center justify-between gap-4 p-5 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF4F00] min-h-[56px] cursor-pointer"
+            >
+              <span class="faq-question-text text-[16px] sm:text-[18px] font-semibold leading-snug ${
+                isOpen ? 'text-[#FF4F00]' : 'text-[#282E38] group-hover:text-[#FF4F00]'
+              } transition-colors">
+                ${item.q}
+              </span>
+              <div class="faq-icon-pill flex h-9 w-9 shrink-0 items-center justify-center rounded-full ${
+                isOpen 
+                  ? 'bg-[#FF4F00] text-white shadow-sm' 
+                  : 'bg-slate-200 text-slate-600 group-hover:bg-[#FFF5F0] group-hover:text-[#FF4F00]'
+              } transition-all duration-200">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                  ${isOpen ? '<line x1="5" y1="12" x2="19" y2="12"></line>' : '<line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line>'}
+                </svg>
+              </div>
+            </button>
+
+            <div 
+              id="faq-answer-${item.id}" 
+              role="region" 
+              aria-labelledby="faq-trigger-${item.id}" 
+              class="accordion-content ${isOpen ? 'open' : ''}"
+            >
+              <div class="accordion-inner">
+                <div class="border-t border-slate-100 px-5 pb-5 pt-3">
+                  <p class="text-[15px] leading-[1.65] text-[#475569]">
+                    ${item.a}
+                  </p>
+                  ${item.highlight ? `
+                    <div class="mt-3.5 inline-flex items-center gap-2 rounded-lg bg-[#FFF5F0] px-3 py-1.5 text-xs font-semibold text-[#FF4F00]">
+                      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                      <span>${item.highlight}</span>
+                    </div>
+                  ` : ''}
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // Alternar abertura de pergunta individual
+    function toggleFaq(id) {
+      const cat = faqData[activeCategory];
+      const item = cat.items.find(i => i.id === id);
+      if (!item) return;
+
+      item.open = !item.open;
+      renderAccordions();
+    }
+
+    // Alternar categoria
+    function switchCategory(catKey) {
+      activeCategory = catKey;
+
+      // Atualizar classes dos botões de categoria
+      ['geral', 'canais', 'agencias'].forEach(key => {
+        const btn = document.getElementById('cat-btn-' + key);
+        if (!btn) return;
+
+        const isCurrent = key === catKey;
+        const label = btn.querySelector('.cat-label');
+        const badge = btn.querySelector('.cat-badge');
+
+        if (isCurrent) {
+          btn.className = 'faq-cat-btn flex items-center justify-between rounded-xl border-l-4 border-[#FF4F00] bg-[#FFF5F0] p-4 text-left transition-all duration-200 cursor-pointer shadow-xs';
+          if (label) {
+            label.className = 'cat-label block text-sm sm:text-base font-bold text-[#FF4F00]';
+          }
+          if (badge) {
+            badge.className = 'cat-badge rounded-full bg-[#FF4F00] px-2 py-0.5 text-xs font-bold text-white';
+          }
+        } else {
+          btn.className = 'faq-cat-btn flex items-center justify-between rounded-xl border-l-4 border-transparent bg-[#F9F9F9] p-4 text-left transition-all duration-200 hover:bg-slate-100 cursor-pointer';
+          if (label) {
+            label.className = 'cat-label block text-sm sm:text-base font-medium text-[#282E38]';
+          }
+          if (badge) {
+            badge.className = 'cat-badge rounded-full bg-slate-200 px-2 py-0.5 text-xs font-semibold text-slate-600';
+          }
+        }
+      });
+
+      renderAccordions();
+    }
+
+    // Inicialização ao carregar a página
+    document.addEventListener('DOMContentLoaded', () => {
+      renderAccordions();
+    });
+    renderAccordions();
+  </script>
+
+</body>
+</html>

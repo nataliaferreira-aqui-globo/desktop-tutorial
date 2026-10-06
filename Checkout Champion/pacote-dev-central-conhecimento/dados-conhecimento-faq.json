@@ -1,0 +1,1359 @@
+{
+  "materialsData": [
+    {
+      "id": "mat-midia-kit-2026",
+      "title": "Mídia kit comercial Aqui Ads.pdf",
+      "category": "midia-kit",
+      "categoryLabel": "Mídia kit",
+      "size": "10.2 MB",
+      "date": "2026",
+      "pages": "36 págs",
+      "desc": "Formatos oficiais e métricas para TV, telas OOH, rádios e digital.",
+      "badge": "Mídia kit oficial",
+      "gradient": "from-[#0F172A] to-[#1E293B]",
+      "icon": "uil-presentation-play",
+      "fileUrl": "https://cdn.eletromidia.com.br/seahorse/repositorio/smb/Aqui_ads_Pitch_Pocket_2026.pdf",
+      "pendingDev": false
+    },
+    {
+      "id": "mat-ebook-dia-das-criancas",
+      "title": "E-book estratégico: Dia das Crianças Aqui Ads.pdf",
+      "category": "ebook",
+      "categoryLabel": "E-book",
+      "size": "470 KB",
+      "date": "Set/2026",
+      "pages": "5 págs",
+      "desc": "Estratégias para acelerar vendas combinando telas OOH e digital.",
+      "badge": "E-book estratégico",
+      "gradient": "from-[#FF4F00] to-[#E11D48]",
+      "icon": "uil-gift",
+      "fileUrl": "https://cdn.eletromidia.com.br/seahorse/repositorio/smb/Aqui_Ads_Ebook_Dia_das_Criancas_CRM_2026.pdf",
+      "pendingDev": false
+    }
+  ],
+  "categoriesData": [
+    {
+      "id": "cadastro-acesso",
+      "title": "Cadastro e acesso",
+      "desc": "Cadastro e acesso - Requisitos e Gestão da Conta",
+      "items": [
+        {
+          "id": 101,
+          "q": "Quem pode se cadastrar e qual é o limite de contas por usuário?",
+          "a": "O cadastro está disponível para <strong>Pessoas Físicas (+18 anos)</strong> e <strong>Pessoas Jurídicas regulares</strong>. Para garantir a governança e segurança na plataforma, é permitida a criação de <strong>apenas uma conta por CPF</strong>.",
+          "tag": "Requisitos & Limite de contas",
+          "open": true
+        },
+        {
+          "id": 102,
+          "q": "Como funciona o acesso e login na plataforma? É necessário cadastrar senha?",
+          "a": "<strong>A plataforma não utiliza senhas tradicionais.</strong> Todo o acesso, verificação e validação de titularidade ocorrem de forma 100% segura através do envio de um <strong>token de segurança (código temporário)</strong> diretamente para o <strong>WhatsApp</strong> do usuário cadastrado.",
+          "tag": "Token via WhatsApp",
+          "open": false
+        },
+        {
+          "id": 103,
+          "q": "Como atualizar informações cadastrais ou solicitar a exclusão da conta?",
+          "a": "Para atualizar suas informações ou solicitar a exclusão da conta, acesse <strong>'Meu perfil'</strong> na plataforma.<br><br>Depois de confirmado, o <strong>CNPJ fica bloqueado para edição direta</strong>, assim como os dados empresariais retornados pela Receita Federal. Para faturar como outro CNPJ ou como Pessoa Física, utilize a opção <strong>'Trocar perfil'</strong>. Se houver divergência nos dados ou se a troca não estiver disponível, entre em contato pelos canais oficiais do Aqui Ads.",
+          "tag": "Meu perfil e Troca de CNPJ",
+          "open": false
+        }
+      ],
+      "_matchCount": 3
+    },
+    {
+      "id": "canais-atendimento",
+      "title": "Canais de atendimento oficial",
+      "desc": "Canais de atendimento oficial - Suporte OOH, Globo e Rádio",
+      "items": [
+        {
+          "id": 201,
+          "q": "Como funciona o atendimento e suporte para campanhas na plataforma?",
+          "a": "Todas as campanhas realizadas diretamente pelo Aqui Ads devem ser tratadas exclusivamente pelos canais oficiais do Aqui Ads. Não é necessário contatar diretamente a Globo, a Eletromidia ou as emissoras: nosso time centraliza o suporte, a cobrança, a negociação e as solicitações operacionais.",
+          "tag": "Suporte exclusivo Aqui Ads",
+          "open": false
+        },
+        {
+          "id": 202,
+          "q": "Quais são os canais oficiais de atendimento e horários de funcionamento?",
+          "a": "Nossa equipe opera através dos seguintes canais oficiais:<br>• <strong>WhatsApp:</strong> <a href='https://wa.me/551150395212' target='_blank' class='text-[#FF4F00] font-bold underline'>(11) 5039-5212</a><br>• <strong>E-mail:</strong> <a href='mailto:contato@aqui.globo' class='text-[#FF4F00] font-bold underline'>contato@aqui.globo</a><br>• <strong>Horário:</strong> segunda a sexta-feira, das 9h às 18h.",
+          "tag": "Seg a Sex, 9h às 18h",
+          "open": false
+        }
+      ],
+      "_matchCount": 2
+    },
+    {
+      "id": "contratacao-precos",
+      "title": "Contratação — preços e pagamento",
+      "desc": "Contratação, preços e pagamento - Regras Financeiras e Cupons",
+      "items": [
+        {
+          "id": 301,
+          "q": "Qual é o valor de investimento mínimo para anunciar em cada meio?",
+          "a": "Os investimentos mínimos na plataforma são estabelecidos por formato:<br>• <strong>OOH (Telas Físicas):</strong> Planos a partir de <strong>R$ 65,32 por 7 dias</strong> (residenciais).<br>• <strong>Mídia Digital:</strong> Todos os produtos exigem investimento mínimo de <strong>R$ 900,00</strong> na plataforma.<br>• <strong>TV Aberta:</strong> Não possui mínimo tabelado; o preço varia no atendimento consultivo via CS.<br>• <strong>Rádio:</strong> A partir de <strong>R$ 900,00</strong>.",
+          "tag": "Investimentos mínimos",
+          "open": false
+        },
+        {
+          "id": 302,
+          "q": "Quais métodos de pagamento são aceitos e quais os prazos de compensação?",
+          "a": "Os pagamentos utilizam <strong>Stone, Itaú Checkout e Pagar.me</strong>.<br><br>• <strong>Pix:</strong> confirmação imediata. O código Pix é válido por <strong>24 horas</strong> após a geração.<br>• <strong>Cartão de Crédito:</strong> Pagamento aprovado em até 2 horas. Bandeiras aceitas: Visa, Mastercard, Diners, Discover, Hiper, Hipercard, JCB e Credz.<br>• <strong>Boleto Bancário:</strong> Disponível exclusivamente para pedidos a partir de R$ 1.200,00. O boleto tem vencimento de 1 dia útil e compensação em até 2 dias úteis. A produção/veiculação só começa após a confirmação bancária. Pedidos não pagos são cancelados automaticamente.",
+          "tag": "Stone, Itaú, Pagar.me e Pix 24h",
+          "open": false
+        },
+        {
+          "id": 303,
+          "q": "Como funciona o parcelamento no cartão?",
+          "a": "• Qualquer pedido pode ser parcelado em <strong>até 3 vezes sem juros</strong>.<br>• Campanhas com duração de 24 semanas podem ser parceladas em <strong>até 6 vezes sem juros</strong>, independentemente do valor.",
+          "tag": "Parcelamento no cartão",
+          "open": false
+        },
+        {
+          "id": 304,
+          "q": "Como funcionam as regras e a aplicação de cupons promocionais?",
+          "a": "• Se você recebeu um cupom por campanhas, parcerias ou ações promocionais, insira o código na etapa de pagamento para aplicar o benefício.<br>• Cada cupom tem condições específicas de uso, como validade, formato de mídia e valor mínimo.<br>• Não é possível aplicar cupons após gerar o pagamento, pois o pedido já foi registrado. Para usar um cupom, crie um novo plano de mídia.<br><br><em>Condições adicionais: Existem também descontos ativos para combos OOH de 4 a 12 semanas (até 30% OFF) e descontos exclusivos para condôminos (limitado a 1 slot por vez).</em>",
+          "tag": "Regras de cupons & Combos",
+          "open": false
+        },
+        {
+          "id": 305,
+          "subsection": "Notas fiscais e faturamento",
+          "q": "Onde ficam disponíveis as notas fiscais e como solicitar exigências específicas de faturamento?",
+          "a": "As notas fiscais das campanhas, com exceção de rádio, ficam disponíveis na plataforma, na página ‘Faturamento’. Caso tenha alguma exigência específica para a emissão da nota fiscal, entre em contato com o time de atendimento pelos canais oficiais do Aqui Ads.",
+          "tag": "Notas fiscais e faturamento",
+          "open": false
+        },
+        {
+          "id": 306,
+          "q": "Como funciona o pagamento para campanhas de Rádio?",
+          "a": "<strong>Pagamento de Rádio (direto com a emissora):</strong><br>• <strong>Pessoa Física (CPF):</strong> Pagamento antecipado por depósito bancário; a campanha é liberada após a confirmação.<br>• <strong>Pessoa Jurídica (CNPJ):</strong> Faturamento <strong>15 DFM</strong> (15 Dias Fora Mês). As inserções realizadas no mês vencem no dia 15 do mês seguinte. Exemplo: veiculações de setembro são cobradas com vencimento em 15 de outubro.<br>• <strong>Por que não há cartão, Pix ou boleto comum?</strong> O faturamento e a validação dos anúncios de rádio são feitos diretamente pela emissora, seguindo suas regras comerciais.",
+          "tag": "Rádio: Direto com a emissora",
+          "open": false
+        }
+      ],
+      "_matchCount": 6
+    },
+    {
+      "id": "criacao-midia",
+      "title": "Criação de mídia e uso de IA",
+      "desc": "Criação de mídia - Upload, IA e Produção com Parceiro",
+      "items": [
+        {
+          "id": 401,
+          "q": "Quais são as regras de upload e envio de criativos para Mídia Digital, Rádio e TV Aberta?",
+          "a": "Todas as mídias passam por aprovação técnica e validação de conteúdo e podem ser reprovadas conforme as <a href='javascript:void(0)' onclick='filterByCategory(\"proibicoes-restricoes\")' class='text-[#FF4F00] font-bold underline'>Regras de proibições e restrições</a>.<br><br>• <strong>Mídia Digital:</strong> O cliente deve enviar pelo menos um formato de display e informar uma URL de destino válida.<br>• <strong>Rádio:</strong> É possível enviar um spot próprio ou um texto-base para gravação. Depois que o texto-base é enviado para produção, ele não pode ser editado nem substituído.<br>• <strong>TV Aberta:</strong> Não há modelos de IA para criação de anúncios de TV. O cliente deve enviar o vídeo finalizado (15 ou 30 segundos) ou contratar a produção com um parceiro. Alterações no texto ou roteiro são permitidas, mas só pode haver uma versão em edição/produção por vez.",
+          "tag": "Regras de upload por meio",
+          "open": false
+        },
+        {
+          "id": 402,
+          "q": "Como funcionam as ferramentas de Inteligência Artificial para criação de anúncios?",
+          "a": "As ferramentas de Inteligência Artificial estão disponíveis exclusivamente nos produtos indicados na plataforma e <strong>não se aplicam à TV aberta</strong>.<br><br>• <strong>Diretrizes de uso:</strong><br>– Não remova a marca-d'água de identificação.<br>– Não inclua informações confidenciais nos prompts.<br>– Não gere conteúdo protegido por direitos autorais.<br>– Criativos gerados pela IA do Aqui Ads devem ser usados exclusivamente no inventário da plataforma.",
+          "tag": "IA: Regras e uso exclusivo",
+          "open": false
+        },
+        {
+          "id": 403,
+          "q": "Como funciona o Serviço de Produção de criativos com Parceiro?",
+          "a": "Quando contratada, a produção começa após a confirmação do briefing:<br>• <strong>Prazos:</strong> O prazo da primeira versão é de <strong>até 48 horas úteis</strong>.<br>• <strong>Ajustes:</strong> O cliente tem direito a <strong>até duas rodadas de ajustes</strong>.<br>• <strong>Escopo:</strong> O serviço <strong>não inclui criação de logotipo ou identidade visual do zero</strong>.",
+          "tag": "Produção com parceiro",
+          "open": false
+        }
+      ],
+      "_matchCount": 3
+    },
+    {
+      "id": "elegibilidade-globo",
+      "title": "Elegibilidade e regras gerais",
+      "desc": "Elegibilidade e regras gerais - Perfil de Clientes",
+      "items": [
+        {
+          "id": 501,
+          "q": "Qual é o público-alvo da plataforma Aqui Ads?",
+          "a": "A plataforma é voltada para <strong>Pequenas e Médias Empresas (PME)</strong> que buscam mídia de grande alcance (<strong>OOH, TV, Rádio e Digital</strong>) sem a burocracia das compras tradicionais.",
+          "tag": "Público-alvo PME",
+          "open": false
+        },
+        {
+          "id": 502,
+          "q": "Quais são as regras de elegibilidade e bloqueios cadastrais para CNPJ?",
+          "a": "• <strong>Situação cadastral:</strong> CNPJs com situação cadastral inválida ou baixada não podem avançar para o pagamento.<br>• <strong>Bloqueio de edição:</strong> Depois de confirmado, o CNPJ e os dados empresariais retornados pela Receita Federal não podem ser editados diretamente.<br>• <strong>Troca de perfil:</strong> Para usar outro CNPJ ou faturar como Pessoa Física, o cliente deve selecionar <strong>'Trocar perfil'</strong>.",
+          "tag": "Elegibilidade e Bloqueios de CNPJ",
+          "open": false
+        },
+        {
+          "id": 503,
+          "q": "Como funcionam as métricas de campanha em cada meio (OOH, Rádio e Digital)?",
+          "a": "• <strong>OOH:</strong> trabalha com estimativa de impressões e impacto. A métrica de CPM não é utilizada.<br>• <strong>Rádio:</strong> utiliza o nível de audiência, métrica de referência baseada em dados e práticas do mercado.<br>• <strong>Digital:</strong> utiliza CPM (Custo por Mil), que representa o valor cobrado a cada 1.000 impressões.",
+          "tag": "Métricas por meio",
+          "open": false
+        }
+      ],
+      "_matchCount": 3
+    },
+    {
+      "id": "especificacoes-tecnicas",
+      "title": "Especificações técnicas",
+      "desc": "Especificações técnicas - Padrões de Áudio, Vídeo e Display",
+      "items": [
+        {
+          "id": 601,
+          "q": "Quais são as especificações e duração para TV Aberta?",
+          "a": "• <strong>TV aberta:</strong> vídeos de <strong>15 ou 30 segundos</strong>.<br>• <strong>Formato de arquivo:</strong> MP4 Full HD ou MXF Op. 1a. / MPEG-2 4:2:2.<br>• <strong>Closed Caption obrigatório:</strong> Norma CEA-708-CDP encerrado com comando <em>'Clear Screen'</em>.",
+          "tag": "TV aberta: 15s ou 30s",
+          "open": false
+        },
+        {
+          "id": 602,
+          "q": "Quais são as especificações e duração para Rádio (Spot)?",
+          "a": "• <strong>Rádio:</strong> arquivo <strong>MP3 em 320 kbps, com duração exata de 30 segundos</strong>.",
+          "tag": "Rádio: MP3 320 kbps (30s)",
+          "open": false
+        },
+        {
+          "id": 603,
+          "q": "Quais são as especificações e duração para Mídia Digital?",
+          "a": "• <strong>Vídeo digital in-stream:</strong> 1920 × 1080, proporção 16:9, até 512 MB, com duração de <strong>15 segundos ou de 16 a 180 segundos</strong>.<br>• <strong>Banners de display:</strong> Billboard (970 × 250, 250 KB), Retângulo Médio (300 × 250, 350 KB), Maxiboard (970 × 150, 350 KB), Super Leaderboard (970 × 90, 350 KB) e Half-page (300 × 600, 550 KB).",
+          "tag": "Digital: Display e Vídeo in-stream",
+          "open": false
+        },
+        {
+          "id": 604,
+          "q": "Quais são as especificações e duração para telas de OOH?",
+          "a": "• <strong>OOH:</strong> vídeos <strong>MP4 com codec H.264, sem áudio e até 20 MB</strong>. Cada inserção tem <strong>duração de 10 segundos</strong>.<br>• <strong>Imagens estáticas:</strong> formatos PNG, JPG ou PDF (alta resolução, até 5 MB) para inserções de 10 segundos.",
+          "tag": "OOH: MP4 h.264 (10s)",
+          "open": false
+        }
+      ],
+      "_matchCount": 4
+    },
+    {
+      "id": "geral-plataforma",
+      "title": "Geral e sobre a plataforma",
+      "desc": "Geral e sobre a plataforma - Ecossistema Aqui Ads e Eletromidia",
+      "items": [
+        {
+          "id": 701,
+          "q": "O que é o Aqui Ads?",
+          "a": "O <strong>Aqui Ads</strong> é a plataforma autônoma da <strong>Globo</strong> para que micro, pequenos e médios anunciantes gerenciem mídia out-of-home (OOH) e inventários premium Globo com facilidade e autonomia.",
+          "tag": "Plataforma autônoma Globo",
+          "open": false
+        },
+        {
+          "id": 702,
+          "q": "O que é a Eletromidia?",
+          "a": "A Eletromidia é líder em mídia OOH no Brasil, com telas em elevadores, transportes, shoppings, mobiliário urbano, estabelecimentos comerciais, entre outros formatos.",
+          "tag": "Líder em mídia OOH",
+          "open": false
+        },
+        {
+          "id": 703,
+          "q": "Como se candidatar a vagas na empresa (Carreiras)?",
+          "a": "Todas as oportunidades profissionais, vagas e cadastros de currículos ocorrem oficialmente de forma exclusiva pela nossa página na Gupy: <a href='https://eletromidia.gupy.io' target='_blank' class='text-[#FF4F00] font-bold underline'>eletromidia.gupy.io</a>.",
+          "tag": "Carreiras na Gupy",
+          "open": false
+        }
+      ],
+      "_matchCount": 3
+    },
+    {
+      "id": "gestao-comprovacao",
+      "title": "Gestão - Alteração e comprovação",
+      "desc": "Gestão — alteração e comprovação - Checking, Irradiação e Reembolso",
+      "items": [
+        {
+          "id": 801,
+          "q": "Como funciona o acompanhamento e a comprovação de veiculação das campanhas?",
+          "a": "Na tela 'Meus Anúncios', você acompanha o status, as métricas e a entrega da campanha. Os comprovantes variam conforme o meio:<br><br>• <strong>TV, OOH, digital e portais Globo:</strong> o relatório eletrônico de veiculação fica disponível na aba 'Meus Anúncios'.<br>• <strong>Rádio:</strong> o comprovante de irradiação não fica em 'Meus Anúncios'. Para CNPJ, é enviado no fechamento do mês junto à cobrança do 15 DFM; para CPF, ao final da campanha. Durante a veiculação, uma parcial pode ser solicitada ao time comercial pelos canais oficiais.",
+          "tag": "Meus Anúncios & Comprovantes",
+          "open": false
+        },
+        {
+          "id": 803,
+          "q": "Como solicitar a troca de criativo de uma campanha ativa?",
+          "a": "Para trocar o criativo de uma campanha ativa, acesse ‘Meus Anúncios’, localize a campanha de referência e selecione a opção de alteração no ícone de três pontinhos. Esse fluxo é válido para campanhas de OOH, produtos digitais, TV e mídias digitais. A nova arte passará por validação técnica e de conteúdo, em até 2 dias úteis, antes de substituir a versão anterior.",
+          "tag": "Troca de criativo em Meus Anúncios",
+          "open": false
+        },
+        {
+          "id": 804,
+          "q": "O que acontece em caso de remanejamento de telas em OOH?",
+          "a": "Por necessidades operacionais, a empresa pode <strong>remanejar a veiculação física para outros pontos</strong>. Se o cliente não concordar com o novo ponto, o valor será <strong>reembolsado integralmente</strong> (se a campanha ainda não tiver iniciado) ou <strong>proporcionalmente</strong> ao período restante.",
+          "tag": "Remanejamento & Reembolso",
+          "open": false
+        },
+        {
+          "id": 805,
+          "q": "Como funciona a entrega parcial e solicitações de encerramento antecipado?",
+          "a": "<strong>Entrega parcial:</strong> se uma tela OOH ficar sem energia ou uma campanha de TV não atingir a cota de impactos, as inserções não entregues serão compensadas automaticamente após o período original.<br><br>• <strong>Encerramento antecipado:</strong> Se o cliente atingir o objetivo de vendas antes do fim da campanha, não haverá devolução de valores pelo período restante (o pagamento é integral pelo período contratado).",
+          "tag": "Entrega parcial & Compensação",
+          "open": false
+        }
+      ],
+      "_matchCount": 4
+    },
+    {
+      "id": "midia-digital",
+      "title": "Mídia digital",
+      "desc": "Mídia digital - Portais, Globoplay e Marcas Editoriais Globo",
+      "items": [
+        {
+          "id": 901,
+          "q": "O que é a Vitrine Digital e em quais portais e marcas os anúncios são exibidos?",
+          "a": "A vitrine digital reúne inventário dos <strong>Portais Globo — como G1, Gshow, Globo.com, Receitas e GE —</strong>, Globoplay e marcas editoriais da Globo.<br><br>• <strong>Portais Globo:</strong> G1, Gshow, Globo.com, Receitas e GE.<br>• <strong>Streaming:</strong> Globoplay.<br>• <strong>Marcas Editoriais Globo (15 títulos temáticos):</strong> Autoesporte, Casa e Jardim, Crescer, Época Negócios, Extra, Galileu, Globo Rural, Marie Claire, Monet, PEGN, QUEM, TechTudo, O Globo, Valor Investe e Valor Econômico.",
+          "tag": "Portais Globo, Globoplay e 15 Marcas",
+          "open": false
+        },
+        {
+          "id": 902,
+          "q": "Quais opções de segmentação de público podem ser aplicadas no Digital?",
+          "a": "O anunciante pode refinar a entrega da campanha selecionando:<br>• <strong>Região</strong> geográfica de alcance.<br>• <strong>Gênero</strong> do público.<br>• <strong>Faixa etária (Idade)</strong>.<br>• <strong>Interesses de navegação:</strong> Seleção de <strong>no máximo 2 Interesses simultâneos</strong> (ex: Finanças, Tecnologia, Esportes).",
+          "tag": "Segmentação por região e 2 interesses",
+          "open": false
+        },
+        {
+          "id": 903,
+          "q": "Quais são as regras de formatos, vídeos e investimentos na Mídia Digital?",
+          "a": "Marcas editoriais: investimento a partir de R$ 900,00, com outros valores de acordo com cada revista. Formatos estáticos de display: Billboard 970 × 250, Retângulo Médio 300 × 250, Maxiboard 970 × 150, Super Leaderboard 970 × 90 e Half-page 300 × 600. Atenção: não há vídeo nesta oferta editorial.<br><br>• <strong>Portais Globo e Globoplay:</strong> podem oferecer Display e Vídeo in-stream (15 segundos ou de 16 a 180 segundos), conforme o produto selecionado.<br>• <strong>Valor Econômico:</strong> título de portfólio premium da Editora Globo com precificação diferenciada.",
+          "tag": "Marcas Editoriais & Portais Globo",
+          "open": false
+        }
+      ],
+      "_matchCount": 3
+    },
+    {
+      "id": "painel-sindico",
+      "title": "Painel do síndico",
+      "desc": "Painel do síndico / condomínio - Instalação e Gestão",
+      "items": [
+        {
+          "id": 1001,
+          "q": "A instalação de telas digitais em condomínios tem algum custo para o edifício?",
+          "a": "<strong>A instalação é 100% gratuita.</strong> A instalação de telas digitais (em elevadores residenciais ou comerciais) <strong>não tem qualquer custo para o edifício</strong>.",
+          "tag": "Instalação gratuita",
+          "open": false
+        },
+        {
+          "id": 1002,
+          "q": "Como o síndico gerencia avisos e comunicados aos moradores na tela?",
+          "a": "Portal: acesse a <a href='https://eletromidia.com.br/areasindico' target='_blank' class='text-[#FF4F00] font-bold underline'>Área do Síndico da Eletromidia</a> para gerenciar avisos, editais de reuniões e comunicados aos moradores na tela.",
+          "tag": "Área do Síndico",
+          "open": false
+        },
+        {
+          "id": 1003,
+          "q": "Como solicitar a troca de e-mail de acesso ou troca de gestor do condomínio?",
+          "a": "A troca formal de e-mail de acesso ou troca de gestor do condomínio deve ser solicitada formalmente via <strong>canal oficial de atendimento</strong> (<a href='mailto:contato@aqui.globo' class='text-[#FF4F00] font-bold underline'>contato@aqui.globo</a> ou WhatsApp).",
+          "tag": "Acesso e gestão condominial",
+          "open": false
+        }
+      ],
+      "_matchCount": 3
+    },
+    {
+      "id": "proibicoes-restricoes",
+      "title": "Proibições e restrições",
+      "desc": "Proibições e restrições - Diretrizes Legais, CONAR e Shoppings",
+      "items": [
+        {
+          "id": 1101,
+          "q": "Quais conteúdos são expressamente proibidos de anunciar na plataforma?",
+          "a": "São vetados conteúdos políticos, religiosos, pornográficos ou de ódio; comércio de animais; produtos nocivos à saúde, como tabaco, cigarros eletrônicos e vapes; conteúdos que violem o Estatuto da Criança e do Adolescente; e conteúdos que promovam ou endossem violência, armas e itens semelhantes.",
+          "tag": "Conteúdos proibidos gerais",
+          "open": false
+        },
+        {
+          "id": 1102,
+          "q": "Quais são as proibições específicas para anúncios em produtos e canais Globo?",
+          "a": "• <strong>Provedores concorrentes:</strong> não permitir campanhas de provedores de conteúdo ou acesso concorrentes da Globo.com. Também proibir chamadas que incentivem urgência ou saída dos canais Globo, como 'Assista agora', e a divulgação de datas de estreia de players concorrentes.<br>• <strong>Fumígeros:</strong> proibir publicidade de cigarros e demais produtos fumígeros.<br>• <strong>Medicamentos sob prescrição:</strong> proibir medicamentos de tarja vermelha ou preta.<br>• <strong>Sorteios sem autorização:</strong> proibir distribuições gratuitas de prêmios por sorteio ou vale-brinde sem autorização oficial dos órgãos competentes.<br>• <strong>Cassinos:</strong> proibir comerciais de cassinos.<br>• <strong>Apostas e bets:</strong> incluir integralmente em conteúdos proibidos.<br>• <strong>Público infantil:</strong> crianças e adolescentes não podem participar de anúncios de bebidas alcoólicas nem induzir ou incentivar compras e vendas.<br>• <strong>Propriedades da Rede Globo:</strong> proibir o uso não autorizado de marcas, programas, personagens, jornalistas, apresentadores, repórteres e comentaristas.<br>• <strong>Tags e fornecedores:</strong> proibir tags publicitárias de empresas não homologadas e a troca de peças diretamente nas tags sem aviso prévio.<br>• <strong>Vinhetas de patrocínio:</strong> proibir multiplicidade de marcas, vazamento de uma segunda marca e uso de vinheta de um evento em outro evento.",
+          "tag": "Proibições em Canais Globo",
+          "open": false
+        },
+        {
+          "id": 1103,
+          "q": "Quais são os requisitos de conformidade publicitária (transparência, bebidas, varejo, entretenimento e vinhetas)?",
+          "a": "<strong>Identificação e transparência:</strong><br>• Peças semelhantes a conteúdo editorial ou notícia devem conter 'Informe Publicitário'.<br>• Banners com fundo da mesma cor da página devem ter borda preta ou cinza de 1 px.<br>• Peças digitais devem iniciar com o áudio desativado e oferecer um botão para ativação.<br><br><strong>Bebidas alcoólicas:</strong><br>• Cervejas e vinhos não podem ser veiculados em conteúdos com predominância de público infantil ou jovem nem em programas jornalísticos matutinos.<br>• Destilados, vodca e uísque só podem ser exibidos entre 21h30 e 05h59.<br>• É obrigatória a mensagem 'Beba com moderação' em áudio e vídeo.<br><br><strong>Promoções de varejo e automóveis:</strong><br>• Vendas a prazo devem informar preço à vista, número e valor das parcelas, valor total a prazo, taxa de juros e encargos.<br>• Ofertas temporárias devem informar a data limite de validade.<br>• Fabricantes e importadores de automóveis devem exibir o Selo do IBAMA e a mensagem educativa de trânsito.<br><br><strong>Entretenimento:</strong><br>• Anúncios de espetáculos, eventos culturais, peças e filmes devem exibir a classificação indicativa.<br>• Filmes em cartaz podem informar a estreia desde que indiquem 'Exclusivamente nos cinemas'.<br><br><strong>Anúncios múltiplos e teasers:</strong><br>• Anúncios com mais de um produto, marca ou parceria podem ter regras e preços diferenciados.<br>• Teasers dependem da aprovação prévia do plano da campanha de revelação.<br><br><strong>Vinhetas:</strong><br>• A locução deve começar identificando o anunciante ou a marca.<br>• Limites: 3 segundos = até 4 palavras; 5 segundos = até 10 palavras; 7 segundos = até 12 palavras; 10 segundos = até 20 palavras.",
+          "tag": "Requisitos de conformidade & CONAR",
+          "open": false
+        },
+        {
+          "id": 1104,
+          "q": "Quais são as regras para anúncios em shoppings e assuntos de condomínio?",
+          "a": "• <strong>Concorrência em Shoppings:</strong> Não são aceitos anúncios em shoppings que gerem conflito direto de interesse ou concorrência desleal com os lojistas do próprio estabelecimento.<br>• <strong>Administração Condominial:</strong> É expressamente proibido veicular anúncios com assuntos de administração de condomínios ou disputas de síndicos.",
+          "tag": "Shoppings e condomínios",
+          "open": false
+        },
+        {
+          "id": 1105,
+          "q": "A plataforma realiza sorteios de celulares ou prêmios físicos?",
+          "a": "A plataforma <strong>não realiza sorteios de eletrônicos ou prêmios físicos (ex: iPhones)</strong> sem autorização oficial. Abordagens suspeitas devem ser tratadas como golpe.",
+          "tag": "Alerta contra golpes",
+          "open": false
+        }
+      ],
+      "_matchCount": 5
+    },
+    {
+      "id": "radio-globo",
+      "title": "Rádio",
+      "desc": "Rádio (CBN, BH FM e Rádio Globo) - Emissoras, Contratação e Pagamento",
+      "items": [
+        {
+          "id": 1201,
+          "q": "Quais emissoras de rádio estão disponíveis e qual o perfil de audiência de cada uma?",
+          "a": "A plataforma comercializa espaços publicitários em três emissoras de grande destaque:<br>• <strong>CBN:</strong> Notícias e conteúdo contínuo (<em>all news</em>) para formadores de opinião, empresários, executivos e profissionais liberais.<br>• <strong>BH FM:</strong> Música, entretenimento e promoções voltadas para o público jovem e adulto contemporâneo.<br>• <strong>Rádio Globo:</strong> Conteúdo popular e urbano, mesclando notícias leves, esportes e sucessos da música.<br><em>Nota: A disponibilidade das emissoras varia conforme a praça (cidade) selecionada.</em>",
+          "tag": "CBN, BH FM e Rádio Globo",
+          "open": false
+        },
+        {
+          "id": 1202,
+          "q": "Como contratar rádio na plataforma? É possível combinar cidades e emissoras no mesmo pedido?",
+          "a": "<strong>Sim.</strong> O anunciante escolhe praça, emissora e formato diretamente na plataforma, sendo possível combinar diferentes rádios e cidades no mesmo carrinho de compras. Após montar o plano de mídia, a equipe comercial entra em contato em <strong>até 12 horas úteis</strong> para concluir os detalhes da contratação.",
+          "tag": "Contratação & Carrinho Multicidades",
+          "open": false
+        },
+        {
+          "id": 1203,
+          "q": "Quais são os formatos, durações e diferenças entre campanhas de Rádio Rotativo e Determinado?",
+          "a": "O formato disponível é exclusivamente o <strong>Spot de 30 segundos</strong>, com locução e elementos sonoros. <em>(Atenção: jingles musicais não fazem parte deste fluxo).</em> As modalidades são:<br>• <strong>Rotativo:</strong> Duração de <strong>7 dias</strong> (de segunda a domingo), com <strong>21 inserções no total (3 por dia)</strong>, distribuídas aleatoriamente na grade da emissora.<br>• <strong>Determinado (Exclusivo da CBN):</strong> Duração de <strong>5 dias</strong> (de segunda a sexta-feira), com <strong>15 inserções no total (3 por dia)</strong> veiculadas em programas específicos da grade.",
+          "tag": "Spot de 30s: Rotativo e Determinado",
+          "open": false
+        },
+        {
+          "id": 1204,
+          "q": "Como escolher o horário ou programa específico da veiculação no Rádio?",
+          "a": "A faixa horária ou o programa desejado pode ser selecionado na plataforma durante a montagem do plano ou alinhado diretamente com o executivo comercial durante o atendimento. O formato Determinado é exclusivo de programas específicos da grade da CBN.",
+          "tag": "Formato Determinado (CBN)",
+          "open": false
+        },
+        {
+          "id": 1205,
+          "q": "Como funciona o pagamento de Rádio e por que não aceita cartão, Pix ou boleto comum?",
+          "a": "O faturamento e a validação técnica dos anúncios de rádio são feitos <strong>diretamente pela emissora parceira</strong>, seguindo suas próprias regras comerciais:<br>• <strong>Pessoa Física (CPF):</strong> Pagamento antecipado por depósito direto à emissora; a veiculação é liberada após a confirmação bancária.<br>• <strong>Pessoa Jurídica (CNPJ):</strong> Faturamento no modelo <strong>15 DFM (15 Dias Fora Mês)</strong>. As inserções veiculadas no mês vencem no dia 15 do mês seguinte (ex: veiculações em setembro têm vencimento em 15 de outubro).<br>• <em>Por que não aceita cartão/Pix/boleto?</em> O faturamento e a validação dos anúncios de rádio são executados diretamente pela emissora parceira.",
+          "tag": "Pagamento direto & 15 DFM",
+          "open": false
+        },
+        {
+          "id": 1206,
+          "q": "Onde recebo o comprovante de veiculação (irradiação) de Rádio?",
+          "a": "O comprovante formal de irradiação <strong>não fica disponível na aba \"Meus Anúncios\"</strong> da plataforma:<br>• <strong>Pessoa Jurídica (CNPJ):</strong> É enviado no fechamento do mês, junto com a fatura/cobrança do 15 DFM.<br>• <strong>Pessoa Física (CPF):</strong> É enviado ao final da campanha veiculada.<br>• <em>Comprovante parcial:</em> Durante a veiculação, uma parcial de irradiação pode ser solicitada ao time comercial através dos canais oficiais de atendimento.",
+          "tag": "Comprovante de irradiação",
+          "open": false
+        },
+        {
+          "id": 1207,
+          "q": "Posso enviar meu próprio spot gravado de Rádio ou alterar o texto após envio para produção?",
+          "a": "<strong>Sim, para envio de áudio próprio; e Não, para alterações de texto após envio para gravação:</strong><br>• <strong>Spot Próprio:</strong> O anunciante pode subir seu áudio finalizado em formato <strong>MP3, 320 kbps e com duração exata de 30 segundos</strong>.<br>• <strong>Gravação pela Emissora:</strong> Caso opte pela gravação da locução a partir de um texto-base, <strong>o texto não poderá ser editado nem substituído depois que for enviado para a produção</strong> — inclusive antes ou durante a veiculação.",
+          "tag": "Spot próprio vs Gravação de texto",
+          "open": false
+        }
+      ],
+      "_matchCount": 7
+    },
+    {
+      "id": "tv-globo",
+      "title": "TV aberta",
+      "desc": "TV aberta - Compra, Distribuição e Criação",
+      "items": [
+        {
+          "id": 1301,
+          "q": "Como funciona o modelo de compra para TV Aberta?",
+          "a": "<strong>Modelo de Compra Consultivo (Lead Gen):</strong> A compra de TV Aberta não é 100% autosserviço. O anunciante consulta a vitrine de programas de referência (ex: <em>Jornal Nacional</em>, <em>Fantástico</em>, novelas) na plataforma, preenche o formulário informando praça, CNPJ e contato, e aguarda o contato de um <strong>especialista (CS) para montar o plano de mídia personalizado</strong>.",
+          "tag": "TV Aberta: Modelo Lead Gen",
+          "open": false
+        },
+        {
+          "id": 1302,
+          "q": "O anunciante pode escolher o programa exato da veiculação na TV?",
+          "a": "<strong>Distribuição Garantida por Impactos:</strong> O anunciante não escolhe o programa exato nem o minuto do break comercial. A distribuição dos comerciais ocorre automaticamente com base na faixa horária e na meta de volume de impactos contratada para a região selecionada.",
+          "tag": "Distribuição automática por impactos",
+          "open": false
+        },
+        {
+          "id": 1303,
+          "q": "Como funciona a criação do anúncio para TV Aberta? Posso usar IA?",
+          "a": "<strong>Não há modelos de Inteligência Artificial para TV Aberta</strong> na plataforma. O anunciante deve enviar o comercial em vídeo profissionalmente finalizado (com duração de <strong>15 ou 30 segundos</strong>, em formato MP4 Full HD ou MXF com Closed Caption na norma CEA-708-CDP) ou contratar o serviço de <strong>produção de criativo com parceiro homologado</strong>.",
+          "tag": "Produção de vídeo para TV",
+          "open": false
+        },
+        {
+          "id": 1304,
+          "q": "É possível alterar o texto ou roteiro do comercial de TV após a contratação?",
+          "a": "<strong>Sim, com regra de versão única:</strong> Alterações no texto ou no roteiro são permitidas durante o processo, mas <strong>somente uma versão pode estar em edição ou produção por vez</strong>. Uma nova versão deve obrigatoriamente substituir a versão anterior antes de seguir no fluxo operacional.",
+          "tag": "Revisão e versão única de roteiro",
+          "open": false
+        }
+      ],
+      "_matchCount": 4
+    },
+    {
+      "id": "veiculacao-prazos",
+      "title": "Veiculação — aprovação e prazos",
+      "desc": "Veiculação, aprovação e prazos (OOH) - Moderação e Início",
+      "items": [
+        {
+          "id": 1401,
+          "q": "Quais são os prazos de aprovação dos criativos?",
+          "a": "Todos os criativos passam por validação técnica e de conteúdo antes da veiculação.<br><br>• <strong>OOH, rádio, TV e mídia digital:</strong> aprovação em até <strong>72 horas úteis</strong>. A análise verifica formato, dimensões ou duração, qualidade do arquivo e adequação às regras de conteúdo. Se houver reprovação, o cliente deverá ajustar e reenviar o material. O prazo de análise recomeça após o novo envio.",
+          "tag": "Aprovação em até 72 horas úteis",
+          "open": false
+        },
+        {
+          "id": 1402,
+          "q": "Quais são os prazos para início da campanha no ar (SLA)?",
+          "a": "Os prazos de início variam conforme o tipo de ativo:<br><br>• <strong>Ativos estáticos e digitais de rua:</strong> início sempre às <strong>terças-feiras</strong>, como painéis de rua, bancas e relógios digitais.<br>• <strong>Ativos digitais de transporte, elevadores, estabelecimentos comerciais e shoppings:</strong> podem iniciar em qualquer dia da semana.<br>• <strong>Mídia digital:</strong> a data de início deve ser configurada para <strong>D+48h</strong>, ou seja, dois dias após a compra.<br>• <strong>TV aberta:</strong> após a aprovação técnica e legal, o anúncio leva <strong>48 horas úteis</strong> para começar a ser exibido. Vinhetas customizadas exigem <strong>2 dias úteis de antecedência</strong>.<br><br>Todos os planos de mídia passam por etapas de aprovação do Aqui Ads e, quando necessário, também de parceiros.<br><br>Para mais detalhes, consulte os <a href='https://storage.googleapis.com/elt-smb-prod/assets/docs/2026/01/termos-e-condicoes-aquiads-janeiro-26.pdf#navpanes=0' target='_blank' class='text-[#FF4F00] font-bold underline'>Termos e Condições de Uso</a>.<br><br><em>O Aqui Ads se reserva o direito de encerrar, modificar ou ajustar benefícios e condições a qualquer momento, sem aviso prévio.</em>",
+          "tag": "SLA de início por ativo",
+          "open": false
+        },
+        {
+          "id": 1403,
+          "q": "Qual é a exigência legal da ANCINE/CONDECINE (CRT) para comerciais de TV Aberta?",
+          "a": "<strong>Exigência Legal (TV):</strong> Os comerciais de TV não vão ao ar sem a aprovação e a guia recolhida da <strong>ANCINE/CONDECINE (CRT)</strong>. O time de CS (Customer Success) do Aqui Ads auxilia o cliente nesta validação.",
+          "tag": "Exigência legal ANCINE / CRT",
+          "open": false
+        },
+        {
+          "id": 1404,
+          "q": "Qual é o ciclo de exibição e os horários de veiculação nas telas de OOH?",
+          "a": "• <strong>Ciclo de Exibição (OOH):</strong> Cada inserção possui <strong>10 segundos</strong> e repete-se a cada <strong>3 minutos, em média</strong>.<br>• <strong>Horários de Exibição:</strong> Telas residenciais rodam <strong>24/7</strong> (24 horas por dia, 7 dias por semana); comerciais operam das <strong>05h59 às 23h59</strong>.",
+          "tag": "Ciclo OOH: 10s e 24/7",
+          "open": false
+        }
+      ],
+      "_matchCount": 4
+    }
+  ],
+  "relationalSearchBank": [
+    {
+      "categoryId": "elegibilidade-globo",
+      "categoryName": "Elegibilidade e regras gerais",
+      "scope": "Elegibilidade e regras gerais - Perfil de Clientes",
+      "shortTopic": "Elegibilidade & Clientes",
+      "synonyms": [
+        "cliente permitido",
+        "quem pode anunciar",
+        "quais empresas podem",
+        "restricao de empresa",
+        "perfil de cliente",
+        "nicho aceito",
+        "regras de acesso"
+      ]
+    },
+    {
+      "categoryId": "tv-globo",
+      "categoryName": "TV aberta",
+      "scope": "TV aberta - Compra, Distribuição e Criação",
+      "shortTopic": "TV aberta",
+      "synonyms": [
+        "comercial na tv",
+        "propaganda na televisao",
+        "tv globo",
+        "vinheta de tv",
+        "plim plim",
+        "horario nobre",
+        "novela",
+        "jornal nacional",
+        "futebol na tv",
+        "sinal aberto",
+        "canal aberto",
+        "tempo de tv",
+        "tv"
+      ]
+    },
+    {
+      "categoryId": "radio-globo",
+      "categoryName": "Rádio",
+      "scope": "Rádio (CBN, BH FM e Rádio Globo) - Emissoras, Contratação e Pagamento",
+      "shortTopic": "Rádio",
+      "synonyms": [
+        "radio",
+        "musica",
+        "audio",
+        "som",
+        "estereo",
+        "fm",
+        "am",
+        "radio globo",
+        "bh fm",
+        "cbn",
+        "estereo vale",
+        "locucao",
+        "voz",
+        "locutor",
+        "spot",
+        "vinheta falada",
+        "radio do vale",
+        "ondas de radio"
+      ]
+    },
+    {
+      "categoryId": "midia-digital",
+      "categoryName": "Mídia digital",
+      "scope": "Mídia digital - Portais, Globoplay e Marcas Editoriais Globo",
+      "shortTopic": "Mídia digital",
+      "synonyms": [
+        "banner",
+        "g1",
+        "ge",
+        "gshow",
+        "globoplay",
+        "streaming",
+        "internet",
+        "site da globo",
+        "anuncio online",
+        "impresso digital",
+        "video web",
+        "comercial no globoplay",
+        "anuncio no g1"
+      ]
+    },
+    {
+      "categoryId": "geral-plataforma",
+      "categoryName": "Geral e sobre a plataforma",
+      "scope": "Geral e sobre a plataforma - Ecossistema Aqui Ads e Eletromidia",
+      "shortTopic": "Aqui Ads & Eletromidia",
+      "synonyms": [
+        "aqui ads",
+        "eletromidia",
+        "o que e",
+        "como funciona",
+        "para que serve",
+        "ecossistema",
+        "sobre a empresa",
+        "parceiros",
+        "visao geral"
+      ]
+    },
+    {
+      "categoryId": "cadastro-acesso",
+      "categoryName": "Cadastro e acesso",
+      "scope": "Cadastro e acesso - Requisitos e Gestão da Conta",
+      "shortTopic": "Cadastro & Login",
+      "synonyms": [
+        "login",
+        "senha",
+        "conta",
+        "esqueci a senha",
+        "cadastrar",
+        "criar conta",
+        "cnpj",
+        "cpf",
+        "alterar dados",
+        "trocar e-mail",
+        "trocar email",
+        "perfil de usuario",
+        "autenticacao",
+        "entrar na plataforma"
+      ]
+    },
+    {
+      "categoryId": "contratacao-precos",
+      "categoryName": "Contratação — preços e pagamento",
+      "scope": "Contratação, preços e pagamento - Regras Financeiras e Cupons",
+      "shortTopic": "Preços & Pagamentos",
+      "synonyms": [
+        "dinheiro",
+        "pagar",
+        "reais",
+        "preco",
+        "quanto custa",
+        "valor",
+        "custo",
+        "tabela de preco",
+        "cartao de credito",
+        "boleto",
+        "pix",
+        "desconto",
+        "cupom",
+        "faturamento",
+        "prazo de pagamento",
+        "cobranca",
+        "saldo",
+        "nota fiscal",
+        "notas fiscais",
+        "nf",
+        "nfe",
+        "danfe",
+        "imposto",
+        "recibo",
+        "comprovante fiscal",
+        "exigencia fiscal"
+      ]
+    },
+    {
+      "categoryId": "criacao-midia",
+      "categoryName": "Criação de mídia e uso de IA",
+      "scope": "Criação de mídia - Upload, IA e Produção com Parceiro",
+      "shortTopic": "Criação de mídia & IA",
+      "synonyms": [
+        "fazer video",
+        "criar arte",
+        "inteligencia artificial",
+        "ia",
+        "gerador de imagem",
+        "produtoras",
+        "layout",
+        "modelo",
+        "montar comercial",
+        "ajuda na arte",
+        "edicao de video",
+        "criar banner"
+      ]
+    },
+    {
+      "categoryId": "veiculacao-prazos",
+      "categoryName": "Veiculação — aprovação e prazos",
+      "scope": "Veiculação, aprovação e prazos (OOH) - Moderação e Início",
+      "shortTopic": "Prazos & Aprovação",
+      "synonyms": [
+        "ooh",
+        "fora de casa",
+        "telas de elevador",
+        "painel de rua",
+        "relogio de rua",
+        "quando comeca",
+        "vai ao ar quando",
+        "prazo de aprovacao",
+        "tempo de moderacao",
+        "inicio da campanha",
+        "liberar anuncio"
+      ]
+    },
+    {
+      "categoryId": "proibicoes-restricoes",
+      "categoryName": "Proibições e restrições",
+      "scope": "Proibições e restrições - Diretrizes Legais, CONAR e Shoppings",
+      "shortTopic": "Proibições & CONAR",
+      "synonyms": [
+        "proibido",
+        "nao pode",
+        "conar",
+        "censura",
+        "bebida alcoolica",
+        "remedio",
+        "medicamento",
+        "cassino",
+        "bet",
+        "jogo de azar",
+        "lei",
+        "direitos autorais",
+        "infracao",
+        "veto",
+        "o que e proibido",
+        "normas eticas"
+      ]
+    },
+    {
+      "categoryId": "painel-sindico",
+      "categoryName": "Painel do síndico",
+      "scope": "Painel do síndico / condomínio - Instalação e Gestão",
+      "shortTopic": "Painel do síndico",
+      "synonyms": [
+        "predio",
+        "condominio",
+        "morador",
+        "sindico",
+        "instalacao de tela",
+        "elevador do predio",
+        "comissao",
+        "gestao do painel",
+        "tela no predio"
+      ]
+    },
+    {
+      "categoryId": "canais-atendimento",
+      "categoryName": "Canais de atendimento oficial",
+      "scope": "Canais de atendimento oficial - Suporte OOH, Globo e Rádio",
+      "shortTopic": "Atendimento & Suporte",
+      "synonyms": [
+        "falar com humano",
+        "suporte",
+        "ajuda",
+        "contato",
+        "e-mail",
+        "email",
+        "telefone",
+        "whatsapp",
+        "atendimento",
+        "reclamacao",
+        "tirar duvidas",
+        "falar com atendente",
+        "sac"
+      ]
+    },
+    {
+      "categoryId": "especificacoes-tecnicas",
+      "categoryName": "Especificações técnicas",
+      "scope": "Especificações técnicas - Padrões de Áudio, Vídeo e Display",
+      "shortTopic": "Especificações técnicas",
+      "synonyms": [
+        "formato",
+        "tamanho",
+        "resolucao",
+        "mp4",
+        "mp3",
+        "hd",
+        "pixels",
+        "duracao em segundos",
+        "taxa de quadros",
+        "proporcao 16:9",
+        "proporcao 9:16",
+        "16:9",
+        "9:16",
+        "peso do arquivo",
+        "kb",
+        "mb",
+        "dimensoes da arte"
+      ]
+    },
+    {
+      "categoryId": "gestao-comprovacao",
+      "categoryName": "Gestão - Alteração e comprovação",
+      "scope": "Gestão — alteração e comprovação - Checking, Irradiação e Reembolso",
+      "shortTopic": "Gestão & Comprovantes",
+      "synonyms": [
+        "comprovante",
+        "saber se passou",
+        "relatorio de veiculacao",
+        "irradiacao",
+        "checking",
+        "mudar anuncio",
+        "trocar video",
+        "pausar campanha",
+        "reembolso",
+        "cancelar pedido",
+        "editar campanha"
+      ]
+    }
+  ],
+  "correlationRules": [
+    {
+      "topicName": "Rádio (CBN, BH FM e Rádio Globo)",
+      "shortTopic": "Rádio",
+      "targetType": "category",
+      "targetId": "radio-globo",
+      "suggestedQuery": "rádio",
+      "keywords": [
+        "estereo vale",
+        "estéreo vale",
+        "stereo vale",
+        "estereovale",
+        "radio",
+        "rádio",
+        "radios",
+        "rádios",
+        "fm",
+        "am",
+        "dial",
+        "spot",
+        "spots",
+        "jingle",
+        "jingles",
+        "locucao",
+        "locução",
+        "locutor",
+        "radinho",
+        "sintonizar",
+        "frequencia",
+        "frequência",
+        "antena 1",
+        "jovem pan",
+        "band fm",
+        "transamerica",
+        "transamérica",
+        "bh fm",
+        "bhfm",
+        "cbn",
+        "radio globo",
+        "rádio globo",
+        "nativa",
+        "alpha fm",
+        "mix fm"
+      ]
+    },
+    {
+      "topicName": "TV aberta (TV Globo / CPM fixo)",
+      "shortTopic": "TV aberta",
+      "targetType": "category",
+      "targetId": "tv-globo",
+      "suggestedQuery": "tv aberta",
+      "keywords": [
+        "globo",
+        "tv",
+        "televisao",
+        "televisão",
+        "novela",
+        "novelas",
+        "jornal nacional",
+        "fantastico",
+        "fantástico",
+        "plim plim",
+        "comercial",
+        "comerciais",
+        "break",
+        "canal",
+        "emissora",
+        "audiencia",
+        "audiência",
+        "cpm",
+        "impacto",
+        "valeparaibano",
+        "vanguarda",
+        "eptv",
+        "rbs",
+        "record",
+        "sbt",
+        "band"
+      ]
+    },
+    {
+      "topicName": "Veiculação, aprovação e prazos",
+      "shortTopic": "Prazos & Veiculação",
+      "targetType": "category",
+      "targetId": "veiculacao-prazos",
+      "suggestedQuery": "prazos",
+      "keywords": [
+        "ooh",
+        "dooh",
+        "outdoor",
+        "outdoors",
+        "painel",
+        "paineis",
+        "painéis",
+        "led",
+        "tela",
+        "telas",
+        "elevador",
+        "elevadores",
+        "abrigo",
+        "abrigos",
+        "onibus",
+        "ônibus",
+        "ponto",
+        "relogio",
+        "relógio",
+        "relogios",
+        "relógios",
+        "metro",
+        "metrô",
+        "aeroporto",
+        "aeroportos",
+        "totem",
+        "totens",
+        "display",
+        "estacao",
+        "estação",
+        "rua",
+        "ruas",
+        "mobiliario",
+        "mobiliário",
+        "prazo",
+        "prazos",
+        "aprovacao",
+        "aprovação",
+        "moderacao",
+        "moderação",
+        "sla",
+        "ancine",
+        "condecine",
+        "crt"
+      ]
+    },
+    {
+      "topicName": "Criação de anúncios e IA generativa",
+      "shortTopic": "Criação & IA",
+      "targetType": "category",
+      "targetId": "criacao-midia",
+      "suggestedQuery": "inteligência artificial",
+      "keywords": [
+        "ia",
+        "ai",
+        "inteligencia artificial",
+        "inteligência artificial",
+        "gemini",
+        "veo",
+        "veo 3",
+        "chatgpt",
+        "canva",
+        "photoshop",
+        "video",
+        "vídeo",
+        "videos",
+        "vídeos",
+        "design",
+        "arte",
+        "artes",
+        "resolucao",
+        "resolução",
+        "pixel",
+        "dimensao",
+        "dimensão",
+        "mp4",
+        "jpg",
+        "png",
+        "formato",
+        "formatos",
+        "segundos",
+        "peca",
+        "peça",
+        "pecas",
+        "peças",
+        "criativo"
+      ]
+    },
+    {
+      "topicName": "Mídia digital e portais (Editora Globo)",
+      "shortTopic": "Mídia digital",
+      "targetType": "category",
+      "targetId": "midia-digital",
+      "suggestedQuery": "digital",
+      "keywords": [
+        "g1",
+        "ge",
+        "globoesporte",
+        "gshow",
+        "oglobo",
+        "o globo",
+        "valor",
+        "valor economico",
+        "valor econômico",
+        "valor investe",
+        "autoesporte",
+        "casa e jardim",
+        "crescer",
+        "epoca negocios",
+        "época negócios",
+        "extra",
+        "galileu",
+        "globo rural",
+        "marie claire",
+        "monet",
+        "pegn",
+        "quem",
+        "techtudo",
+        "portal",
+        "portais",
+        "site",
+        "sites",
+        "banner",
+        "banners",
+        "internet",
+        "web",
+        "digital",
+        "cliques",
+        "ctr",
+        "cpc",
+        "noticia",
+        "notícia",
+        "jornal"
+      ]
+    },
+    {
+      "topicName": "Preços, formas de pagamento e Pix",
+      "shortTopic": "Pagamento",
+      "targetType": "category",
+      "targetId": "contratacao-precos",
+      "suggestedQuery": "pagamento",
+      "keywords": [
+        "pix",
+        "cartao",
+        "cartão",
+        "boleto",
+        "boletos",
+        "stone",
+        "pagarme",
+        "itau checkout",
+        "cupom",
+        "cupons",
+        "preco",
+        "preço",
+        "precos",
+        "preços",
+        "custo",
+        "custos",
+        "valor",
+        "valores",
+        "desconto",
+        "descontos",
+        "orcamento",
+        "orçamento",
+        "investimento",
+        "pagar",
+        "parcela",
+        "parcelar",
+        "parcelamento",
+        "estorno",
+        "reembolso"
+      ]
+    },
+    {
+      "topicName": "Notas fiscais e faturamento",
+      "shortTopic": "Notas fiscais",
+      "targetType": "category",
+      "targetId": "contratacao-precos",
+      "suggestedQuery": "nota fiscal",
+      "keywords": [
+        "nota fiscal",
+        "notas fiscais",
+        "nf",
+        "nfe",
+        "danfe",
+        "faturamento",
+        "fatura",
+        "imposto",
+        "tributo",
+        "tributario",
+        "recibo",
+        "comprovante fiscal",
+        "exigencia fiscal",
+        "cnpj faturamento"
+      ]
+    },
+    {
+      "topicName": "Elegibilidade e bloqueios de CNPJ",
+      "shortTopic": "Elegibilidade",
+      "targetType": "category",
+      "targetId": "elegibilidade-globo",
+      "suggestedQuery": "elegibilidade",
+      "keywords": [
+        "cnpj",
+        "bloqueio",
+        "bloqueado",
+        "situacao cadastral",
+        "baixado",
+        "invalido",
+        "receita federal",
+        "trocar perfil",
+        "troca de perfil",
+        "cpm",
+        "audiencia",
+        "impressoes",
+        "impactos"
+      ]
+    },
+    {
+      "topicName": "Painel do síndico e condomínios",
+      "shortTopic": "Síndicos",
+      "targetType": "category",
+      "targetId": "painel-sindico",
+      "suggestedQuery": "síndico",
+      "keywords": [
+        "sindico",
+        "síndico",
+        "sindica",
+        "síndica",
+        "condominio",
+        "condomínio",
+        "condominios",
+        "administradora",
+        "morador",
+        "moradores",
+        "predio",
+        "prédio",
+        "predios",
+        "prédios",
+        "edificio",
+        "edifício",
+        "portaria",
+        "assembleia",
+        "comunicado",
+        "zelador",
+        "areasindico"
+      ]
+    },
+    {
+      "topicName": "Cadastro, login e acesso à conta",
+      "shortTopic": "Cadastro",
+      "targetType": "category",
+      "targetId": "cadastro-acesso",
+      "suggestedQuery": "cadastro",
+      "keywords": [
+        "login",
+        "senha",
+        "senhas",
+        "esqueci",
+        "recuperar",
+        "entrar",
+        "email",
+        "e-mail",
+        "cnpj",
+        "cpf",
+        "pme",
+        "cadastrar",
+        "cadastro",
+        "conta",
+        "perfil",
+        "recuperacao",
+        "recuperação",
+        "meu perfil",
+        "exclusao"
+      ]
+    },
+    {
+      "topicName": "Trabalhar na Eletromidia / Carreiras",
+      "shortTopic": "Carreiras",
+      "targetType": "category",
+      "targetId": "geral-plataforma",
+      "suggestedQuery": "trabalhar",
+      "keywords": [
+        "gupy",
+        "vaga",
+        "vagas",
+        "trabalhar",
+        "curriculo",
+        "currículo",
+        "emprego",
+        "empregos",
+        "rh",
+        "estagio",
+        "estágio",
+        "carreira",
+        "carreiras",
+        "oportunidade"
+      ]
+    },
+    {
+      "topicName": "Regras do CONAR e restrições de anúncios",
+      "shortTopic": "Restrições",
+      "targetType": "category",
+      "targetId": "proibicoes-restricoes",
+      "suggestedQuery": "conar",
+      "keywords": [
+        "conar",
+        "proibido",
+        "proibidos",
+        "restricao",
+        "restrição",
+        "restricoes",
+        "restrições",
+        "vetado",
+        "cigarro",
+        "fumigeros",
+        "bebida",
+        "alcool",
+        "álcool",
+        "politica",
+        "política",
+        "partido",
+        "eleicao",
+        "eleição",
+        "candidato",
+        "arma",
+        "armas",
+        "violencia",
+        "eca",
+        "infantil",
+        "bet",
+        "bets",
+        "aposta",
+        "apostas",
+        "jogo",
+        "cassino",
+        "medicamento",
+        "tarja preta",
+        "remedio",
+        "remédio",
+        "informe publicitario",
+        "vinheta"
+      ]
+    },
+    {
+      "topicName": "Especificações técnicas (áudio, vídeo e display)",
+      "shortTopic": "Especificações",
+      "targetType": "category",
+      "targetId": "especificacoes-tecnicas",
+      "suggestedQuery": "especificações",
+      "keywords": [
+        "especificacao",
+        "especificação",
+        "especificacoes",
+        "especificações",
+        "formato",
+        "formatos",
+        "closed caption",
+        "mxf",
+        "h.264",
+        "mp4",
+        "mp3",
+        "320 kbps",
+        "kbps",
+        "billboard",
+        "maxiboard",
+        "half-page",
+        "super leaderboard",
+        "in-stream",
+        "resolucao",
+        "resolução",
+        "dimensoes",
+        "dimensões"
+      ]
+    },
+    {
+      "topicName": "Canais de atendimento e suporte oficial",
+      "shortTopic": "Atendimento",
+      "targetType": "category",
+      "targetId": "canais-atendimento",
+      "suggestedQuery": "atendimento",
+      "keywords": [
+        "atendimento",
+        "suporte",
+        "sac",
+        "telefone",
+        "whatsapp",
+        "whats",
+        "ajuda",
+        "falar com",
+        "email",
+        "e-mail",
+        "contato",
+        "horario",
+        "horário",
+        "cs",
+        "customer success"
+      ]
+    },
+    {
+      "topicName": "E-book estratégico: Dia das Crianças Aqui Ads",
+      "shortTopic": "E-book",
+      "targetType": "material",
+      "targetId": "ebook",
+      "suggestedQuery": "ebook",
+      "keywords": [
+        "ebook",
+        "e-book",
+        "ebooks",
+        "e-books",
+        "dia das criancas",
+        "dia das crianças",
+        "vendas",
+        "estrategico",
+        "estratégico",
+        "final de ano",
+        "compra"
+      ]
+    },
+    {
+      "topicName": "Mídia kit comercial Aqui Ads",
+      "shortTopic": "Mídia kit",
+      "targetType": "material",
+      "targetId": "midia-kit",
+      "suggestedQuery": "mídia kit",
+      "keywords": [
+        "midia kit",
+        "mídia kit",
+        "midiakits",
+        "pdf",
+        "download",
+        "baixar",
+        "apresentacao",
+        "apresentação",
+        "tabela",
+        "guia",
+        "manual",
+        "inventario",
+        "inventário"
+      ]
+    }
+  ]
+}

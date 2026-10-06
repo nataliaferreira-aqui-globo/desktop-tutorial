@@ -1,0 +1,1476 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aqui ads | Seu universo Globo de possibilidades</title>
+  <meta name="description" content="Anuncie na TV Globo, Globoplay, g1, ge, gshow e telas OOH com o Aqui ads. Publicidade de alto impacto para pequenas e médias empresas." />
+
+  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+
+  <!-- Google Fonts: Rethink Sans & Figtree -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              orange: '#FF5500',
+              orangeHover: '#E64500',
+              yellow: '#FF9900',
+              dark: '#1E232A',
+              darker: '#12161A',
+              slate: '#282E38',
+              muted: '#64748B',
+              border: '#E2E8F0',
+              cardBg: '#262D37'
+            }
+          },
+          fontFamily: {
+            sans: ['"Rethink Sans"', 'Figtree', 'system-ui', 'sans-serif'],
+            rethink: ['"Rethink Sans"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Rethink Sans', Figtree, sans-serif;
+      color: #282E38;
+      background-color: #FFFFFF;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Faixa Laranja Degradê Oficial */
+    .bg-gradient-brand {
+      background: linear-gradient(90deg, #FF5500 0%, #FF9900 100%);
+    }
+
+    /* Transição suave do Accordion horizontal */
+    .accordion-card {
+      transition: all 450ms cubic-bezier(0.16, 1, 0.3, 1);
+      will-change: flex-grow, width;
+    }
+
+    /* Transição fluida dos cards expansíveis da Seção 2 (Referência Structura) */
+    .channel-accordion-card {
+      transition: flex 500ms cubic-bezier(0.25, 1, 0.5, 1), 
+                  background-color 400ms ease, 
+                  border-color 400ms ease, 
+                  box-shadow 400ms ease,
+                  transform 300ms ease;
+      will-change: flex;
+    }
+    @media (min-width: 1024px) {
+      .channel-card-expanded {
+        flex: 2.8 1 0% !important;
+      }
+      .channel-card-collapsed {
+        flex: 1 1 0% !important;
+      }
+    }
+
+    /* Fade gradiente apenas na região inferior para máxima legibilidade */
+    .card-bottom-fade {
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.96) 0%, rgba(0, 0, 0, 0.88) 45%, rgba(0, 0, 0, 0.45) 75%, rgba(0, 0, 0, 0) 100%);
+    }
+
+    /* Background responsivo da Hero: Branco no mobile, Imagem de fundo no desktop */
+    #hero-banner {
+      background-color: #ffffff;
+    }
+    @media (min-width: 640px) {
+      #hero-banner {
+        background-image: url('./images/hero-globo-aquiads.png');
+        background-size: cover;
+        background-position: center;
+      }
+    }
+
+    /* Scrollbar hide utility */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+</head>
+<body class="selection:bg-[#FF5500] selection:text-white bg-white">
+
+  <!-- ========================================================================= -->
+  <!-- 1. HEADER (FIEL AO WIREFRAME)                                             -->
+  <!-- ========================================================================= -->
+  <header class="sticky top-0 z-50 flex w-full flex-col justify-between border-b border-slate-200/80 bg-white/95 backdrop-blur-md transition-all shadow-xs">
+    <div class="mx-auto flex h-[72px] w-full max-w-[1330px] items-center justify-between px-4 sm:px-8">
+      
+      <!-- Logo Aqui ads & Identificador Globo -->
+      <div class="flex items-center gap-4 sm:gap-6">
+        <a href="https://aquiads.com.br/" class="flex items-center gap-2 group" title="Aqui ads - Início">
+          <img 
+            src="https://aquiads.com.br/_astro/logo-aqui-ads.f9282b14.svg" 
+            alt="Logotipo Aqui ads" 
+            class="h-7 w-auto object-contain sm:h-8"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+          />
+          <div class="hidden items-center">
+            <span class="text-2xl sm:text-[26px] font-black tracking-tight text-[#1E232A]">Aqui<span class="text-[#FF5500]">ads</span></span>
+            <div class="ml-1.5 flex h-4 w-4 items-center justify-center rounded-full border border-slate-300 text-[9px] font-bold text-slate-500">®</div>
+          </div>
+        </a>
+
+        <div class="hidden sm:block h-5 w-px bg-slate-200"></div>
+
+        <div class="hidden sm:flex items-center gap-1.5 text-xs font-semibold text-slate-500">
+          <span>uma plataforma</span>
+          <span class="font-extrabold text-[#1E232A] uppercase tracking-wider text-[11px] bg-slate-100 px-2 py-0.5 rounded">Globo</span>
+        </div>
+      </div>
+
+      <!-- Links Centrais -->
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+        <a href="#hero-banner" class="hover:text-[#FF5500] transition-colors">Início</a>
+        <a href="#solucoes" class="hover:text-[#FF5500] transition-colors">Vantagens</a>
+        <a href="#jornada" class="hover:text-[#FF5500] transition-colors">Jornada 360°</a>
+        <a href="#formatos" class="hover:text-[#FF5500] transition-colors">Formatos</a>
+        <a href="#ooh" class="hover:text-[#FF5500] transition-colors">Mídia OOH</a>
+      </nav>
+
+      <!-- Ações: Login e CTA Primário -->
+      <div class="flex items-center gap-3 sm:gap-4">
+        <a 
+          href="https://aquiads.com.br/login" 
+          class="flex items-center justify-center rounded-xl border border-slate-300 px-4 py-2 text-xs font-bold text-slate-700 hover:border-slate-800 hover:bg-slate-900 hover:text-white transition-all min-h-[38px]"
+        >
+          Entrar
+        </a>
+
+        <a 
+          href="https://aquiads.com.br/" 
+          class="inline-flex items-center justify-center gap-2 rounded-xl bg-[#FF5500] px-5 py-2 text-xs sm:text-sm font-bold text-white shadow-md shadow-orange-500/20 hover:bg-[#E64500] transition-all transform active:scale-95 min-h-[38px]"
+        >
+          <span>Quero anunciar</span>
+          <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ======================================================================= -->
+    <!-- 2. HERO SECTION COM IMAGEM DE FUNDO & TEXTO LATERALIZADO                -->
+    <!-- Estrutura otimizada conforme Referências 1, 3 e 5:                      -->
+    <!-- - Altura encurtada e elegante                                           -->
+    <!-- - Texto lateralizado à esquerda                                         -->
+    <!-- - "Pra quem pensa grande" removido                                      -->
+    <!-- - Botão "Quero anunciar" + "Fale com o especialista:" com 3 ícones      -->
+    <!--   redondos (WhatsApp, Telefone, Chat) conforme Referência 3             -->
+    <!-- - Faixa Laranja (Referência 5) em "absolute position" sobre a borda     -->
+    <!-- ======================================================================= -->
+    <section 
+      id="hero-banner" 
+      class="relative w-full min-h-[440px] sm:min-h-[480px] lg:min-h-[500px] flex flex-col justify-between bg-white sm:bg-cover sm:bg-center"
+    >
+      <!-- Scrim Gradiente escuro lateralizado (visível apenas no desktop quando há imagem de fundo) -->
+      <div class="hidden sm:block absolute inset-0 bg-gradient-to-r from-black/90 via-black/65 to-black/35 lg:to-transparent pointer-events-none"></div>
+
+      <!-- Área de Conteúdo da Hero (Texto Lateralizado) -->
+      <div class="relative z-10 mx-auto w-full max-w-[1330px] px-4 sm:px-8 pt-10 sm:pt-14 pb-20 sm:pb-24 flex-1 flex flex-col justify-center">
+        
+        <div class="max-w-2xl text-left">
+          
+          <!-- Título Oficial: Escuro no mobile (fundo branco) e branco no desktop (fundo imagem escura) -->
+          <h1 class="text-3xl sm:text-5xl lg:text-[52px] font-black tracking-tight text-[#1E232A] sm:text-white leading-[1.15] sm:leading-[1.12]">
+            Aqui ads, seu universo <br/>
+            <span class="text-[#FF5500]">Globo de possibilidades</span>
+          </h1>
+
+          <!-- Subtítulo: Alto contraste tanto no mobile quanto no desktop -->
+          <p class="mt-4 sm:mt-5 text-sm sm:text-base lg:text-lg text-slate-600 sm:text-slate-200 leading-relaxed max-w-xl font-normal">
+            Agora você anuncia como as maiores marcas, com um investimento que cabe no seu bolso. Acesse o ecossistema Globo com alto impacto para o seu negócio.
+          </p>
+
+          <!-- Linha de Ações: Botão Laranja Flex + Fale com o especialista Centralizado -->
+          <div class="mt-7 sm:mt-8 flex flex-col sm:flex-row items-stretch sm:items-center gap-4 sm:gap-6 w-full">
+            
+            <!-- Botão Laranja Primário -->
+            <a 
+              href="https://aquiads.com.br/" 
+              class="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl bg-[#FF5500] px-7 py-3.5 text-base font-bold text-white shadow-xl shadow-orange-500/25 hover:bg-[#E64500] hover:scale-105 transition-all active:scale-95 text-center"
+            >
+              <span>Quero anunciar</span>
+              <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+              </svg>
+            </a>
+
+            <!-- Fale com o especialista: 3 ícones redondos centralizados no mobile -->
+            <div class="w-full sm:w-auto flex flex-wrap items-center justify-center gap-3 py-1">
+              <span class="text-xs sm:text-sm md:text-base font-bold text-slate-800 sm:text-white tracking-tight">Fale com o especialista:</span>
+              <div class="flex items-center gap-2.5">
+                
+                <!-- 1. WhatsApp (Verde #25D366) -->
+                <a 
+                  href="https://wa.me/551150395212" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  title="Falar pelo WhatsApp" 
+                  aria-label="WhatsApp" 
+                  class="flex h-10 w-10 sm:h-11 sm:w-11 items-center justify-center rounded-full bg-[#25D366] text-white shadow-md hover:scale-110 hover:shadow-lg hover:shadow-emerald-500/40 transition-all active:scale-95"
+                >
+                  <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+                    <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.974.57 2.012.87 3.09.871h.005c3.18 0 5.767-2.587 5.767-5.766.001-3.181-2.585-5.757-5.767-5.757zm3.376 8.167c-.14.394-.789.756-1.111.789-.304.032-.705.15-2.316-.518-1.928-.8-3.17-2.766-3.266-2.894-.095-.128-.775-1.03-.775-1.964s.489-1.393.663-1.583c.174-.19.38-.238.507-.238.127 0 .254.002.365.007.119.006.278-.045.435.333.159.38.54 1.316.588 1.411.047.095.079.206.016.333-.063.127-.095.206-.19.317-.095.111-.2.248-.286.333-.095.095-.195.198-.084.388.111.19.493.813 1.057 1.316.726.647 1.339.848 1.53.943.19.095.302.079.413-.047.111-.127.476-.555.603-.745.127-.19.254-.159.428-.095.175.063 1.111.523 1.302.619.19.095.317.143.365.222.048.079.048.46-.092.854z"/>
+                  </svg>
+                </a>
+
+                <!-- 2. Telefone (Laranja #FF5500) -->
+                <a 
+                  href="tel:1150395212" 
+                  title="Ligue para nós" 
+                  aria-label="Telefone" 
+                  class="flex h-10 w-10 sm:h-11 sm:w-11 items-center justify-center rounded-full bg-[#FF5500] text-white shadow-md hover:scale-110 hover:shadow-lg hover:shadow-orange-500/40 transition-all active:scale-95"
+                >
+                  <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+                    <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                  </svg>
+                </a>
+
+                <!-- 3. Chat / Mensagem -->
+                <a 
+                  href="https://aquiads.com.br/" 
+                  title="Iniciar chat online" 
+                  aria-label="Chat" 
+                  class="flex h-10 w-10 sm:h-11 sm:w-11 items-center justify-center rounded-full bg-slate-100 sm:bg-[#F1F5F9] text-[#1E232A] border border-slate-300 sm:border-transparent shadow-md hover:scale-110 hover:bg-white hover:shadow-lg transition-all active:scale-95"
+                >
+                  <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+                    <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z"/>
+                  </svg>
+                </a>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- ======================================================================= -->
+      <!-- 3. FAIXA LARANJA GRADIENTE FLUTUANTE (ABSOLUTE POSITION - REFERÊNCIA 5) -->
+      <!-- ======================================================================= -->
+      <div class="absolute left-1/2 -translate-x-1/2 bottom-0 translate-y-1/2 w-[92%] max-w-[1020px] z-30 pointer-events-auto">
+        <div class="rounded-2xl sm:rounded-3xl bg-gradient-to-r from-[#F04423] via-[#FF5500] to-[#FF9900] px-6 sm:px-10 py-4 sm:py-5 shadow-2xl shadow-black/40 text-center">
+          <p class="text-sm sm:text-lg md:text-[20px] font-bold text-white leading-snug tracking-tight">
+            O Aqui Ads é a plataforma que simplifica a compra de<br class="hidden sm:inline" />
+            espaço publicitário para pequenas e médias empresas.
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- ======================================================================= -->
+    <!-- 4. BIG NUMBERS DISCRETOS & COMPACTOS (NÃO ROUBAM ATENÇÃO VISUAL)         -->
+    <!-- Dados oficiais da Globo extraídos da Referência (Imagem 1)              -->
+    <!-- ======================================================================= -->
+    <section class="bg-[#181D24] text-white pt-16 sm:pt-20 pb-8 sm:pb-10 border-b border-slate-800">
+      <div class="mx-auto max-w-[1100px] px-4 sm:px-8">
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center divide-y md:divide-y-0 md:divide-x divide-slate-800">
+          
+          <!-- Big Number 1 (TV Globo - Imagem 1) -->
+          <div class="flex flex-col items-center px-4 py-2">
+            <span class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">136 mi</span>
+            <span class="mt-1 text-xs sm:text-sm font-semibold text-slate-300">de brasileiros assistem à TV Globo toda semana</span>
+          </div>
+
+          <!-- Big Number 2 (Globoplay - Imagem 1) -->
+          <div class="flex flex-col items-center px-4 py-2">
+            <span class="text-2xl sm:text-3xl font-extrabold tracking-tight text-[#FF5500]">2h18</span>
+            <span class="mt-1 text-xs sm:text-sm font-semibold text-slate-300">tempo diário que os usuários passam no Globoplay</span>
+          </div>
+
+          <!-- Big Number 3 (Portais Globo - Imagem 1) -->
+          <div class="flex flex-col items-center px-4 py-2">
+            <span class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">357 mi</span>
+            <span class="mt-1 text-xs sm:text-sm font-semibold text-slate-300">de visualizações de página nos Portais Globo</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ======================================================================= -->
+    <!-- 5. SEÇÃO 2: CARDS OFICIAIS AQUI.GLOBO (REFERÊNCIA IMAGEM 3)             -->
+    <!-- - Cards verticais com imagem de fundo imersiva, título, descrição,       -->
+    <!--   linha com logos dos canais onde o anunciante aparece e botão          -->
+    <!--   "Clique e conheça"                                                    -->
+    <!-- ======================================================================= -->
+    <section id="jornada" class="py-16 sm:py-24 bg-[#FAF9F6] border-b border-slate-200">
+      <div class="mx-auto max-w-[1330px] px-4 sm:px-8">
+        
+        <!-- Header da Seção: Título à Esquerda e Subtítulo à Direita -->
+        <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-12">
+          
+          <!-- Título Lateralizado à Esquerda -->
+          <div class="max-w-xl">
+            <h2 class="text-2xl sm:text-4xl font-extrabold tracking-tight text-[#1E232A] leading-tight">
+              Esteja presente em todas as jornadas do seu cliente
+            </h2>
+          </div>
+
+          <!-- Subtítulo à Direita -->
+          <div class="max-w-md">
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Acesse o Aqui ads e saiba mais sobre as rotas de mídia que combinam a credibilidade da TV com o impacto diário das telas de rua.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Linha com 4 Cards Expansíveis no Hover / Click / Setas / Scroll (Referência Structura com Capa Fotográfica) -->
+        <div id="expandable-cards-container" class="flex flex-col lg:flex-row gap-4 sm:gap-5 min-h-[500px] w-full items-stretch">
+          
+          <!-- Card 0: TV Globo & Globoplay (Ativo inicial ao carregar e ao scroll) -->
+          <div 
+            id="channel-card-0"
+            onmouseenter="activateChannelCard(0)"
+            onclick="activateChannelCard(0)"
+            class="channel-accordion-card channel-card-expanded group relative h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] flex flex-col justify-end p-6 sm:p-7 border bg-[#16202E] text-white border-slate-700/60 shadow-2xl"
+          >
+            <!-- Background Foto Normal (Oficial Aqui ads / Pontooh Design System) -->
+            <div class="card-bg-img absolute inset-0 bg-cover bg-center transition-opacity duration-500 pointer-events-none opacity-100" style="background-image: url('https://aquiads.com.br/images/home/08-2026/tv.webp');"></div>
+            <!-- Scrim Fade Somente na Região Inferior (Alta legibilidade para textos, badges e botão) -->
+            <div class="card-scrim absolute inset-x-0 bottom-0 h-[72%] card-bottom-fade transition-opacity duration-500 pointer-events-none opacity-100"></div>
+
+            <!-- Conteúdo EXPANDIDO (aparece quando ativo) -->
+            <div class="card-expanded-body relative z-10 flex flex-col justify-end transition-all duration-500">
+              <h3 class="text-2xl sm:text-3xl font-black tracking-tight text-white leading-tight drop-shadow-lg">
+                TV Globo & Globoplay
+              </h3>
+              <p class="mt-2.5 text-xs sm:text-sm text-white/95 leading-relaxed font-normal drop-shadow-md">
+                Coloque sua marca na grade da Globo e converse com o Brasil inteiro. A TV aberta e conectada é o canal de maior prestígio e autoridade do mercado com segmentação por praça.
+              </p>
+
+              <!-- Logos Oficiais Pontooh Design System -->
+              <div class="mt-4 flex items-center gap-2 flex-wrap">
+                <img src="https://aquiads.com.br/images/logos/globo/tv-globo.svg" alt="TV Globo" class="h-7 w-7 rounded-full bg-white/20 p-1 object-contain ring-1 ring-white/30 backdrop-blur-xs" />
+                <img src="https://aquiads.com.br/images/logos/globo/jn.svg" alt="Jornal Nacional" class="h-7 w-7 rounded-full bg-white/20 p-1 object-contain ring-1 ring-white/30 backdrop-blur-xs" />
+                <img src="https://aquiads.com.br/images/logos/globo/fantastico.svg" alt="Fantástico" class="h-7 w-7 rounded-full bg-white/20 p-1 object-contain ring-1 ring-white/30 backdrop-blur-xs" />
+              </div>
+
+              <!-- Botão Clique e conheça -->
+              <a 
+                href="https://aquiads.com.br/" 
+                class="mt-5 inline-flex w-full items-center justify-center rounded-2xl bg-[#FF5500] py-3 text-xs sm:text-sm font-bold text-white shadow-lg shadow-orange-500/30 hover:bg-[#E64500] hover:scale-[1.01] transition-all text-center"
+              >
+                Clique e conheça
+              </a>
+            </div>
+
+            <!-- Conteúdo COLAPSADO (aparece quando contraído / "menor" com a foto normal) -->
+            <div class="card-collapsed-body relative z-10 hidden flex-col justify-end w-full">
+              <h3 class="text-base sm:text-lg font-bold tracking-tight text-white leading-snug drop-shadow-lg">
+                TV Globo & Globoplay
+              </h3>
+            </div>
+          </div>
+
+          <!-- Card 1: Portais Globo -->
+          <div 
+            id="channel-card-1"
+            onmouseenter="activateChannelCard(1)"
+            onclick="activateChannelCard(1)"
+            class="channel-accordion-card channel-card-collapsed group relative h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] flex flex-col justify-end p-6 sm:p-7 border bg-[#16202E] text-white border-slate-700/60 shadow-lg hover:border-slate-500"
+          >
+            <!-- Background Foto Normal (Oficial Aqui ads / Pontooh Design System) -->
+            <div class="card-bg-img absolute inset-0 bg-cover bg-center transition-opacity duration-500 pointer-events-none opacity-100" style="background-image: url('https://aquiads.com.br/images/home/08-2026/digital.webp');"></div>
+            <!-- Scrim Fade Somente na Região Inferior (Alta legibilidade para textos, badges e botão) -->
+            <div class="card-scrim absolute inset-x-0 bottom-0 h-[72%] card-bottom-fade transition-opacity duration-500 pointer-events-none opacity-100"></div>
+
+            <!-- Conteúdo EXPANDIDO (aparece quando ativo) -->
+            <div class="card-expanded-body relative z-10 hidden flex-col justify-end transition-all duration-500">
+              <h3 class="text-2xl sm:text-3xl font-black tracking-tight text-white leading-tight drop-shadow-lg">
+                Portais Globo
+              </h3>
+              <p class="mt-2.5 text-xs sm:text-sm text-white/95 leading-relaxed font-normal drop-shadow-md">
+                Anuncie nos portais da Globo e alcance milhões de pessoas todos os dias. Presença garantida no g1, ge, gshow e home da globo.com.
+              </p>
+
+              <!-- Logos Oficiais Pontooh Design System -->
+              <div class="mt-4 flex items-center gap-2 flex-wrap">
+                <img src="https://aquiads.com.br/images/logos/globo/logo-g1.svg" alt="g1" class="h-7 w-7 rounded-full bg-white/20 p-1 object-contain ring-1 ring-white/30 backdrop-blur-xs" />
+                <img src="https://aquiads.com.br/images/logos/globo/ge-logo.svg" alt="ge" class="h-7 w-7 rounded-full bg-white/20 p-1 object-contain ring-1 ring-white/30 backdrop-blur-xs" />
+                <img src="https://aquiads.com.br/images/logos/globo/logo-gshow.svg" alt="gshow" class="h-7 w-7 rounded-full bg-white/20 p-1 object-contain ring-1 ring-white/30 backdrop-blur-xs" />
+              </div>
+
+              <!-- Botão Clique e conheça -->
+              <a 
+                href="https://aquiads.com.br/" 
+                class="mt-5 inline-flex w-full items-center justify-center rounded-2xl bg-[#FF5500] py-3 text-xs sm:text-sm font-bold text-white shadow-lg shadow-orange-500/30 hover:bg-[#E64500] hover:scale-[1.01] transition-all text-center"
+              >
+                Clique e conheça
+              </a>
+            </div>
+
+            <!-- Conteúdo COLAPSADO (aparece quando contraído / "menor" com a foto normal) -->
+            <div class="card-collapsed-body relative z-10 flex flex-col justify-end w-full">
+              <h3 class="text-base sm:text-lg font-bold tracking-tight text-white leading-snug drop-shadow-lg">
+                Portais Globo
+              </h3>
+            </div>
+          </div>
+
+          <!-- Card 2: Rádios Globo -->
+          <div 
+            id="channel-card-2"
+            onmouseenter="activateChannelCard(2)"
+            onclick="activateChannelCard(2)"
+            class="channel-accordion-card channel-card-collapsed group relative h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] flex flex-col justify-end p-6 sm:p-7 border bg-[#16202E] text-white border-slate-700/60 shadow-lg hover:border-slate-500"
+          >
+            <!-- Background Foto Normal (Oficial Aqui ads / Pontooh Design System) -->
+            <div class="card-bg-img absolute inset-0 bg-cover bg-center transition-opacity duration-500 pointer-events-none opacity-100" style="background-image: url('https://aquiads.com.br/images/home/08-2026/radio.webp');"></div>
+            <!-- Scrim Fade Somente na Região Inferior (Alta legibilidade para textos, badges e botão) -->
+            <div class="card-scrim absolute inset-x-0 bottom-0 h-[72%] card-bottom-fade transition-opacity duration-500 pointer-events-none opacity-100"></div>
+
+            <!-- Conteúdo EXPANDIDO (aparece quando ativo) -->
+            <div class="card-expanded-body relative z-10 hidden flex-col justify-end transition-all duration-500">
+              <h3 class="text-2xl sm:text-3xl font-black tracking-tight text-white leading-tight drop-shadow-lg">
+                Rádios Globo
+              </h3>
+              <p class="mt-2.5 text-xs sm:text-sm text-white/95 leading-relaxed font-normal drop-shadow-md">
+                Sua marca na programação da CBN, Rádio Globo e BH FM, com locução profissional e conexão direta com tomadores de decisão.
+              </p>
+
+              <!-- Logos Oficiais Pontooh Design System -->
+              <div class="mt-4 flex items-center gap-2 flex-wrap">
+                <img src="https://aquiads.com.br/images/logos/globo/bh-fm.svg" alt="BH FM" class="h-7 w-7 rounded-full bg-white/20 p-1 object-contain ring-1 ring-white/30 backdrop-blur-xs" />
+                <img src="https://aquiads.com.br/images/logos/globo/radio-globo.svg" alt="Rádio Globo" class="h-7 w-7 rounded-full bg-white/20 p-1 object-contain ring-1 ring-white/30 backdrop-blur-xs" />
+                <img src="https://aquiads.com.br/images/logos/globo/cbn.svg" alt="CBN" class="h-7 w-7 rounded-full bg-white/20 p-1 object-contain ring-1 ring-white/30 backdrop-blur-xs" />
+              </div>
+
+              <!-- Botão Clique e conheça -->
+              <a 
+                href="https://aquiads.com.br/" 
+                class="mt-5 inline-flex w-full items-center justify-center rounded-2xl bg-[#FF5500] py-3 text-xs sm:text-sm font-bold text-white shadow-lg shadow-orange-500/30 hover:bg-[#E64500] hover:scale-[1.01] transition-all text-center"
+              >
+                Clique e conheça
+              </a>
+            </div>
+
+            <!-- Conteúdo COLAPSADO (aparece quando contraído / "menor" com a foto normal) -->
+            <div class="card-collapsed-body relative z-10 flex flex-col justify-end w-full">
+              <h3 class="text-base sm:text-lg font-bold tracking-tight text-white leading-snug drop-shadow-lg">
+                Rádios Globo
+              </h3>
+            </div>
+          </div>
+
+          <!-- Card 3: Telas Urbanas & OOH -->
+          <div 
+            id="channel-card-3"
+            onmouseenter="activateChannelCard(3)"
+            onclick="activateChannelCard(3)"
+            class="channel-accordion-card channel-card-collapsed group relative h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] flex flex-col justify-end p-6 sm:p-7 border bg-[#16202E] text-white border-slate-700/60 shadow-lg hover:border-slate-500"
+          >
+            <!-- Background Foto Normal (Oficial Aqui ads / Pontooh Design System) -->
+            <div class="card-bg-img absolute inset-0 bg-cover bg-center transition-opacity duration-500 pointer-events-none opacity-100" style="background-image: url('https://aquiads.com.br/images/home/08-2026/ooh.webp');"></div>
+            <!-- Scrim Fade Somente na Região Inferior (Alta legibilidade para textos, badges e botão) -->
+            <div class="card-scrim absolute inset-x-0 bottom-0 h-[72%] card-bottom-fade transition-opacity duration-500 pointer-events-none opacity-100"></div>
+
+            <!-- Conteúdo EXPANDIDO (aparece quando ativo) -->
+            <div class="card-expanded-body relative z-10 hidden flex-col justify-end transition-all duration-500">
+              <h3 class="text-2xl sm:text-3xl font-black tracking-tight text-white leading-tight drop-shadow-lg">
+                Telas Urbanas & OOH
+              </h3>
+              <p class="mt-2.5 text-xs sm:text-sm text-white/95 leading-relaxed font-normal drop-shadow-md">
+                Sua marca na rotina das pessoas em elevadores comerciais, residenciais, shoppings e principais vias da cidade.
+              </p>
+
+              <!-- Logos Oficiais Pontooh Design System -->
+              <div class="mt-4 flex items-center gap-2 flex-wrap">
+                <img src="https://aquiads.com.br/images/logos/ooh/mubs.svg" alt="MUBs" class="h-7 w-7 rounded-full bg-white/20 p-1 object-contain ring-1 ring-white/30 backdrop-blur-xs" />
+                <img src="https://aquiads.com.br/images/logos/ooh/aeroporto.svg" alt="Aeroporto" class="h-7 w-7 rounded-full bg-white/20 p-1 object-contain ring-1 ring-white/30 backdrop-blur-xs" />
+                <img src="https://aquiads.com.br/images/logos/ooh/academia.svg" alt="Academia" class="h-7 w-7 rounded-full bg-white/20 p-1 object-contain ring-1 ring-white/30 backdrop-blur-xs" />
+              </div>
+
+              <!-- Botão Clique e conheça -->
+              <a 
+                href="https://aquiads.com.br/" 
+                class="mt-5 inline-flex w-full items-center justify-center rounded-2xl bg-[#FF5500] py-3 text-xs sm:text-sm font-bold text-white shadow-lg shadow-orange-500/30 hover:bg-[#E64500] hover:scale-[1.01] transition-all text-center"
+              >
+                Clique e conheça
+              </a>
+            </div>
+
+            <!-- Conteúdo COLAPSADO (aparece quando contraído / "menor" com a foto normal) -->
+            <div class="card-collapsed-body relative z-10 flex flex-col justify-end w-full">
+              <h3 class="text-base sm:text-lg font-bold tracking-tight text-white leading-snug drop-shadow-lg">
+                Telas Urbanas & OOH
+              </h3>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ======================================================================= -->
+    <!-- 6. SEÇÃO 3: PUBLICIDADE DE ALTO IMPACTO (DESIGN EXATO DA IMAGEM 5)      -->
+    <!-- - Fundo azul-ardósia escuro (#28323C)                                   -->
+    <!-- - Título centralizado e subtítulo                                       -->
+    <!-- - 3 Cards com bordas laranjas finas e nítidas (#FF5500), fundo          -->
+    <!--   transparente, ícones outline laranja e sem textos de rodapé           -->
+    <!-- ======================================================================= -->
+    <section id="solucoes" class="py-10 sm:py-14 bg-[#28323C] text-white border-b border-slate-800">
+      <div class="mx-auto max-w-[1330px] px-4 sm:px-8">
+        
+        <!-- Header da Seção Compacto (Exato à Imagem 5) -->
+        <div class="text-center max-w-3xl mx-auto mb-7 sm:mb-9">
+          <h2 class="text-2xl sm:text-3xl lg:text-[34px] font-extrabold tracking-tight text-white leading-tight">
+            Publicidade de alto impacto, sem complicação
+          </h2>
+          <p class="mt-2 text-sm sm:text-base text-slate-300 font-normal">
+            Soluções para conectar o seu negócio a milhões de pessoas
+          </p>
+        </div>
+
+        <!-- 3 Cards com Bordas Laranjas Elegantes (Design fiel à Imagem 5, altura compacta) -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-6">
+          
+          <!-- Card 1: Acesso simplificado (Avião de Papel / Envio - Imagem 5) -->
+          <div class="rounded-2xl border-[1.5px] border-[#FF5500] bg-transparent p-5 sm:p-6 flex flex-col justify-start transition-transform hover:-translate-y-1">
+            <div class="text-[#FF5500] mb-3">
+              <!-- Ícone avião de papel outline (Imagem 5) -->
+              <svg class="h-7 w-7 stroke-current" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 2L11 13"/>
+                <path d="M22 2l-7 20-4-9-9-4 20-7z"/>
+              </svg>
+            </div>
+
+            <h3 class="text-lg sm:text-xl font-bold text-white mb-2">
+              Acesso simplificado
+            </h3>
+
+            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed font-normal">
+              O que antes exigia grandes orçamentos e contratações complexas de terceiros, agora está a um clique da sua empresa.
+            </p>
+          </div>
+
+          <!-- Card 2: Processo intuitivo (Brilho / Sparkles - Imagem 5) -->
+          <div class="rounded-2xl border-[1.5px] border-[#FF5500] bg-transparent p-5 sm:p-6 flex flex-col justify-start transition-transform hover:-translate-y-1">
+            <div class="text-[#FF5500] mb-3">
+              <!-- Ícone brilho / 4-point star outline (Imagem 5) -->
+              <svg class="h-7 w-7 stroke-current" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2l2.4 7.2L22 12l-7.6 2.8L12 22l-2.4-7.2L2 12l7.6-2.8z"/>
+                <path d="M19 2l.8 2.2L22 5l-2.2.8L19 8l-.8-2.2L16 5l2.2-.8z"/>
+              </svg>
+            </div>
+
+            <h3 class="text-lg sm:text-xl font-bold text-white mb-2">
+              Processo intuitivo
+            </h3>
+
+            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed font-normal">
+              Em poucos passos, você escolhe, segmenta por região, comportamento e monta sua campanha.
+            </p>
+          </div>
+
+          <!-- Card 3: Impacto inteligente (Alvo / Bullseye - Imagem 5) -->
+          <div class="rounded-2xl border-[1.5px] border-[#FF5500] bg-transparent p-5 sm:p-6 flex flex-col justify-start transition-transform hover:-translate-y-1">
+            <div class="text-[#FF5500] mb-3">
+              <!-- Ícone alvo / bullseye concentric circles outline (Imagem 5) -->
+              <svg class="h-7 w-7 stroke-current" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <circle cx="12" cy="12" r="6"/>
+                <circle cx="12" cy="12" r="2"/>
+              </svg>
+            </div>
+
+            <h3 class="text-lg sm:text-xl font-bold text-white mb-2">
+              Impacto inteligente
+            </h3>
+
+            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed font-normal">
+              Anuncie em espaços onde sua audiência frequenta. Construa credibilidade e lembrança de marca.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ======================================================================= -->
+    <!-- 7. SEÇÃO 4: CONHEÇA OS FORMATOS (EXATO AO WIREFRAME)                    -->
+    <!-- - Título central: "Conheça os formatos"                                 -->
+    <!-- - Abas: TV | Rádio | Streaming | Portais Globo                          -->
+    <!-- - 4 Cards com Badge circular no topo, Título e Bloco de Mockup interno -->
+    <!-- - Botão Laranja "Quero anunciar" centralizado abaixo                    -->
+    <!-- ======================================================================= -->
+    <section id="formatos" class="py-20 sm:py-24 bg-white border-b border-slate-200">
+      <div class="mx-auto max-w-[1330px] px-4 sm:px-8">
+        
+        <!-- Header da Seção -->
+        <div class="text-center max-w-2xl mx-auto mb-10">
+          <h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-[#1E232A]">
+            Conheça os formatos
+          </h2>
+
+          <!-- Abas / Tabs Verticais: TV | Digital | Globoplay | Revistas Digitais -->
+          <div class="mt-8 inline-flex items-center p-1.5 rounded-full bg-slate-100 border border-slate-200 text-xs sm:text-sm font-bold text-slate-600">
+            <button 
+              onclick="filterFormats('tv')" 
+              id="tab-tv"
+              class="tab-btn active px-5 py-2 rounded-full bg-white text-[#1E232A] shadow-xs transition-all cursor-pointer"
+            >
+              TV
+            </button>
+            <button 
+              onclick="filterFormats('digital')" 
+              id="tab-digital"
+              class="tab-btn px-5 py-2 rounded-full text-slate-600 hover:text-slate-900 transition-all cursor-pointer"
+            >
+              Digital
+            </button>
+            <button 
+              onclick="filterFormats('globoplay')" 
+              id="tab-globoplay"
+              class="tab-btn px-5 py-2 rounded-full text-slate-600 hover:text-slate-900 transition-all cursor-pointer"
+            >
+              Globoplay
+            </button>
+            <button 
+              onclick="filterFormats('editora')" 
+              id="tab-editora"
+              class="tab-btn px-5 py-2 rounded-full text-slate-600 hover:text-slate-900 transition-all cursor-pointer"
+            >
+              Revistas Digitais
+            </button>
+          </div>
+        </div>
+
+        <!-- Container dos Cards de Formatos: Slider Lateral no Mobile com peek, Grid no Desktop -->
+        <div id="formats-grid" class="flex flex-row overflow-x-auto snap-x snap-mandatory no-scrollbar gap-4 sm:gap-6 pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-7 md:overflow-visible md:pb-0">
+          <!-- Renderizado dinamicamente via JavaScript -->
+        </div>
+
+        <!-- Componente de Paginação Centralizado (Status do Sistema UX para Mobile) -->
+        <div id="formats-pagination" class="flex md:hidden justify-center items-center gap-1.5 mt-5 mb-2">
+          <!-- Gerado dinamicamente via JavaScript -->
+        </div>
+
+        <!-- Botão Laranja Primário Centralizado (Exato ao Wireframe) -->
+        <div class="mt-12 text-center">
+          <a 
+            href="https://aquiads.com.br/" 
+            class="inline-flex items-center justify-center gap-2 rounded-xl bg-[#FF5500] px-8 py-3.5 text-sm sm:text-base font-bold text-white shadow-lg shadow-orange-500/25 hover:bg-[#E64500] hover:scale-105 transition-all active:scale-95"
+          >
+            <span>Quero anunciar</span>
+            <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ======================================================================= -->
+    <!-- 8. SEÇÃO 5: POTENCIALIZE SUA CAMPANHA COM OOH (EXATO AO WIREFRAME)      -->
+    <!-- Layout 2 Colunas:                                                       -->
+    <!-- - Coluna Esquerda: Título, Texto de defesa dos verticais, lista dos     -->
+    <!--   verticais OOH + 3 Big numbers de OOH compactos                        -->
+    <!-- - Coluna Direita: Grid 2x2 com 4 mockups realistas                      -->
+    <!-- ======================================================================= -->
+    <section id="ooh" class="py-20 sm:py-24 bg-[#FAF9F6] border-b border-slate-200">
+      <div class="mx-auto max-w-[1330px] px-4 sm:px-8">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+          
+          <!-- Coluna Esquerda (Copy, Verticais e Big Numbers Compactos) -->
+          <div class="lg:col-span-5">
+            
+            <h2 class="text-3xl sm:text-4xl lg:text-[44px] font-extrabold tracking-tight text-[#1E232A] leading-tight">
+              Potencialize sua campanha com OOH
+            </h2>
+
+            <!-- Texto de defesa de OOH apontando os verticais (conforme wireframe) -->
+            <p class="mt-4 text-sm sm:text-base text-slate-600 leading-relaxed">
+              A presença de marca na rua é o complemento indispensável para quem anuncia na TV. Quando o cliente assiste ao seu comercial na sala de estar e reencontra sua marca no trajeto diário, o efeito de lembrança e consideração se multiplica.
+            </p>
+
+            <!-- Lista dos Verticais OOH (conforme wireframe) -->
+            <div class="mt-6 space-y-2.5">
+              <div class="flex items-center gap-3 text-xs sm:text-sm font-bold text-slate-800">
+                <span class="flex h-5 w-5 items-center justify-center rounded-full bg-orange-100 text-[#FF5500] text-xs">✓</span>
+                <span>Elevadores Comerciais e Residenciais</span>
+              </div>
+              <div class="flex items-center gap-3 text-xs sm:text-sm font-bold text-slate-800">
+                <span class="flex h-5 w-5 items-center justify-center rounded-full bg-orange-100 text-[#FF5500] text-xs">✓</span>
+                <span>Shopping Centers e Centros de Varejo</span>
+              </div>
+              <div class="flex items-center gap-3 text-xs sm:text-sm font-bold text-slate-800">
+                <span class="flex h-5 w-5 items-center justify-center rounded-full bg-orange-100 text-[#FF5500] text-xs">✓</span>
+                <span>Painéis Digitais Urbanos e Totens de Rua</span>
+              </div>
+              <div class="flex items-center gap-3 text-xs sm:text-sm font-bold text-slate-800">
+                <span class="flex h-5 w-5 items-center justify-center rounded-full bg-orange-100 text-[#FF5500] text-xs">✓</span>
+                <span>Aeroportos, Terminais e muito mais</span>
+              </div>
+            </div>
+
+            <!-- 3 Big Numbers de OOH Compactos (Exato ao Wireframe) -->
+            <div class="mt-8 grid grid-cols-3 gap-2.5 sm:gap-3.5 pt-6 border-t border-slate-200">
+              <div class="bg-white p-3 rounded-2xl border border-slate-200/80 shadow-2xs text-center">
+                <span class="block text-xl sm:text-2xl font-black text-[#FF5500]">+3.2x</span>
+                <span class="text-[11px] font-bold text-slate-700 block mt-0.5">Lembrança</span>
+                <span class="text-[10px] text-slate-400">Fixação de marca</span>
+              </div>
+
+              <div class="bg-white p-3 rounded-2xl border border-slate-200/80 shadow-2xs text-center">
+                <span class="block text-xl sm:text-2xl font-black text-[#1E232A]">100%</span>
+                <span class="text-[11px] font-bold text-slate-700 block mt-0.5">Sem bloqueio</span>
+                <span class="text-[10px] text-slate-400">Atenção real</span>
+              </div>
+
+              <div class="bg-white p-3 rounded-2xl border border-slate-200/80 shadow-2xs text-center">
+                <span class="block text-xl sm:text-2xl font-black text-[#FF5500]">24/7</span>
+                <span class="text-[11px] font-bold text-slate-700 block mt-0.5">Frequência</span>
+                <span class="text-[10px] text-slate-400">Presença diária</span>
+              </div>
+            </div>
+
+            <div class="mt-6">
+              <a 
+                href="https://aquiads.com.br/" 
+                class="inline-flex items-center gap-2 text-sm font-bold text-[#FF5500] hover:text-[#E64500] group"
+              >
+                <span>Explorar pontos de OOH na minha cidade</span>
+                <svg class="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                </svg>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Coluna Direita: Grid de fotos oficial Aqui ads (AMPLIADO e SEM BORDA, conforme Imagem 2) -->
+          <div class="lg:col-span-7 flex items-center justify-center">
+            <img 
+              src="./images/grid-fotos-aquiads.png" 
+              alt="Presença multicanal Aqui ads: Telas em Elevadores, TV Conectada, Streaming e Dispositivos Móveis" 
+              class="w-full h-auto object-contain transition-transform duration-300 hover:scale-[1.01]"
+            />
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ======================================================================= -->
+    <!-- 8. SEÇÃO FINAL: COMO VOCÊ QUER PENSAR GRANDE? (REFERÊNCIA IMAGEM 5)        -->
+    <!-- - Fundo gradiente laranja quente oficial Aqui ads                        -->
+    <!-- - 2 Cards de vidro com botões escuros de conversão                       -->
+    <!-- ======================================================================= -->
+    <section class="relative overflow-hidden bg-gradient-to-r from-[#E53E00] via-[#FF5500] to-[#FF8C00] py-16 sm:py-20 text-white">
+      <!-- Linhas decorativas de contorno em SVG (padrão Aqui ads) -->
+      <div class="absolute inset-0 pointer-events-none opacity-10">
+        <svg class="w-full h-full" viewBox="0 0 1440 400" fill="none" preserveAspectRatio="none">
+          <path d="M-100 200 C300 100, 600 300, 1540 150" stroke="white" stroke-width="40" stroke-linecap="round"/>
+          <path d="M-100 280 C400 180, 800 380, 1540 230" stroke="white" stroke-width="40" stroke-linecap="round"/>
+        </svg>
+      </div>
+
+      <div class="relative z-10 mx-auto max-w-[1100px] px-4 sm:px-8">
+        
+        <!-- Header Centralizado -->
+        <div class="text-center max-w-2xl mx-auto">
+          <h2 class="text-3xl sm:text-4xl md:text-[44px] font-black tracking-tight text-white leading-tight">
+            Como você quer pensar grande?
+          </h2>
+          <p class="mt-2.5 text-base sm:text-lg text-white/95 font-medium">
+            Publicidade de alto impacto, sem complicação
+          </p>
+        </div>
+
+        <!-- 2 Cards com Efeito Vidro Translúcido -->
+        <div class="mt-10 sm:mt-12 grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-4xl mx-auto">
+          
+          <!-- Card 1: Quero autonomia -->
+          <div class="rounded-3xl bg-white/15 backdrop-blur-md border border-white/25 p-7 sm:p-9 flex flex-col justify-between text-center shadow-2xl transition-all hover:bg-white/20 hover:-translate-y-1">
+            <div>
+              <h3 class="text-xl sm:text-2xl font-black text-white">
+                Quero autonomia
+              </h3>
+              <p class="mt-3 text-xs sm:text-sm text-white/95 leading-relaxed max-w-xs mx-auto font-normal">
+                Para quem quer começar rápido anunciando em formatos de OOH e Display em portais.
+              </p>
+            </div>
+
+            <div class="mt-8">
+              <a 
+                href="https://aquiads.com.br/" 
+                class="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[#16202E] py-3.5 px-6 text-xs sm:text-sm font-bold text-white shadow-lg hover:bg-[#0B1017] hover:scale-[1.01] transition-all"
+              >
+                <span>simular campanha</span>
+                <span class="text-sm">◈</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 2: Quero apoio de especialistas -->
+          <div class="rounded-3xl bg-white/15 backdrop-blur-md border border-white/25 p-7 sm:p-9 flex flex-col justify-between text-center shadow-2xl transition-all hover:bg-white/20 hover:-translate-y-1">
+            <div>
+              <h3 class="text-xl sm:text-2xl font-black text-white">
+                Quero apoio de especialistas
+              </h3>
+              <p class="mt-3 text-xs sm:text-sm text-white/95 leading-relaxed max-w-xs mx-auto font-normal">
+                Estratégias robustas que combinam mídia de massa como OOH em transportes até TV linear.
+              </p>
+            </div>
+
+            <div class="mt-8">
+              <a 
+                href="https://wa.me/551150395212" 
+                target="_blank"
+                class="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[#16202E] py-3.5 px-6 text-xs sm:text-sm font-bold text-white shadow-lg hover:bg-[#0B1017] hover:scale-[1.01] transition-all"
+              >
+                <span>falar com especialista</span>
+                <!-- Ícone WhatsApp -->
+                <svg class="h-4 w-4 fill-current text-white" viewBox="0 0 24 24">
+                  <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19.01L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67Z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ========================================================================= -->
+  <!-- 9. FOOTER (FIEL AO WIREFRAME E DESIGN SYSTEM OFICIAL)                     -->
+  <!-- ========================================================================= -->
+  <footer class="bg-[#171C23] text-white pt-16 pb-12 border-t border-slate-800">
+    <div class="mx-auto max-w-[1330px] px-4 sm:px-8">
+      
+      <!-- Topo do Footer: Identificação e Formas de Pagamento -->
+      <div class="flex flex-col gap-8 border-b border-white/10 pb-12 lg:flex-row lg:items-center lg:justify-between">
+        <div>
+          <span class="text-[11px] font-semibold text-slate-400 block uppercase tracking-wider mb-1">uma plataforma</span>
+          <div class="flex items-center gap-2">
+            <span class="text-2xl font-black text-white tracking-tighter">globo</span>
+            <span class="text-slate-600">×</span>
+            <span class="text-xl font-black tracking-tight text-white">Aqui<span class="text-[#FF5500]">ads</span></span>
+          </div>
+        </div>
+
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-slate-400 block mb-3">Formas de pagamento</span>
+          <div class="flex flex-wrap items-center gap-3">
+            <span class="rounded bg-white/10 px-2.5 py-1 text-xs font-semibold text-slate-300">Visa</span>
+            <span class="rounded bg-white/10 px-2.5 py-1 text-xs font-semibold text-slate-300">Mastercard</span>
+            <span class="rounded bg-white/10 px-2.5 py-1 text-xs font-semibold text-slate-300">Elo</span>
+            <span class="rounded bg-white/10 px-2.5 py-1 text-xs font-semibold text-slate-300">Amex</span>
+            <span class="rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-2.5 py-1 text-xs font-bold">PIX</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Links em Colunas -->
+      <div class="grid grid-cols-2 gap-8 py-10 sm:grid-cols-4 lg:grid-cols-5 border-b border-white/10 text-xs text-slate-400">
+        <div>
+          <h4 class="text-sm font-bold text-white mb-3">Explorar</h4>
+          <ul class="space-y-2">
+            <li><a href="#hero-banner" class="hover:text-white transition-colors">Início</a></li>
+            <li><a href="#formatos" class="hover:text-white transition-colors">Formatos Globo</a></li>
+            <li><a href="#ooh" class="hover:text-white transition-colors">Mídia OOH</a></li>
+            <li><a href="https://aqui.globo/blog/" target="_blank" class="hover:text-white transition-colors">Blog Aqui ads</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-sm font-bold text-white mb-3">Produtos Globo</h4>
+          <ul class="space-y-2">
+            <li><span>TV Globo Regional</span></li>
+            <li><span>Globoplay Conectado</span></li>
+            <li><span>g1, ge e gshow</span></li>
+            <li><span>CBN & Podcasts</span></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-sm font-bold text-white mb-3">Ambientes OOH</h4>
+          <ul class="space-y-2">
+            <li><span>Elevadores Residenciais</span></li>
+            <li><span>Elevadores Comerciais</span></li>
+            <li><span>Shopping Centers</span></li>
+            <li><span>Painéis de Rua</span></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-sm font-bold text-white mb-3">Suporte</h4>
+          <ul class="space-y-2">
+            <li><a href="https://wa.me/551150395212" target="_blank" class="hover:text-white transition-colors">WhatsApp: (11) 5039-5212</a></li>
+            <li><span>Seg a Sex, 09h às 18h</span></li>
+            <li><a href="https://aquiads.com.br/" class="hover:text-white transition-colors">Central de Ajuda</a></li>
+          </ul>
+        </div>
+
+        <div class="col-span-2 sm:col-span-4 lg:col-span-1">
+          <h4 class="text-sm font-bold text-white mb-3">Ponto de Fuga</h4>
+          <p class="text-xs text-slate-400 mb-3">Pronto para anunciar?</p>
+          <a 
+            href="https://aquiads.com.br/" 
+            class="inline-flex w-full items-center justify-center rounded-xl bg-[#FF5500] px-4 py-2.5 text-xs font-bold text-white hover:bg-[#E64500] transition-colors"
+          >
+            Quero anunciar
+          </a>
+        </div>
+      </div>
+
+      <!-- Copyright e Legal -->
+      <div class="pt-8 text-xs text-slate-500 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <div>
+          © Copyright 2026 GLOBO COMUNICAÇÃO E PARTICIPAÇÕES S/A | CNPJ: 27.865.757/0096-65
+        </div>
+        <div class="flex gap-4">
+          <a href="https://aquiads.com.br/politica-de-privacidade" class="hover:text-white">Política de Privacidade</a>
+          <a href="https://storage.googleapis.com/elt-smb-prod/assets/docs/2026/01/termos-e-condicoes-aquiads-janeiro-26.pdf" class="hover:text-white">Termos e Condições</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- ========================================================================= -->
+  <!-- JAVASCRIPT: INTERATIVIDADES & TRANSIÇÕES                                  -->
+  <!-- ========================================================================= -->
+  <script>
+    // -------------------------------------------------------------------------
+    // 1. CARDS EXPANSÍVEIS (BEHAVIOR DAS IMAGENS 1 E 2: HOVER, SETAS, SCROLL)
+    // -------------------------------------------------------------------------
+    let currentActiveIndex = 0;
+    const totalChannelCards = 4;
+    let isUserHoveringCards = false;
+
+    function activateChannelCard(index) {
+      currentActiveIndex = index;
+
+      for (let i = 0; i < totalChannelCards; i++) {
+        const card = document.getElementById(`channel-card-${i}`);
+        if (!card) continue;
+
+        const bgImg = card.querySelector('.card-bg-img');
+        const scrim = card.querySelector('.card-scrim');
+        const expandedBody = card.querySelector('.card-expanded-body');
+        const collapsedBody = card.querySelector('.card-collapsed-body');
+
+        if (i === index) {
+          // ESTADO EXPANDIDO
+          card.className = 'channel-accordion-card channel-card-expanded group relative h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] flex flex-col justify-end p-6 sm:p-7 border bg-[#16202E] text-white border-slate-700/60 shadow-2xl';
+
+          if (bgImg) bgImg.style.opacity = '1';
+          if (scrim) scrim.style.opacity = '1';
+          if (expandedBody) {
+            expandedBody.style.display = 'flex';
+            setTimeout(() => {
+              expandedBody.style.opacity = '1';
+              expandedBody.style.transform = 'translateY(0)';
+            }, 30);
+          }
+          if (collapsedBody) {
+            collapsedBody.style.display = 'none';
+          }
+        } else {
+          // ESTADO COLAPSADO ("MENOR" COM FOTO NORMAL E FADE INFERIOR)
+          card.className = 'channel-accordion-card channel-card-collapsed group relative h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] flex flex-col justify-end p-6 sm:p-7 border bg-[#16202E] text-white border-slate-700/60 shadow-lg hover:border-slate-500';
+
+          if (bgImg) bgImg.style.opacity = '1';
+          if (scrim) scrim.style.opacity = '1';
+          if (expandedBody) {
+            expandedBody.style.opacity = '0';
+            expandedBody.style.transform = 'translateY(12px)';
+            expandedBody.style.display = 'none';
+          }
+          if (collapsedBody) {
+            collapsedBody.style.display = 'flex';
+            setTimeout(() => {
+              collapsedBody.style.opacity = '1';
+            }, 20);
+          }
+        }
+      }
+    }
+
+    // Alias para compatibilidade
+    const selectChannelCard = activateChannelCard;
+
+    function prevHeroCard() {
+      const prev = (currentActiveIndex - 1 + totalChannelCards) % totalChannelCards;
+      activateChannelCard(prev);
+    }
+
+    function nextHeroCard() {
+      const next = (currentActiveIndex + 1) % totalChannelCards;
+      activateChannelCard(next);
+    }
+
+    // "O primeiro sempre deve se expandir ao scroll"
+    function setupScrollAndHoverBehavior() {
+      const container = document.getElementById('expandable-cards-container');
+      if (container) {
+        container.addEventListener('mouseenter', () => { isUserHoveringCards = true; });
+        container.addEventListener('mouseleave', () => { isUserHoveringCards = false; });
+      }
+
+      // No mobile / scroll: a animação carrega o conteúdo do card seguinte automaticamente ao scrollar a página,
+      // sem necessidade de clique do usuário
+      const channelCards = [0, 1, 2, 3].map(i => document.getElementById(`channel-card-${i}`)).filter(Boolean);
+      if (channelCards.length && 'IntersectionObserver' in window) {
+        const cardObserver = new IntersectionObserver((entries) => {
+          if (isUserHoveringCards && window.innerWidth >= 1024) return;
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              const id = entry.target.id;
+              const match = id.match(/channel-card-(\d+)/);
+              if (match) {
+                const index = parseInt(match[1], 10);
+                activateChannelCard(index);
+              }
+            }
+          });
+        }, {
+          root: null,
+          rootMargin: '-20% 0px -25% 0px',
+          threshold: 0.15
+        });
+
+        channelCards.forEach(card => cardObserver.observe(card));
+      }
+    }
+
+    // -------------------------------------------------------------------------
+    // 2. DADOS & FILTRO DE FORMATOS POR VERTICAIS (TV, DIGITAL, GLOBOPLAY, EDITORA)
+    // Todos os formatos usam como base o design oficial do card (conforme Imagem 1):
+    // - Card branco com borda suave e rounded-3xl
+    // - Badge circular superior com sigla + nome do canal em maiúsculas
+    // - Título do formato em destaque (bold text-xl)
+    // - Bloco de mockup com tag/pill central translúcida escura
+    // - Texto de descrição limpo e legível abaixo
+    // -------------------------------------------------------------------------
+    const formatsData = {
+      // VERTICAL TV: 8 programas oficiais da TV Globo
+      tv: [
+        {
+          badge: 'TV',
+          badgeBg: 'bg-[#005CA9]',
+          channel: 'TV GLOBO',
+          title: 'Jornal Nacional',
+          mockLabel: '25+ milhões de telespectadores',
+          img: 'images/tv/tv-jn.png',
+          desc: 'Jornalismo – O telejornal mais assistido do Brasil com ampla cobertura nacional e liderança absoluta.'
+        },
+        {
+          badge: 'TV',
+          badgeBg: 'bg-[#005CA9]',
+          channel: 'TV GLOBO',
+          title: 'Fantástico',
+          mockLabel: '20+ milhões de telespectadores',
+          img: 'images/tv/tv-fantastico.png',
+          desc: 'Variedades – Revista eletrônica dominical que reúne jornalismo investigativo, entretenimento e cultura.'
+        },
+        {
+          badge: 'TV',
+          badgeBg: 'bg-[#005CA9]',
+          channel: 'TV GLOBO',
+          title: 'Globo Esporte',
+          mockLabel: '15+ milhões de telespectadores',
+          img: 'images/tv/tv-ge.png',
+          desc: 'Esportes – Cobertura esportiva completa e dinamismo diário conectando torcedores em todo o país.'
+        },
+        {
+          badge: 'TV',
+          badgeBg: 'bg-[#005CA9]',
+          channel: 'TV GLOBO',
+          title: 'Vale a Pena Ver de Novo',
+          mockLabel: '12+ milhões de telespectadores',
+          img: 'images/tv/tv-valea-pena.png',
+          desc: 'Dramaturgia – As novelas clássicas e consagradas da teledramaturgia que continuam emocionando gerações.'
+        },
+        {
+          badge: 'TV',
+          badgeBg: 'bg-[#005CA9]',
+          channel: 'TV GLOBO',
+          title: 'Mais Você',
+          mockLabel: '18+ milhões de telespectadores',
+          img: 'images/tv/tv-mais-voce.png',
+          desc: 'Variedades – Programa matinal com Ana Maria Braga trazendo culinária, boas histórias e afinidade com o público.'
+        },
+        {
+          badge: 'TV',
+          badgeBg: 'bg-[#005CA9]',
+          channel: 'TV GLOBO',
+          title: 'Pequenas Empresas & Grandes Negócios',
+          mockLabel: '8+ milhões de telespectadores',
+          img: 'images/tv/tv-pegn.png',
+          desc: 'Negócios – O principal programa de empreendedorismo do país, conectando gestores, inovação e mercados.'
+        },
+        {
+          badge: 'TV',
+          badgeBg: 'bg-[#005CA9]',
+          channel: 'TV GLOBO',
+          title: 'Globo Rural',
+          mockLabel: '10+ milhões de telespectadores',
+          img: 'images/tv/tv-globo-rural.png',
+          desc: 'Agronegócio – A grande referência de informação, tecnologia no campo e credibilidade do agronegócio.'
+        },
+        {
+          badge: 'TV',
+          badgeBg: 'bg-[#005CA9]',
+          channel: 'TV GLOBO',
+          title: 'Jornal Hoje',
+          mockLabel: '14+ milhões de telespectadores',
+          img: 'images/tv/tv-jornal-hoje.png',
+          desc: 'Jornalismo – Notícias do meio-dia em ritmo ágil, informando os principais acontecimentos do Brasil e do mundo.'
+        }
+      ],
+
+      // VERTICAL DIGITAL: Portais Globo (Display e Vídeo com mockups reais padronizados)
+      digital: [
+        {
+          badge: 'DG',
+          badgeBg: 'bg-[#FF5500]',
+          channel: 'PORTAIS GLOBO',
+          title: 'Display - Portais Globo',
+          mockLabel: 'Banners Estratégicos',
+          img: 'images/digital-display.png',
+          desc: 'Banners posicionados estrategicamente nos Portais Globo para destacar a sua marca com máxima autoridade e alcance qualificado.'
+        },
+        {
+          badge: 'DG',
+          badgeBg: 'bg-[#FF5500]',
+          channel: 'PORTAIS GLOBO',
+          title: 'Vídeo de 15 segundos - Portais Globo',
+          mockLabel: 'Vídeo Não Pulável',
+          img: 'images/digital-video-15s.png',
+          desc: 'Formato de vídeo de 15 segundos sem possibilidade de pular nos portais Globo, garantindo atenção total da audiência.'
+        },
+        {
+          badge: 'DG',
+          badgeBg: 'bg-[#FF5500]',
+          channel: 'PORTAIS GLOBO',
+          title: 'Vídeo de 16 à 180 segundos - Portais Globo',
+          mockLabel: 'Vídeo com Opção de Skip',
+          img: 'images/digital-video-180s.png',
+          desc: 'Formato de vídeo longo de 16 à 180 segundos para narrativas completas e campanhas de alto engajamento nos portais.'
+        }
+      ],
+
+      // VERTICAL GLOBOPLAY: Formatos oficiais da Imagem enviada + Pausa Interativa da referência
+      globoplay: [
+        {
+          badge: 'GP',
+          badgeBg: 'bg-[#E61E63]',
+          channel: 'GLOBOPLAY',
+          title: 'Vídeo de 15 segundos - Globoplay',
+          mockLabel: 'Vídeo Não Pulável',
+          img: 'images/globoplay-video-15s.png',
+          desc: 'Formato de vídeo de 15 segundos sem possibilidade de pular no Globoplay.'
+        },
+        {
+          badge: 'GP',
+          badgeBg: 'bg-[#E61E63]',
+          channel: 'GLOBOPLAY',
+          title: 'Vídeo de 16 à 180 segundos - Globoplay',
+          mockLabel: 'Vídeo com Opção de Skip',
+          img: 'images/globoplay-video-180s.png',
+          desc: 'Formato de vídeo de 16 à 180 segundos com possibilidade de pular no Globoplay.'
+        },
+        {
+          badge: 'GP',
+          badgeBg: 'bg-[#E61E63]',
+          channel: 'GLOBOPLAY',
+          title: 'Pausa Interativa em Smart TV',
+          mockLabel: 'Momento de Decisão na Tela',
+          img: 'images/globoplay-pausa-interativa.png',
+          desc: 'Card interativo com QR Code para direcionar o telespectador diretamente para seu WhatsApp.'
+        }
+      ],
+
+      // VERTICAL REVISTAS DIGITAIS: 12 Marcas Oficiais do Catálogo Aqui Ads
+      editora: [
+        {
+          badge: 'RD',
+          badgeBg: 'bg-[#FF5500]',
+          channel: 'REVISTAS DIGITAIS',
+          title: 'Display - Auto Esporte',
+          img: 'images/revistas/auto-esporte.png',
+          desc: 'Banners posicionados estrategicamente no site Auto Esporte para destacar a sua marca.'
+        },
+        {
+          badge: 'RD',
+          badgeBg: 'bg-[#FF5500]',
+          channel: 'REVISTAS DIGITAIS',
+          title: 'Display - Casa e Jardim',
+          img: 'images/revistas/casa-e-jardim.png',
+          desc: 'Banners posicionados estrategicamente no site Casa e Jardim para destacar a sua marca.'
+        },
+        {
+          badge: 'RD',
+          badgeBg: 'bg-[#FF5500]',
+          channel: 'REVISTAS DIGITAIS',
+          title: 'Display - Crescer',
+          img: 'images/revistas/crescer.png',
+          desc: 'Banners posicionados estrategicamente no site Crescer para destacar a sua marca.'
+        },
+        {
+          badge: 'RD',
+          badgeBg: 'bg-[#FF5500]',
+          channel: 'REVISTAS DIGITAIS',
+          title: 'Display - Época Negócios',
+          img: 'images/revistas/epoca-negocios.png',
+          desc: 'Banners posicionados estrategicamente no site Época Negócios para destacar a sua marca.'
+        },
+        {
+          badge: 'RD',
+          badgeBg: 'bg-[#FF5500]',
+          channel: 'REVISTAS DIGITAIS',
+          title: 'Display - Extra',
+          img: 'images/revistas/extra.png',
+          desc: 'Banners posicionados estrategicamente no site Extra para destacar a sua marca.'
+        },
+        {
+          badge: 'RD',
+          badgeBg: 'bg-[#FF5500]',
+          channel: 'REVISTAS DIGITAIS',
+          title: 'Display - Galileu',
+          img: 'images/revistas/galileu.png',
+          desc: 'Banners posicionados estrategicamente no site Galileu para destacar a sua marca.'
+        },
+        {
+          badge: 'RD',
+          badgeBg: 'bg-[#FF5500]',
+          channel: 'REVISTAS DIGITAIS',
+          title: 'Display - Globo Rural',
+          img: 'images/revistas/globo-rural.png',
+          desc: 'Banners posicionados estrategicamente no site Globo Rural para destacar a sua marca.'
+        },
+        {
+          badge: 'RD',
+          badgeBg: 'bg-[#FF5500]',
+          channel: 'REVISTAS DIGITAIS',
+          title: 'Display - Marie Claire',
+          img: 'images/revistas/marie-claire.png',
+          desc: 'Banners posicionados estrategicamente no site Marie Claire para destacar a sua marca.'
+        },
+        {
+          badge: 'RD',
+          badgeBg: 'bg-[#FF5500]',
+          channel: 'REVISTAS DIGITAIS',
+          title: 'Display - Monet',
+          img: 'images/revistas/monet.png',
+          desc: 'Banners posicionados estrategicamente no site Monet para destacar a sua marca.'
+        },
+        {
+          badge: 'RD',
+          badgeBg: 'bg-[#FF5500]',
+          channel: 'REVISTAS DIGITAIS',
+          title: 'Display - Pequenas Empresas, Grandes Negócios',
+          img: 'images/revistas/pegn.png',
+          desc: 'Banners posicionados estrategicamente no site PEGN para destacar a sua marca.'
+        },
+        {
+          badge: 'RD',
+          badgeBg: 'bg-[#FF5500]',
+          channel: 'REVISTAS DIGITAIS',
+          title: 'Display - Quem',
+          img: 'images/revistas/quem.png',
+          desc: 'Banners posicionados estrategicamente no site Quem para destacar a sua marca.'
+        },
+        {
+          badge: 'RD',
+          badgeBg: 'bg-[#FF5500]',
+          channel: 'REVISTAS DIGITAIS',
+          title: 'Display - Techtudo',
+          img: 'images/revistas/techtudo.png',
+          desc: 'Banners posicionados estrategicamente no site Techtudo para destacar a sua marca.'
+        }
+      ]
+    };
+
+    // Função única de renderização para garantir 100% de consistência visual
+    function renderCard(item) {
+      const hasMockLabel = Boolean(item.mockLabel);
+      return `
+        <div class="format-card w-[84vw] max-w-[340px] shrink-0 snap-center md:w-auto md:max-w-none md:shrink md:snap-align-none rounded-3xl bg-white border border-slate-200/90 p-5 sm:p-6 flex flex-col justify-between hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+          <div>
+            <!-- Badge Circular Superior + Canal (Exato à Imagem de Referência) -->
+            <div class="flex items-center gap-2.5 mb-3">
+              <div class="h-8 w-8 rounded-full ${item.badgeBg} flex items-center justify-center text-white text-xs font-black shadow-xs">
+                ${item.badge}
+              </div>
+              <span class="text-xs font-bold text-slate-500 uppercase tracking-wider">${item.channel}</span>
+            </div>
+
+            <!-- Título do Formato (Bold 20px) -->
+            <h3 class="text-xl font-bold text-[#1E232A] mb-3.5 leading-snug tracking-tight">
+              ${item.title}
+            </h3>
+
+            <!-- Bloco de Mockup -->
+            <div class="relative h-44 sm:h-48 w-full rounded-2xl overflow-hidden bg-slate-50 border border-slate-100 shadow-inner group flex items-center justify-center">
+              <img 
+                src="${item.img}" 
+                alt="${item.title}" 
+                class="w-full h-full ${hasMockLabel ? 'object-cover' : 'object-contain p-5'} group-hover:scale-105 transition-transform duration-500" 
+              />
+              ${hasMockLabel ? `
+                <div class="absolute inset-0 bg-black/20"></div>
+                <div class="absolute inset-0 flex items-center justify-center p-3 pointer-events-none">
+                  <span class="px-4 py-2 rounded-xl bg-black/75 backdrop-blur-xs text-white text-xs font-bold shadow-md text-center max-w-[85%]">
+                    ${item.mockLabel}
+                  </span>
+                </div>
+              ` : ''}
+            </div>
+          </div>
+
+          <!-- Descrição Inferior -->
+          <p class="mt-4 text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+            ${item.desc}
+          </p>
+        </div>
+      `;
+    }
+
+    function scrollFormatSlider(index) {
+      const container = document.getElementById('formats-grid');
+      if (!container) return;
+      const cards = container.querySelectorAll('.format-card');
+      if (cards[index]) {
+        cards[index].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      }
+    }
+
+    function renderPaginationDots(totalCards) {
+      const pag = document.getElementById('formats-pagination');
+      if (!pag) return;
+      if (totalCards <= 1) {
+        pag.innerHTML = '';
+        return;
+      }
+      pag.innerHTML = Array.from({ length: totalCards }, (_, i) => `
+        <button 
+          type="button"
+          onclick="scrollFormatSlider(${i})" 
+          aria-label="Ir para formato ${i + 1}"
+          class="format-dot ${i === 0 ? 'w-5 bg-[#FF5500]' : 'w-2 bg-slate-300 hover:bg-slate-400'} h-2 rounded-full transition-all duration-300 cursor-pointer p-0"
+        ></button>
+      `).join('');
+    }
+
+    function setupFormatSliderScroll() {
+      const container = document.getElementById('formats-grid');
+      if (!container) return;
+
+      container.addEventListener('scroll', () => {
+        const cards = container.querySelectorAll('.format-card');
+        if (!cards.length) return;
+        
+        const containerCenter = container.getBoundingClientRect().left + container.offsetWidth / 2;
+        let closestIndex = 0;
+        let minDistance = Infinity;
+
+        cards.forEach((card, idx) => {
+          const cardRect = card.getBoundingClientRect();
+          const cardCenter = cardRect.left + cardRect.width / 2;
+          const dist = Math.abs(containerCenter - cardCenter);
+          if (dist < minDistance) {
+            minDistance = dist;
+            closestIndex = idx;
+          }
+        });
+
+        const dots = document.querySelectorAll('.format-dot');
+        dots.forEach((dot, idx) => {
+          if (idx === closestIndex) {
+            dot.className = 'format-dot w-5 h-2 rounded-full bg-[#FF5500] transition-all duration-300 cursor-pointer shadow-xs p-0';
+          } else {
+            dot.className = 'format-dot w-2 h-2 rounded-full bg-slate-300 hover:bg-slate-400 transition-all duration-300 cursor-pointer p-0';
+          }
+        });
+      }, { passive: true });
+    }
+
+    function filterFormats(category) {
+      // Atualiza botões das abas
+      const tabBtns = document.querySelectorAll('.tab-btn');
+      tabBtns.forEach(btn => {
+        btn.classList.remove('bg-white', 'text-[#1E232A]', 'shadow-xs');
+        btn.classList.add('text-slate-600');
+      });
+
+      const activeBtn = document.getElementById(`tab-${category}`);
+      if (activeBtn) {
+        activeBtn.classList.remove('text-slate-600');
+        activeBtn.classList.add('bg-white', 'text-[#1E232A]', 'shadow-xs');
+      }
+
+      const container = document.getElementById('formats-grid');
+      if (!container) return;
+
+      if (category === 'digital' || category === 'globoplay') {
+        container.className = 'flex flex-row overflow-x-auto snap-x snap-mandatory no-scrollbar gap-4 sm:gap-6 pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 md:grid md:grid-cols-3 md:gap-7 md:overflow-visible md:pb-0 w-full';
+        const items = formatsData[category];
+        container.innerHTML = items.map(renderCard).join('');
+        renderPaginationDots(items.length);
+      } else {
+        container.className = 'flex flex-row overflow-x-auto snap-x snap-mandatory no-scrollbar gap-4 sm:gap-6 pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-7 md:overflow-visible md:pb-0 w-full';
+        const items = formatsData[category] || formatsData.tv;
+        container.innerHTML = items.map(renderCard).join('');
+        renderPaginationDots(items.length);
+      }
+      container.scrollTo({ left: 0, behavior: 'instant' });
+    }
+
+    // Inicialização ao carregar
+    document.addEventListener('DOMContentLoaded', () => {
+      activateChannelCard(0);
+      setupScrollAndHoverBehavior();
+      setupFormatSliderScroll();
+      filterFormats('tv');
+    });
+  </script>
+
+</body>
+</html>

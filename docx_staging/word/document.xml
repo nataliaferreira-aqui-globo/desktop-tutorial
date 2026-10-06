@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+            xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+  <w:body>
+    <!-- CABEÇALHO PRINCIPAL -->
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Title"/>
+        <w:spacing w:before="0" w:after="80"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="48"/>
+          <w:color w:val="FF4F00"/>
+        </w:rPr>
+        <w:t>Aqui ads</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="48"/>
+          <w:color w:val="1B1B1B"/>
+        </w:rPr>
+        <w:t> | Central de Ajuda e Conhecimento</w:t>
+      </w:r>
+    </w:p>
+
+    <!-- SUBTÍTULO OFICIAL -->
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Subtitle"/>
+        <w:spacing w:before="0" w:after="200"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="22"/>
+          <w:color w:val="475569"/>
+          <w:i/>
+        </w:rPr>
+        <w:t>Explore o universo de possibilidades do Aqui Ads: tudo o que você precisa saber sobre veiculação na TV Globo, telas de OOH, rádios CBN e portais digitais em uma só plataforma.</w:t>
+      </w:r>
+    </w:p>
+
+    <!-- BOX DE METADADOS -->
+    <w:p>
+      <w:pPr>
+        <w:pBdr>
+          <w:left w:val="single" w:sz="36" w:space="15" w:color="FF4F00"/>
+        </w:pBdr>
+        <w:shd w:val="clear" w:color="auto" w:fill="F8FAFC"/>
+        <w:spacing w:before="100" w:after="300"/>
+        <w:ind w:left="200" w:right="200"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="20"/>
+          <w:color w:val="1B1B1B"/>
+        </w:rPr>
+        <w:t>Documento Oficial de Perguntas Frequentes (FAQs) e Políticas Comerciais</w:t>
+      </w:r>
+      <w:r><w:br/></w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="18"/>
+          <w:color w:val="64748B"/>
+        </w:rPr>
+        <w:t>• Ecossistema: Eletromidia S/A &amp; Grupo Globo</w:t>
+      </w:r>
+      <w:r><w:br/></w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="18"/>
+          <w:color w:val="64748B"/>
+        </w:rPr>
+        <w:t>• Total de Tópicos: 13 seções temáticas | Total de Perguntas: 51 FAQs auditadas</w:t>
+      </w:r>
+      <w:r><w:br/></w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="18"/>
+          <w:color w:val="64748B"/>
+        </w:rPr>
+        <w:t>• Data de Emissão: Setembro de 2026 | Versão: 2.0 (Consolidada)</w:t>
+      </w:r>
+    </w:p>
+
+    <!-- SUMÁRIO EXECUTIVO -->
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+        <w:spacing w:before="200" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="26"/>
+          <w:color w:val="1B1B1B"/>
+        </w:rPr>
+        <w:t>Sumário dos Tópicos de Conhecimento</w:t>
+      </w:r>
+    </w:p>
+
+    <w:p>
+      <w:r>
+        <w:rPr><w:sz w:val="20"/><w:color w:val="334155"/></w:rPr>
+        <w:t>1. Elegibilidade e regras gerais (2 perguntas)</w:t>
+      </w:r>
+      <w:r><w:br/></w:r>
+      <w:r>
+        <w:rPr><w:sz w:val="20"/><w:color w:val="334155"/></w:rPr>
+        <w:t>2. TV aberta (Globo Impacto) (7 perguntas)</w:t>
+      </w:r>
+      <w:r><w:br/></w:r>
+      <w:r>
+        <w:rPr><w:sz w:val="20"/><w:color w:val="334155"/></w:rPr>
+        <w:t>3. Rádio (CBN, BH FM e Rádio Globo) (5 perguntas)</w:t>
+      </w:r>
+      <w:r><w:br/></w:r>
+      <w:r>
+        <w:rPr><w:sz w:val="20"/><w:color w:val="334155"/></w:rPr>
+        <w:t>4. Mídia digital (Editora Globo) (3 perguntas)</w:t>
+      </w:r>
+      <w:r><w:br/></w:r>
+      <w:r>
+        <w:rPr><w:sz w:val="20"/><w:color w:val="334155"/></w:rPr>
+        <w:t>5. Geral e sobre a plataforma (3 perguntas)</w:t>
+      </w:r>
+      <w:r><w:br/></w:r>
+      <w:r>
+        <w:rPr><w:sz w:val="20"/><w:color w:val="334155"/></w:rPr>
+        <w:t>6. Cadastro e acesso (3 perguntas)</w:t>
+      </w:r>
+      <w:r><w:br/></w:r>
+      <w:r>
+        <w:rPr><w:sz w:val="20"/><w:color w:val="334155"/></w:rPr>
+        <w:t>7. Contratação, preços e pagamento (7 perguntas)</w:t>
+      </w:r>
+      <w:r><w:br/></w:r>
+      <w:r>
+        <w:rPr><w:sz w:val="20"/><w:color w:val="334155"/></w:rPr>
+        <w:t>8. Criação de mídia e uso de IA (5 perguntas)</w:t>
+      </w:r>
+      <w:r><w:br/></w:r>
+      <w:r>
+        <w:rPr><w:sz w:val="20"/><w:color w:val="334155"/></w:rPr>
+        <w:t>9. Veiculação, aprovação e prazos (OOH) (4 perguntas)</w:t>
+      </w:r>
+      <w:r><w:br/></w:r>
+      <w:r>
+        <w:rPr><w:sz w:val="20"/><w:color w:val="334155"/></w:rPr>
+        <w:t>10. Gestão, alteração e comprovação (5 perguntas)</w:t>
+      </w:r>
+      <w:r><w:br/></w:r>
+      <w:r>
+        <w:rPr><w:sz w:val="20"/><w:color w:val="334155"/></w:rPr>
+        <w:t>11. Proibições e restrições (3 perguntas)</w:t>
+      </w:r>
+      <w:r><w:br/></w:r>
+      <w:r>
+        <w:rPr><w:sz w:val="20"/><w:color w:val="334155"/></w:rPr>
+        <w:t>12. Painel do síndico / condomínio (3 perguntas)</w:t>
+      </w:r>
+      <w:r><w:br/></w:r>
+      <w:r>
+        <w:rPr><w:sz w:val="20"/><w:color w:val="334155"/></w:rPr>
+        <w:t>13. Canais de atendimento oficial (1 pergunta)</w:t>
+      </w:r>
+      <w:r><w:br/></w:r>
+      <w:r>
+        <w:rPr><w:sz w:val="20"/><w:color w:val="334155"/></w:rPr>
+        <w:t>14. Anexo: Catálogo de Materiais Ricos &amp; Downloads (6 itens)</w:t>
+      </w:r>
+    </w:p>
+
+    <!-- SEPARADOR -->
+    <w:p>
+      <w:pPr><w:spacing w:before="200" w:after="300"/></w:pPr>
+      <w:r><w:rPr><w:color w:val="CBD5E1"/></w:rPr><w:t>_________________________________________________________________________________</w:t></w:r>
+    </w:p>
+
+    <!-- ========================================================================= -->
+    <!-- 1. ELEGIBILIDADE E REGRAS GERAIS                                          -->
+    <!-- ========================================================================= -->
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+        <w:spacing w:before="360" w:after="80"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr><w:b/><w:sz w:val="28"/><w:color w:val="1B1B1B"/></w:rPr>
+        <w:t>1. Elegibilidade e regras gerais</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="160"/></w:pPr>
+      <w:r>
+        <w:rPr><w:sz w:val="20"/><w:color w:val="64748B"/><w:i/></w:rPr>
+        <w:t>Perfil de empresas atendidas pelo Aqui ads e regras de blocklist direta da Globo.</w:t>
+      </w:r>
+    </w:p>
+
+    <!-- Q1 -->
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:spacing w:before="200" w:after="40"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr>
+        <w:t>Q1: Quem pode anunciar através do Aqui Ads?</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r>
+        <w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr>
+        <w:t>[Tag: Pequenas e médias empresas]</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r>
+        <w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr>
+        <w:t>A plataforma é desenhada especialmente para </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr>
+        <w:t>Pequenas e Médias Empresas (PME)</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr>
+        <w:t> que buscam contratar mídia de grande alcance (TV, Rádio e Digital) de forma simples, guiada, empacotada e sem as burocracias das compras tradicionais de mídia.</w:t>
+      </w:r>
+    </w:p>
+
+    <!-- Q2 -->
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:spacing w:before="200" w:after="40"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr>
+        <w:t>Q2: Empresas que já possuem atendimento direto com a Globo podem comprar pelo Aqui Ads?</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r>
+        <w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr>
+        <w:t>[Tag: Regra de blocklist]</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="240"/></w:pPr>
+      <w:r>
+        <w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr>
+        <w:t>Não. </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr>
+        <w:t>Clientes que já são encarteirados diretamente pela Globo ou pela Editora Globo (ou seja, que constam na Blocklist de atendimento comercial direto da emissora) não estão elegíveis para contratação self-service pela plataforma Aqui ads.</w:t>
+      </w:r>
+    </w:p>
+
+    <!-- ========================================================================= -->
+    <!-- 2. TV ABERTA (GLOBO IMPACTO)                                              -->
+    <!-- ========================================================================= -->
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+        <w:spacing w:before="360" w:after="80"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr><w:b/><w:sz w:val="28"/><w:color w:val="1B1B1B"/></w:rPr>
+        <w:t>2. TV aberta (Globo Impacto)</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="160"/></w:pPr>
+      <w:r>
+        <w:rPr><w:sz w:val="20"/><w:color w:val="64748B"/><w:i/></w:rPr>
+        <w:t>Pacotes fechados com CPM fixo, praças P0, formatos de horários e regras de vídeo.</w:t>
+      </w:r>
+    </w:p>
+
+    <!-- Q11 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q11: Como funciona a veiculação na TV Aberta?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Globo Impacto - CPM fixo]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>A contratação é baseada no produto </w:t></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Globo Impacto</w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>, vendido em pacotes fechados com entrega de impactos e audiência garantida com </w:t></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>CPM fixo</w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>. A distribuição dos comerciais na grade é realizada automaticamente pelo algoritmo inteligente da Globo, garantindo a entrega do volume contratado de forma always-on.</w:t></w:r>
+    </w:p>
+
+    <!-- Q12 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q12: O anunciante pode escolher o programa, horário ou dia exato da exibição?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Modelo rotativo]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Não. </w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>O modelo de compra simplificada troca o controle fino pela simplicidade, menor custo e previsibilidade garantida de entrega. Não é possível escolher programas específicos (como novelas do horário nobre ou transmissões de futebol), datas exatas ou horários fixos. Os comerciais são veiculados de forma rotativa e estratégica ao longo da programação.</w:t></w:r>
+    </w:p>
+
+    <!-- Q13 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q13: Quais praças estão disponíveis para compra de TV Aberta na fase P0?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Praças P0]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Na fase inicial (P0), o anunciante pode contratar a veiculação no sinal </w:t></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Nacional</w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t> (sinal único veiculado para todo o Brasil) ou nas seguintes praças regionais:</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• São Paulo</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Rio de Janeiro</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Belo Horizonte</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Distrito Federal</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Recife</w:t></w:r>
+    </w:p>
+
+    <!-- Q14 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q14: Qual é a duração permitida para uma campanha de TV?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Duração: 11 a 28 dias]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>As campanhas de TV Aberta no P0 têm duração de </w:t></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>11 a 28 dias</w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>, sendo configuráveis em ciclos fechados de 1 a 4 semanas de veiculação contínua.</w:t></w:r>
+    </w:p>
+
+    <!-- Q15 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q15: Quais são os formatos de pacotes disponíveis para a TV?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Formatos de pacote]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Os pacotes são configurados por 3 dimensões:</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Faixa Horária: </w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Pacote Sem Prime Time (Manhã, Tarde e Madrugada) ou Com Prime Time (Manhã, Tarde, Noite e Madrugada).</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Dias da Semana: </w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Todos os dias, Domingo a Quarta ou Quinta a Sábado.</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Gênero de Programação: </w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Dramaturgia &amp; Variedades ou Esportes &amp; Jornalismo.</w:t></w:r>
+    </w:p>
+
+    <!-- Q16 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q16: Quantos criativos de vídeo podem ser enviados por campanha?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: 1 vídeo por campanha]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Cada campanha permite a inclusão de </w:t></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>apenas 1 criativo de vídeo</w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>, que deve atender estritamente às especificações técnicas da Globo e passar por validação prévia da equipe de OPEC/Globo. É permitido concluir o pedido na plataforma e enviar o arquivo de vídeo posteriormente, se necessário.</w:t></w:r>
+    </w:p>
+
+    <!-- Q17 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q17: Como é comprovada a exibição da campanha na TV?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Compensação garantida]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="240"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>A comprovação é feita de maneira 100% auditada diretamente no </w:t></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>dashboard de resultados</w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t> dentro da plataforma. Caso ocorra entrega abaixo do volume contratado (under-delivery), a compensação é feita automaticamente via inserções adicionais após o período regular da campanha.</w:t></w:r>
+    </w:p>
+
+    <!-- ========================================================================= -->
+    <!-- 3. RÁDIO (CBN, BH FM E RÁDIO GLOBO)                                       -->
+    <!-- ========================================================================= -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading1"/><w:spacing w:before="360" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="28"/><w:color w:val="1B1B1B"/></w:rPr><w:t>3. Rádio (CBN, BH FM e Rádio Globo)</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="20"/><w:color w:val="64748B"/><w:i/></w:rPr><w:t>Spot de 30s, modelos rotativo e determinado, perfis das emissoras.</w:t></w:r>
+    </w:p>
+
+    <!-- Q21 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q21: Como funciona o processo de contratação para Rádio?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Contato em até 12h úteis]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>O anunciante preenche um formulário de interesse na plataforma Aqui Ads. Um executivo de contas entra em contato em até </w:t></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>12 horas úteis</w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t> para prestar suporte consultivo e finalizar as configurações e gravação da campanha.</w:t></w:r>
+    </w:p>
+
+    <!-- Q22 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q22: Quais emissoras estão disponíveis e quais são seus perfis?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Perfis de audiência]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Rádio CBN: </w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Focada em notícias (all news), atingindo executivos, empresários, tomadores de decisão e formadores de opinião.</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• BH FM: </w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Voltada para música e entretenimento, com fortíssimo apelo junto ao público jovem e adulto contemporâneo de Minas Gerais.</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Rádio Globo: </w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Perfil popular e urbano, combinando música, esportes, descontração e notícias do dia a dia.</w:t></w:r>
+    </w:p>
+
+    <!-- Q23 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q23: Qual é o formato do anúncio de rádio aceito?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Spot de 30s narrado]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>É aceito exclusivamente o </w:t></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Spot de 30 segundos</w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t> (locução narrada com opção de trilha de fundo e efeitos sonoros profissionais). O formato jingle (música cantada) não é utilizado.</w:t></w:r>
+    </w:p>
+
+    <!-- Q24 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q24: Quais são os modelos de veiculação e suas durações?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Planos de 5 e 7 dias]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Plano Rotativo: </w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Anúncio distribuído aleatoriamente na grade. Campanha de 7 dias (Segunda a Domingo), com 21 inserções no total (3 por dia) e gravação feita por um locutor da rádio.</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Plano Determinado: </w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Anúncio veiculado em programas específicos. Campanha de 5 dias (Segunda a Sexta), com 15 inserções no total (3 por dia) e locução realizada diretamente pelo apresentador do programa.</w:t></w:r>
+    </w:p>
+
+    <!-- Q25 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q25: É possível alterar o texto do comercial após o envio?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Texto final após gravação]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="240"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Não. </w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Uma vez enviado o texto-base e realizada a gravação do áudio no estúdio da rádio, não é possível fazer alterações no texto durante o período de veiculação.</w:t></w:r>
+    </w:p>
+
+    <!-- ========================================================================= -->
+    <!-- 4. MÍDIA DIGITAL (EDITORA GLOBO)                                          -->
+    <!-- ========================================================================= -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading1"/><w:spacing w:before="360" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="28"/><w:color w:val="1B1B1B"/></w:rPr><w:t>4. Mídia digital (Editora Globo)</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="20"/><w:color w:val="64748B"/><w:i/></w:rPr><w:t>Rede de portais (O Globo, TechTudo, Vogue), CPM de R$ 9,60 e formatos display.</w:t></w:r>
+    </w:p>
+
+    <!-- Q31 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q31: Como funciona a veiculação nos portais digitais da Editora Globo?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: CPM fixo R$ 9,60]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Os anúncios são veiculados de forma distribuída em toda a rede digital da Editora Globo (incluindo grandes marcas como O Globo, TechTudo, Vogue, Casa e Jardim, Época Negócios, etc.), operando sob um modelo de </w:t></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>CPM fixo de R$ 9,60</w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>.</w:t></w:r>
+    </w:p>
+
+    <!-- Q32 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q32: Quais formatos de anúncios digitais são aceitos na V1?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Mídia display]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Nesta fase inicial (V1), são aceitos exclusivamente formatos de mídia display padrão IAB: Billboard, Maxiboard, Retângulo Médio e Half Page. Formatos de vídeo, publieditoriais patrocinados, rich media e mídia impressa física estão fora do escopo da fase V1.</w:t></w:r>
+    </w:p>
+
+    <!-- Q33 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q33: Quais segmentações de público podem ser aplicadas no digital?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Segmentação inteligente]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="240"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>O anunciante pode filtrar a entrega da sua campanha digital por Região geográfica, Gênero, Interesses temáticos e Faixa etária (Idade) com base na inteligência de dados dos portais Globo.</w:t></w:r>
+    </w:p>
+
+    <!-- ========================================================================= -->
+    <!-- 5. GERAL E SOBRE A PLATAFORMA                                             -->
+    <!-- ========================================================================= -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading1"/><w:spacing w:before="360" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="28"/><w:color w:val="1B1B1B"/></w:rPr><w:t>5. Geral e sobre a plataforma</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="20"/><w:color w:val="64748B"/><w:i/></w:rPr><w:t>O que é o Aqui ads, ecossistema Eletromidia e como fazer parte.</w:t></w:r>
+    </w:p>
+
+    <!-- Q101 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q101: O que é o Aqui Ads?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Plataforma autônoma]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>O Aqui Ads é a plataforma autônoma da Eletromidia para micro, pequenos e médios anunciantes criarem, contratarem e gerenciarem campanhas de mídia out-of-home (OOH) com total facilidade, rapidez e sem intermediários.</w:t></w:r>
+    </w:p>
+
+    <!-- Q102 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q102: O que é a Eletromidia?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Líder em OOH]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>A Eletromidia é a maior empresa brasileira de mídia out-of-home (OOH), presente em mais de 80 a 90 cidades em 21 a 22 estados e no Distrito Federal, impactando milhões de pessoas diariamente em elevadores, transportes, shoppings e ruas.</w:t></w:r>
+    </w:p>
+
+    <!-- Q103 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q103: Como trabalhar na Eletromidia?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Carreiras]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="240"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Você pode acompanhar as vagas abertas e cadastrar seu currículo diretamente na nossa página oficial de carreiras na Gupy: eletromidia.gupy.io.</w:t></w:r>
+    </w:p>
+
+    <!-- ========================================================================= -->
+    <!-- 6. CADASTRO E ACESSO                                                      -->
+    <!-- ========================================================================= -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading1"/><w:spacing w:before="360" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="28"/><w:color w:val="1B1B1B"/></w:rPr><w:t>6. Cadastro e acesso</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="20"/><w:color w:val="64748B"/><w:i/></w:rPr><w:t>Requisitos de elegibilidade, recuperação de senha e gestão de dados cadastrais.</w:t></w:r>
+    </w:p>
+
+    <!-- Q201 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q201: Quem pode anunciar no Aqui Ads?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Requisitos]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Pessoas físicas com 18 anos ou mais e pessoas jurídicas regularmente constituídas e com plena capacidade civil podem criar conta e veicular anúncios na plataforma.</w:t></w:r>
+    </w:p>
+
+    <!-- Q202 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q202: Como recuperar a senha do Aqui Ads?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Segurança de acesso]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Acesse aquiads.com.br, clique em 'Entrar', insira seu e-mail cadastrado e selecione a opção 'Esqueci minha senha'. Você receberá as instruções de redefinição no seu e-mail em instantes.</w:t></w:r>
+    </w:p>
+
+    <!-- Q203 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q203: Como alterar ou excluir dados do cadastro?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Privacidade &amp; LGPD]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="240"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>O usuário é o único responsável pela veracidade e atualização de seus dados. Caso necessite alterar informações cadastrais ou solicitar a exclusão definitiva dos dados conforme a LGPD, basta entrar em contato através dos nossos canais oficiais de suporte.</w:t></w:r>
+    </w:p>
+
+    <!-- ========================================================================= -->
+    <!-- 7. CONTRATAÇÃO, PREÇOS E PAGAMENTO                                        -->
+    <!-- ========================================================================= -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading1"/><w:spacing w:before="360" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="28"/><w:color w:val="1B1B1B"/></w:rPr><w:t>7. Contratação, preços e pagamento</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="20"/><w:color w:val="64748B"/><w:i/></w:rPr><w:t>Valores OOH, parcelamentos, combos promocionais e desconto para condôminos.</w:t></w:r>
+    </w:p>
+
+    <!-- Q301 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q301: Como fazer um pedido no Aqui Ads?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Fluxo simplificado]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>O processo é 100% digital: acesse aquiads.com.br, clique em 'Anunciar agora', selecione os pontos desejados no mapa, escolha o período da campanha, adicione a sua arte (ou utilize nosso gerador gratuito com Inteligência Artificial) e realize o pagamento.</w:t></w:r>
+    </w:p>
+
+    <!-- Q302 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q302: Quanto custa anunciar no Aqui Ads?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Preço acessível]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>O plano inicial em elevador residencial custa a partir de </w:t></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>R$ 194,00 por 14 dias</w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t> ou </w:t></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>R$ 323,00 por 28 dias</w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>. Já elevadores comerciais, shoppings, aeroportos e transportes têm preços variados conforme o número de telas selecionadas e a estimativa de alcance do local.</w:t></w:r>
+    </w:p>
+
+    <!-- Q303 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q303: Existem combos promocionais?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Descontos de até 30%]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Sim! Disponibilizamos combos promocionais com durações estendidas de 4 semanas e 12 semanas com descontos expressivos que podem chegar a 30% OFF. Consulte os pacotes ativos em aquiads.com.br/combos.</w:t></w:r>
+    </w:p>
+
+    <!-- Q304 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q304: Condôminos têm desconto?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Benefício exclusivo]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Sim! Moradores de edifícios que contam com telas ativas da Eletromidia possuem o Desconto de Condômino exclusivo para anunciar no seu próprio condomínio (limitado a 1 slot ativo por vez por condômino).</w:t></w:r>
+    </w:p>
+
+    <!-- Q305 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q305: Quais são as formas de pagamento aceitas?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Pagamento seguro]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Aceitamos </w:t></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Pix</w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t> (confirmação instantânea), </w:t></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Cartão de Crédito</w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t> das principais bandeiras e </w:t></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Boleto Bancário</w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>.</w:t></w:r>
+    </w:p>
+
+    <!-- Q306 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q306: Como funciona o parcelamento no cartão de crédito?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Parcelamento sem juros]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>As condições de parcelamento sem juros são estruturadas da seguinte forma:</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Pedidos com valor acima de R$ 2.000,00: parcelamento em até 3x sem juros.</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Campanhas de 12 semanas (3 meses): parcelamento em até 3x sem juros.</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Campanhas de 24 semanas (6 meses): parcelamento em até 6x sem juros.</w:t></w:r>
+    </w:p>
+
+    <!-- Q307 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q307: Onde aplicar cupom de desconto?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Cupons promocionais]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="240"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>No carrinho de compras, antes de finalizar o pedido, insira seu código no campo demarcado 'Possui um cupom de desconto?' e clique em aplicar para abater o valor correspondente.</w:t></w:r>
+    </w:p>
+
+    <!-- ========================================================================= -->
+    <!-- 8. CRIAÇÃO DE MÍDIA E USO DE IA                                           -->
+    <!-- ========================================================================= -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading1"/><w:spacing w:before="360" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="28"/><w:color w:val="1B1B1B"/></w:rPr><w:t>8. Criação de mídia e uso de IA</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="20"/><w:color w:val="64748B"/><w:i/></w:rPr><w:t>Formatos técnicos, IA generativa (Gemini/VEO 3) e serviço de produção de artes.</w:t></w:r>
+    </w:p>
+
+    <!-- Q401 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q401: Quais os formatos aceitos no Aqui Ads?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Especificação técnica]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>São aceitos:</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Vídeos: </w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>formato MP4 (codec h.264, sem áudio, taxa padrão, até 20MB).</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Imagens: </w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>formatos PNG ou JPG (alta resolução, até 5MB).</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Duração padrão: </w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>exatamente 10 segundos por exibição.</w:t></w:r>
+    </w:p>
+
+    <!-- Q402 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q402: Como funciona a criação de anúncios por Inteligência Artificial?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: IA sem custo adicional]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>A plataforma oferece gratuitamente ferramentas de Inteligência Artificial de ponta (Gemini e VEO 3) para criar títulos chamativos, textos persuasivos e imagens de fundo profissionais sob medida para o seu segmento de mercado, sem qualquer custo adicional.</w:t></w:r>
+    </w:p>
+
+    <!-- Q403 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q403: Quais as regras da IA generativa?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Termos de uso de IA]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>É expressamente proibido remover marcas d'água de identificação de IA, gerar conteúdos enganosos, fraudulentos, ofensivos ou utilizar dados confidenciais ou protegidos por propriedade intelectual de terceiros sem autorização.</w:t></w:r>
+    </w:p>
+
+    <!-- Q404 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q404: Como funciona o Serviço de Produção de Criativos?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Design profissional]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Se você preferir que nosso time de designers crie seu anúncio:</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>1. Envie o briefing com suas informações e identidade visual.</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>2. Confirmação do briefing em até 12h úteis.</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>3. Primeira versão (V1) entregue em até 48h úteis.</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>4. São permitidas até 2 rodadas de refação (V2 e V3), com entrega em até 48h úteis cada.</w:t></w:r>
+    </w:p>
+
+    <!-- Q405 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q405: Posso subir mais de uma mídia por compra?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Regra de upload]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="240"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>É permitido enviar apenas 1 mídia por ambiente por compra. Caso deseje exibir criativos diferentes em locais distintos, basta realizar pedidos separados para cada peça publicitária.</w:t></w:r>
+    </w:p>
+
+    <!-- ========================================================================= -->
+    <!-- 9. VEICULAÇÃO, APROVAÇÃO E PRAZOS (OOH)                                   -->
+    <!-- ========================================================================= -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading1"/><w:spacing w:before="360" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="28"/><w:color w:val="1B1B1B"/></w:rPr><w:t>9. Veiculação, aprovação e prazos (OOH)</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="20"/><w:color w:val="64748B"/><w:i/></w:rPr><w:t>Looping de exibição, prazos de moderação técnica e horários das telas.</w:t></w:r>
+    </w:p>
+
+    <!-- Q501 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q501: Qual o tempo de duração e a frequência nas telas digitais?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Alta frequência]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Cada exibição possui </w:t></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>10 segundos</w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t> de duração e é repetida a cada </w:t></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>3 minutos em média</w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t> dentro do loop contínuo de veiculação das telas.</w:t></w:r>
+    </w:p>
+
+    <!-- Q502 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q502: Qual o prazo de aprovação do anúncio?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Prazo de aprovação]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>A moderação técnica e conferência do anúncio ocorre em até </w:t></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>72 horas úteis</w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t> (horário de atendimento: de segunda a sexta-feira, das 09h às 18h). Assim que aprovado, sua campanha entra no ar no cronograma previsto.</w:t></w:r>
+    </w:p>
+
+    <!-- Q503 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q503: Quais os horários de veiculação das telas?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Cobertura completa]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Residenciais, ruas e aeroportos: 24 horas por dia, 7 dias por semana.</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Comerciais (edifícios corporativos): de segunda a sexta-feira, das 05h59 às 23h59.</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Shoppings e transportes: acompanham integralmente o horário de funcionamento de cada localidade.</w:t></w:r>
+    </w:p>
+
+    <!-- Q504 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q504: Como é a exibição em elevadores residenciais?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Formato residencial]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="240"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Nas telas de elevadores residenciais, o anúncio da sua marca é exibido com grande destaque na área superior da tela (800x600px), enquanto a área inferior é reservada para informes e avisos da administração do condomínio.</w:t></w:r>
+    </w:p>
+
+    <!-- ========================================================================= -->
+    <!-- 10. GESTÃO, ALTERAÇÃO E COMPROVAÇÃO                                       -->
+    <!-- ========================================================================= -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading1"/><w:spacing w:before="360" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="28"/><w:color w:val="1B1B1B"/></w:rPr><w:t>10. Gestão, alteração e comprovação</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="20"/><w:color w:val="64748B"/><w:i/></w:rPr><w:t>Acompanhamento diário de métricas, troca de artes, renovação e checking.</w:t></w:r>
+    </w:p>
+
+    <!-- Q601 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q601: Como acompanhar a veiculação da minha campanha?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Métricas em tempo real]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Dentro do painel do Aqui Ads, acesse a aba 'Meus Anúncios'. Você terá acesso aos relatórios com números diários de alcance estimado, exibições acumuladas, impacto total e frequência média.</w:t></w:r>
+    </w:p>
+
+    <!-- Q602 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q602: Como trocar a arte de um anúncio ativo?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Flexibilidade]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Na seção 'Meus Anúncios', clique no menu de três pontos (...) ao lado do pedido desejado e selecione 'Trocar Arte'. Após a nova validação técnica, a atualização nas telas físicas ocorre em até 1 dia útil.</w:t></w:r>
+    </w:p>
+
+    <!-- Q603 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q603: A renovação da campanha é automática?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Controle total]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Não. A renovação não é automática para garantir seu total controle orçamentário. Para continuar anunciando, acesse 'Meus Anúncios' e clique no botão 'Renovar' antes ou após a data de término.</w:t></w:r>
+    </w:p>
+
+    <!-- Q604 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q604: Como solicitar o checking (comprovação fotográfica)?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Comprovação auditada]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Para solicitar a comprovação fotográfica amostral da sua veiculação nas telas, basta enviar um e-mail com o número do seu pedido para: aqui@eletromidia.com.br.</w:t></w:r>
+    </w:p>
+
+    <!-- Q605 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q605: Posso visitar um prédio privado para ver o anúncio?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Segurança condominial]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="240"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Não. O acesso a edifícios residenciais ou comerciais privados é restrito e exclusivo para moradores, condôminos, funcionários ou pessoas previamente autorizadas pelo condomínio.</w:t></w:r>
+    </w:p>
+
+    <!-- ========================================================================= -->
+    <!-- 11. PROIBIÇÕES E RESTRIÇÕES                                               -->
+    <!-- ========================================================================= -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading1"/><w:spacing w:before="360" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="28"/><w:color w:val="1B1B1B"/></w:rPr><w:t>11. Proibições e restrições</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="20"/><w:color w:val="64748B"/><w:i/></w:rPr><w:t>Diretrizes legais, conteúdos vetados e políticas de segurança editorial.</w:t></w:r>
+    </w:p>
+
+    <!-- Q701 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q701: O que não pode ser anunciado?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Diretrizes do CONAR]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Em conformidade com a legislação e o CONAR, é estritamente proibido veicular conteúdos:</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Políticos, partidários ou eleitorais;</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Religiosos ou proselitistas;</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Pornográficos, eróticos ou sexualmente explícitos;</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Preconceituosos, discriminatórios ou de incitação ao ódio;</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Atividades ilícitas ou jogos não autorizados;</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Comércio ou venda de animais;</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Assuntos de administração condominial ou disputas de síndicos;</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Produtos nocivos à saúde (como tabaco, vapes e derivados).</w:t></w:r>
+    </w:p>
+
+    <!-- Q702 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q702: Anúncios em shoppings têm restrições específicas?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Política de shopping]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Sim. Em shoppings centers, não são aceitas veiculações de anúncios que gerem conflito direto de interesse ou concorrência desleal com lojistas fixos que operam dentro do próprio shopping.</w:t></w:r>
+    </w:p>
+
+    <!-- Q703 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q703: A Eletromidia realiza sorteios ou distribuição de prêmios?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Alerta de segurança]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="240"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Não. A Eletromidia e o Aqui Ads nunca realizam sorteios, distribuição de prêmios físicos (como iPhones ou eletrônicos) ou oferta de produtos de crédito. Desconfie de mensagens suspeitas ou golpes que utilizem o nome da nossa marca.</w:t></w:r>
+    </w:p>
+
+    <!-- ========================================================================= -->
+    <!-- 12. PAINEL DO SÍNDICO / CONDOMÍNIO                                        -->
+    <!-- ========================================================================= -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading1"/><w:spacing w:before="360" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="28"/><w:color w:val="1B1B1B"/></w:rPr><w:t>12. Painel do síndico / condomínio</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="20"/><w:color w:val="64748B"/><w:i/></w:rPr><w:t>Instalação de telas sem custo para o prédio, acesso e suporte para administração predial.</w:t></w:r>
+    </w:p>
+
+    <!-- Q801 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q801: Como acessar o sistema do síndico?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Portal exclusivo]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Síndicos e administradoras parceiras podem gerenciar avisos e comunicados aos moradores acessando diretamente o portal: painel.eletromidia.com.br.</w:t></w:r>
+    </w:p>
+
+    <!-- Q802 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q802: Como solicitar alteração de e-mail ou senha do síndico?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Suporte predial]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>A recuperação de senha pode ser feita diretamente no painel. Para alteração de e-mail de acesso ou troca de gestor do condomínio, envie solicitação para: atendimento@eletromidia.com.br.</w:t></w:r>
+    </w:p>
+
+    <!-- Q803 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q803: Como solicitar telas da Eletromidia para o meu condomínio?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Custo zero para o prédio]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="240"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>A instalação de telas digitais em elevadores residenciais e comerciais é totalmente sem custo para o condomínio! Para solicitar uma avaliação técnica e modernizar seu edifício, envie e-mail com o endereço completo para: contato@aqui.globo.</w:t></w:r>
+    </w:p>
+
+    <!-- ========================================================================= -->
+    <!-- 13. CANAIS DE ATENDIMENTO OFICIAL                                         -->
+    <!-- ========================================================================= -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading1"/><w:spacing w:before="360" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="28"/><w:color w:val="1B1B1B"/></w:rPr><w:t>13. Canais de atendimento oficial</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="20"/><w:color w:val="64748B"/><w:i/></w:rPr><w:t>Como falar com consultores, suporte técnico e horários de funcionamento.</w:t></w:r>
+    </w:p>
+
+    <!-- Q901 -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading2"/><w:spacing w:before="200" w:after="40"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="FF4F00"/></w:rPr><w:t>Q901: Quais são os canais oficiais de atendimento do Aqui Ads?</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="18"/><w:color w:val="0066FF"/></w:rPr><w:t>[Tag: Canais verificados]</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="40" w:after="240"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>Você pode falar com nossa equipe através dos seguintes canais:</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• WhatsApp oficial: </w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>(11) 5039-5212 (atendimento ágil com consultores humanos).</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• E-mail institucional: </w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>contato@aqui.globo</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Checking de campanhas: </w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>aqui@eletromidia.com.br</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>• Horário de suporte: </w:t></w:r>
+      <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="1E293B"/></w:rPr><w:t>de segunda a sexta-feira, das 09h às 18h.</w:t></w:r>
+    </w:p>
+
+    <!-- ========================================================================= -->
+    <!-- 14. ANEXO: MATERIAIS RICOS E DOWNLOADS GRATUITOS                         -->
+    <!-- ========================================================================= -->
+    <w:p>
+      <w:pPr><w:pStyle w:val="Heading1"/><w:spacing w:before="360" w:after="80"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="28"/><w:color w:val="1B1B1B"/></w:rPr><w:t>14. Anexo: Materiais Ricos &amp; Downloads Gratuitos</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:pPr><w:spacing w:before="0" w:after="160"/></w:pPr>
+      <w:r><w:rPr><w:sz w:val="20"/><w:color w:val="64748B"/><w:i/></w:rPr><w:t>Catálogo de materiais técnicos disponíveis na Central de Downloads do Aqui ads.</w:t></w:r>
+    </w:p>
+
+    <w:p>
+      <w:pPr><w:spacing w:before="80" w:after="120"/></w:pPr>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="FF4F00"/></w:rPr><w:t>1. Mídia kit oficial Eletromidia 2026.pdf (18.4 MB | 36 páginas)</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="20"/><w:color w:val="334155"/></w:rPr><w:t>Métricas de audiência, mapeamento de cidades e gabaritos de telas em elevadores residenciais e comerciais.</w:t></w:r>
+      <w:r><w:br/><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="FF4F00"/></w:rPr><w:t>2. Guia TV Globo Impacto (CPM fixo).pdf (9.2 MB | 24 páginas)</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="20"/><w:color w:val="334155"/></w:rPr><w:t>Como comprar TV Aberta simplificada com entrega de audiência garantida, regras de OPEC e praças P0.</w:t></w:r>
+      <w:r><w:br/><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="FF4F00"/></w:rPr><w:t>3. E-book: comerciais com IA (Gemini &amp; VEO 3).pdf (12.1 MB | 42 páginas)</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="20"/><w:color w:val="334155"/></w:rPr><w:t>Passo a passo prático para criar roteiros, trilhas e vídeos de alta conversão sem custos de produção.</w:t></w:r>
+      <w:r><w:br/><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="FF4F00"/></w:rPr><w:t>4. Guia técnico: aprovação e regras de OPEC.pdf (3.8 MB | 18 páginas)</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="20"/><w:color w:val="334155"/></w:rPr><w:t>Requisitos de áudio, vídeo, codecs e diretrizes de conformidade jurídica para aprovação em até 72h úteis.</w:t></w:r>
+      <w:r><w:br/><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="FF4F00"/></w:rPr><w:t>5. Mídia kit rádios (CBN, BH FM &amp; Rádio Globo).pdf (4.1 MB | 16 páginas)</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="20"/><w:color w:val="334155"/></w:rPr><w:t>Grade horária, perfis de ouvintes qualificados e instruções técnicas para gravação de spot de 30s.</w:t></w:r>
+      <w:r><w:br/><w:br/></w:r>
+      <w:r><w:rPr><w:b/><w:sz w:val="22"/><w:color w:val="FF4F00"/></w:rPr><w:t>6. Especificações de mídia display Editora Globo.pdf (6.5 MB | 20 páginas)</w:t></w:r>
+      <w:r><w:br/></w:r>
+      <w:r><w:rPr><w:sz w:val="20"/><w:color w:val="334155"/></w:rPr><w:t>Formatos Billboard, Maxiboard e Half Page com CPM fixo de R$ 9,60 nos portais O Globo e TechTudo.</w:t></w:r>
+    </w:p>
+
+    <!-- CONFIGURAÇÕES DE PÁGINA (A4 COM MARGENS PADRÃO) -->
+    <w:sectPr>
+      <w:pgSz w:w="11906" w:h="16838"/>
+      <w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440" w:header="720" w:footer="720" w:gutter="0"/>
+    </w:sectPr>
+  </w:body>
+</w:document>
