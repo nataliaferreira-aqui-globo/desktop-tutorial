@@ -183,41 +183,32 @@
       box-sizing: border-box;
     }
 
-    /* Tablet (640px a 959px): 2 por linha centralizados */
-    @media (min-width: 640px) and (max-width: 959px) {
+    /* Tablet (640px a 1023px): Carrossel lateral idêntico ao mobile (Request 2) */
+    @media (min-width: 640px) and (max-width: 1023px) {
       #formats-grid {
-        flex-wrap: wrap !important;
-        justify-content: center !important;
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        scroll-snap-type: x mandatory !important;
         gap: 1.5rem !important;
-        overflow-x: visible !important;
-        padding-bottom: 0 !important;
+        padding-bottom: 0.75rem !important;
+        -webkit-overflow-scrolling: touch !important;
+        justify-content: flex-start !important;
       }
       .format-card {
-        flex: 0 0 calc(50% - 1rem) !important;
-        width: calc(50% - 1rem) !important;
+        flex: 0 0 340px !important;
+        width: 340px !important;
+        min-width: 320px !important;
         max-width: 360px !important;
+        scroll-snap-align: center !important;
       }
     }
 
-    /* Telas como 1032 x 1376 (960px a 1279px): 3 por linha, centralizados quando tiver 2 (Request 8) */
-    @media (min-width: 960px) and (max-width: 1279px) {
+    /* Desktop (>= 1024px): Grid de 3 ou 4 colunas centralizadas */
+    @media (min-width: 1024px) {
       #formats-grid {
-        flex-wrap: wrap !important;
-        justify-content: center !important;
-        gap: 1.5rem !important;
-        overflow-x: visible !important;
-        padding-bottom: 0 !important;
-      }
-      .format-card {
-        flex: 0 0 calc(33.333% - 1.15rem) !important;
-        width: calc(33.333% - 1.15rem) !important;
-        max-width: 360px !important;
-      }
-    }
-
-    /* Desktop Grande (>= 1280px / 1920px): 4 por linha, centralizados quando houver menos */
-    @media (min-width: 1280px) {
-      #formats-grid {
+        display: flex !important;
         flex-wrap: wrap !important;
         justify-content: center !important;
         gap: 1.5rem !important;
@@ -228,6 +219,12 @@
         flex: 0 0 calc(25% - 1.25rem) !important;
         width: calc(25% - 1.25rem) !important;
         max-width: 320px !important;
+        scroll-snap-align: none !important;
+      }
+      #formats-grid.grid-3-cols .format-card {
+        flex: 0 0 calc(33.333% - 1.15rem) !important;
+        width: calc(33.333% - 1.15rem) !important;
+        max-width: 360px !important;
       }
     }
   </style>
@@ -524,19 +521,19 @@
     <section id="jornada" class="py-16 sm:py-24 bg-[#FAF9F6] border-b border-slate-200">
       <div class="mx-auto max-w-[1330px] px-4 sm:px-8">
         
-        <!-- Header da Seção: Título à Esquerda e Subtítulo no Canto Lateral Direito em Apenas 2 Linhas -->
-        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 sm:gap-6 mb-8 sm:mb-12">
+        <!-- Header da Seção: Centralizado no mobile e Título à Esquerda / Subtítulo à Direita no desktop -->
+        <div class="flex flex-col items-center text-center md:flex-row md:items-end md:justify-between md:text-left gap-4 sm:gap-6 mb-8 sm:mb-12">
           
-          <!-- Título Lateralizado à Esquerda -->
-          <div class="max-w-lg shrink-0">
-            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight text-[#1E232A] leading-tight">
+          <!-- Título: Centralizado no mobile, alinhado à esquerda no desktop -->
+          <div class="w-full max-w-lg shrink-0 text-center md:text-left">
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight text-[#1E232A] leading-tight text-center md:text-left">
               Esteja presente em todas <br class="hidden sm:inline" />as jornadas do seu cliente
             </h2>
           </div>
 
-          <!-- Subtítulo no Canto Lateral Direito em Exatamente 3 Linhas (Request 1 - Imagem 1) -->
-          <div class="w-full md:w-auto md:ml-auto md:text-right">
-            <p class="text-xs sm:text-sm md:text-base text-slate-600 leading-relaxed text-left md:text-right max-w-[450px] md:ml-auto">
+          <!-- Subtítulo: Centralizado no mobile, alinhado à direita no desktop -->
+          <div class="w-full md:w-auto md:ml-auto text-center md:text-right">
+            <p class="text-xs sm:text-sm md:text-base text-slate-600 leading-relaxed text-center md:text-right max-w-[450px] mx-auto md:ml-auto">
               Acesse o Aqui ads e saiba mais sobre as rotas de mídia<br class="hidden md:inline" />
               que combinam a credibilidade da TV com o<br class="hidden md:inline" />
               impacto diário das telas de rua.
@@ -918,8 +915,8 @@
           <!-- Renderizado dinamicamente via JavaScript -->
         </div>
 
-        <!-- Componente de Paginação Centralizado (Status do Sistema UX para Mobile) -->
-        <div id="formats-pagination" class="flex md:hidden justify-center items-center gap-1.5 mt-5 mb-2">
+        <!-- Componente de Paginação Centralizado (Status do Sistema UX para Mobile e Tablet) -->
+        <div id="formats-pagination" class="flex lg:hidden justify-center items-center gap-1.5 mt-5 mb-2">
           <!-- Gerado dinamicamente via JavaScript -->
         </div>
 
@@ -1806,12 +1803,12 @@
       if (!container) return;
 
       if (category === 'digital' || category === 'globoplay' || category === 'radio') {
-        container.className = 'flex flex-row overflow-x-auto snap-x snap-mandatory no-scrollbar gap-4 sm:gap-6 pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 md:grid md:grid-cols-3 md:gap-7 md:overflow-visible md:pb-0 w-full';
+        container.className = 'flex flex-row overflow-x-auto snap-x snap-mandatory no-scrollbar gap-4 sm:gap-6 pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 lg:grid lg:grid-cols-3 lg:gap-7 lg:overflow-visible lg:pb-0 w-full grid-3-cols';
         const items = formatsData[category];
         container.innerHTML = items.map(renderCard).join('');
         renderPaginationDots(items.length);
       } else {
-        container.className = 'flex flex-row overflow-x-auto snap-x snap-mandatory no-scrollbar gap-4 sm:gap-6 pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-7 md:overflow-visible md:pb-0 w-full';
+        container.className = 'flex flex-row overflow-x-auto snap-x snap-mandatory no-scrollbar gap-4 sm:gap-6 pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 lg:grid lg:grid-cols-4 lg:gap-7 lg:overflow-visible lg:pb-0 w-full';
         const items = formatsData[category] || formatsData.tv;
         container.innerHTML = items.map(renderCard).join('');
         renderPaginationDots(items.length);
